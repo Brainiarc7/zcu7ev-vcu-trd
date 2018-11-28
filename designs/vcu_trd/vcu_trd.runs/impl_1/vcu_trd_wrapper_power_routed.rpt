@@ -1,0 +1,531 @@
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version     : Vivado v.2018.2 (lin64) Build 2258646 Thu Jun 14 20:02:38 MDT 2018
+| Date             : Wed Nov 28 15:47:13 2018
+| Host             : kenierkiller running 64-bit Ubuntu 18.04.1 LTS
+| Command          : report_power -file vcu_trd_wrapper_power_routed.rpt -pb vcu_trd_wrapper_power_summary_routed.pb -rpx vcu_trd_wrapper_power_routed.rpx
+| Design           : vcu_trd_wrapper
+| Device           : xczu7ev-fbvb900-1-i
+| Design State     : routed
+| Grade            : industrial
+| Process          : typical
+| Characterization : Production
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Power Report
+
+Table of Contents
+-----------------
+1. Summary
+1.1 On-Chip Components
+1.2 Power Supply Summary
+1.3 Confidence Level
+2. Settings
+2.1 Environment
+2.2 Clock Constraints
+3. Detailed Reports
+3.1 By Hierarchy
+
+1. Summary
+----------
+
++--------------------------+--------------+
+| Total On-Chip Power (W)  | 4.569        |
+| Design Power Budget (W)  | Unspecified* |
+| Power Budget Margin (W)  | NA           |
+| Dynamic (W)              | 3.813        |
+| Device Static (W)        | 0.756        |
+| Effective TJA (C/W)      | 1.4          |
+| Max Ambient (C)          | 93.8         |
+| Junction Temperature (C) | 31.2         |
+| Confidence Level         | Low          |
+| Setting File             | ---          |
+| Simulation Activity File | ---          |
+| Design Nets Matched      | NA           |
++--------------------------+--------------+
+* Specify Design Power Budget using, set_operating_conditions -design_power_budget <value in Watts>
+
+
+1.1 On-Chip Components
+----------------------
+
++--------------------------+-----------+----------+-----------+-----------------+
+| On-Chip                  | Power (W) | Used     | Available | Utilization (%) |
++--------------------------+-----------+----------+-----------+-----------------+
+| Clocks                   |     0.072 |        9 |       --- |             --- |
+| CLB Logic                |     0.015 |    23616 |       --- |             --- |
+|   LUT as Logic           |     0.011 |     6158 |    230400 |            2.67 |
+|   Register               |     0.003 |    14748 |    460800 |            3.20 |
+|   LUT as Shift Register  |    <0.001 |       93 |    101760 |            0.09 |
+|   LUT as Distributed RAM |    <0.001 |       40 |    101760 |            0.04 |
+|   CARRY8                 |    <0.001 |       91 |     28800 |            0.32 |
+|   BUFG                   |    <0.001 |        6 |        64 |            9.38 |
+|   Others                 |     0.000 |      562 |       --- |             --- |
+|   F7/F8 Muxes            |     0.000 |      344 |    230400 |            0.15 |
+| Signals                  |     0.081 |    44203 |       --- |             --- |
+| Block RAM                |     0.021 |     67.5 |       312 |           21.63 |
+| URAM                     |     0.105 |       72 |        96 |           75.00 |
+| MMCM                     |     0.097 |        0 |       --- |             --- |
+| I/O                      |     0.006 |        3 |       204 |            1.47 |
+| GTH                      |     0.111 |        1 |        16 |            6.25 |
+| PS8                      |     2.217 |        1 |       --- |             --- |
+| Hard IPs                 |     1.088 |        1 |       --- |             --- |
+|   VCU                    |     1.088 |        1 |         1 |          100.00 |
+| Static Power             |     0.756 |          |           |                 |
+|   PS Static              |     0.105 |          |           |                 |
+|   PL Static              |     0.651 |          |           |                 |
+| Total                    |     4.569 |          |           |                 |
++--------------------------+-----------+----------+-----------+-----------------+
+
+
+1.2 Power Supply Summary
+------------------------
+
++-----------------+-------------+-----------+-------------+------------+
+| Source          | Voltage (V) | Total (A) | Dynamic (A) | Static (A) |
++-----------------+-------------+-----------+-------------+------------+
+| Vccint          |       0.850 |     0.523 |       0.346 |      0.177 |
+| Vccint_io       |       0.850 |     0.073 |       0.001 |      0.072 |
+| Vccbram         |       0.850 |     0.004 |       0.001 |      0.003 |
+| Vccaux          |       1.800 |     0.200 |       0.054 |      0.146 |
+| Vccaux_io       |       1.800 |     0.058 |       0.003 |      0.055 |
+| Vcco33          |       3.300 |     0.000 |       0.000 |      0.000 |
+| Vcco25          |       2.500 |     0.000 |       0.000 |      0.000 |
+| Vcco18          |       1.800 |     0.000 |       0.000 |      0.000 |
+| Vcco15          |       1.500 |     0.000 |       0.000 |      0.000 |
+| Vcco135         |       1.350 |     0.000 |       0.000 |      0.000 |
+| Vcco12          |       1.200 |     0.000 |       0.000 |      0.000 |
+| Vcco10          |       1.000 |     0.000 |       0.000 |      0.000 |
+| Vccadc          |       1.800 |     0.008 |       0.000 |      0.008 |
+| VCC_PSINTFP     |       0.850 |     1.071 |       1.033 |      0.037 |
+| VCC_PSINTLP     |       0.850 |     0.248 |       0.240 |      0.008 |
+| VPS_MGTRAVCC    |       0.850 |     0.001 |       0.000 |      0.001 |
+| VCC_PSINTFP_DDR |       0.850 |     0.527 |       0.522 |      0.005 |
+| VCC_PSPLL       |       1.200 |     0.080 |       0.078 |      0.002 |
+| VPS_MGTRAVTT    |       1.800 |     0.001 |       0.000 |      0.001 |
+| VCCO_PSDDR_504  |       1.200 |     0.525 |       0.491 |      0.034 |
+| VCC_PSAUX       |       1.800 |     0.002 |       0.000 |      0.002 |
+| VCC_PSBATT      |       1.200 |     0.000 |       0.000 |      0.000 |
+| VCC_PSDDR_PLL   |       1.800 |     0.013 |       0.012 |      0.001 |
+| VCCO_PSIO0_500  |       3.300 |     0.001 |       0.000 |      0.001 |
+| VCCO_PSIO1_501  |       3.300 |     0.001 |       0.000 |      0.001 |
+| VCCO_PSIO2_502  |       3.300 |     0.001 |       0.000 |      0.001 |
+| VCCO_PSIO3_503  |       3.300 |     0.001 |       0.000 |      0.001 |
+| VCC_PSADC       |       1.800 |     0.002 |       0.000 |      0.002 |
+| VCCINT_VCU      |       0.900 |     1.223 |       1.194 |      0.029 |
+| MGTAVcc         |       0.900 |     0.030 |       0.021 |      0.009 |
+| MGTAVtt         |       1.200 |     0.097 |       0.076 |      0.022 |
+| MGTVccaux       |       1.800 |     0.000 |       0.000 |      0.000 |
++-----------------+-------------+-----------+-------------+------------+
+
+
+1.3 Confidence Level
+--------------------
+
++-----------------------------+------------+--------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------+
+| User Input Data             | Confidence | Details                                                | Action                                                                                                             |
++-----------------------------+------------+--------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------+
+| Design implementation state | High       | Design is routed                                       |                                                                                                                    |
+| Clock nodes activity        | Medium     | More than 5% of clocks are missing user specification  | Provide missing clock activity with a constraint file, simulation results or by editing the "By Clock Domain" view |
+| I/O nodes activity          | Low        | More than 75% of inputs are missing user specification | Provide missing input activity with simulation results or by editing the "By Resource Type -> I/Os" view           |
+| Internal nodes activity     | Medium     | User specified less than 25% of internal nodes         | Provide missing internal nodes activity with simulation results or by editing the "By Resource Type" views         |
+| Device models               | High       | Device models are Production                           |                                                                                                                    |
+|                             |            |                                                        |                                                                                                                    |
+| Overall confidence level    | Low        |                                                        |                                                                                                                    |
++-----------------------------+------------+--------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------+
+
+
+2. Settings
+-----------
+
+2.1 Environment
+---------------
+
++-----------------------+--------------------------+
+| Ambient Temp (C)      | 25.0                     |
+| ThetaJA (C/W)         | 1.4                      |
+| Airflow (LFM)         | 250                      |
+| Heat Sink             | medium (Medium Profile)  |
+| ThetaSA (C/W)         | 2.0                      |
+| Board Selection       | medium (10"x10")         |
+| # of Board Layers     | 12to15 (12 to 15 Layers) |
+| Board Temperature (C) | 25.0                     |
++-----------------------+--------------------------+
+
+
+2.2 Clock Constraints
+---------------------
+
++--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-----------------+
+| Clock                                                                                                                                                                                                                                                                                                                                                                                | Domain                                                                                                                                                                                                                                                                                                                                                                | Constraint (ns) |
++--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-----------------+
+| clk_out1_vcu_trd_clk_wiz_1                                                                                                                                                                                                                                                                                                                                                           | vcu_trd_i/clk_wiz/inst/clk_out1_vcu_trd_clk_wiz_1                                                                                                                                                                                                                                                                                                                     |            10.0 |
+| clk_out1_vcu_trd_vcu_clk_wiz0_1                                                                                                                                                                                                                                                                                                                                                      | vcu_trd_i/vcu_clk_wiz0/inst/CLK_CORE_DRP_I/clk_inst/clk_out1_vcu_trd_vcu_clk_wiz0_1                                                                                                                                                                                                                                                                                   |            30.3 |
+| clk_out2_vcu_trd_vcu_clk_wiz0_1                                                                                                                                                                                                                                                                                                                                                      | vcu_trd_i/vcu_clk_wiz0/inst/CLK_CORE_DRP_I/clk_inst/clk_out2_vcu_trd_vcu_clk_wiz0_1                                                                                                                                                                                                                                                                                   |             6.0 |
+| clk_pl_0                                                                                                                                                                                                                                                                                                                                                                             | vcu_trd_i/zynq_ultra_ps_e_0/inst/pl_clk0                                                                                                                                                                                                                                                                                                                              |            10.0 |
+| clk_pl_0                                                                                                                                                                                                                                                                                                                                                                             | vcu_trd_i/zynq_ultra_ps_e_0/inst/pl_clk_unbuffered[0]                                                                                                                                                                                                                                                                                                                 |            10.0 |
+| vcu_trd_i/gig_ethernet_pcs_pma_0/inst/pcs_pma_block_i/transceiver_inst/vcu_trd_gig_ethernet_pcs_pma_0_1_gt_i/inst/gen_gtwizard_gthe4_top.vcu_trd_gig_ethernet_pcs_pma_0_1_gt_gtwizard_gthe4_inst/gen_gtwizard_gthe4.gen_cpll_cal_gthe4.gen_cpll_cal_inst[0].gtwizard_ultrascale_v1_7_4_gthe4_cpll_cal_inst/gtwizard_ultrascale_v1_7_4_gthe4_cpll_cal_tx_i/bufg_gt_txoutclkmon_inst/O | vcu_trd_i/gig_ethernet_pcs_pma_0/inst/pcs_pma_block_i/transceiver_inst/vcu_trd_gig_ethernet_pcs_pma_0_1_gt_i/inst/gen_gtwizard_gthe4_top.vcu_trd_gig_ethernet_pcs_pma_0_1_gt_gtwizard_gthe4_inst/gen_gtwizard_gthe4.gen_cpll_cal_gthe4.gen_cpll_cal_inst[0].gtwizard_ultrascale_v1_7_4_gthe4_cpll_cal_inst/gtwizard_ultrascale_v1_7_4_gthe4_cpll_cal_tx_i/txoutclkmon |             8.0 |
++--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-----------------+
+
+
+3. Detailed Reports
+-------------------
+
+3.1 By Hierarchy
+----------------
+
++----------------------------------------------------------------------------------------------------------------------------------------+-----------+
+| Name                                                                                                                                   | Power (W) |
++----------------------------------------------------------------------------------------------------------------------------------------+-----------+
+| vcu_trd_wrapper                                                                                                                        |     3.813 |
+|   mdio_rtl_0_mdio_iobuf                                                                                                                |    <0.001 |
+|   reset_rtl_0_IBUF_inst                                                                                                                |    <0.001 |
+|   vcu_trd_i                                                                                                                            |     3.812 |
+|     clk_wiz                                                                                                                            |     0.097 |
+|       inst                                                                                                                             |     0.097 |
+|     gig_ethernet_pcs_pma_0                                                                                                             |     0.124 |
+|       inst                                                                                                                             |     0.124 |
+|         core_clocking_i                                                                                                                |     0.006 |
+|         core_resets_i                                                                                                                  |    <0.001 |
+|         pcs_pma_block_i                                                                                                                |     0.118 |
+|           sync_block_reset_done                                                                                                        |    <0.001 |
+|           transceiver_inst                                                                                                             |     0.118 |
+|             reclock_encommaalign                                                                                                       |    <0.001 |
+|             reclock_rxreset                                                                                                            |    <0.001 |
+|             rx_elastic_buffer_inst                                                                                                     |     0.002 |
+|               ram_reg_0_63_0_2                                                                                                         |    <0.001 |
+|               ram_reg_0_63_12_14                                                                                                       |    <0.001 |
+|               ram_reg_0_63_3_5                                                                                                         |    <0.001 |
+|               ram_reg_0_63_6_8                                                                                                         |    <0.001 |
+|               ram_reg_0_63_9_11                                                                                                        |    <0.001 |
+|               reclock_rd_addrgray[0].sync_rd_addrgray                                                                                  |    <0.001 |
+|               reclock_rd_addrgray[1].sync_rd_addrgray                                                                                  |    <0.001 |
+|               reclock_rd_addrgray[2].sync_rd_addrgray                                                                                  |    <0.001 |
+|               reclock_rd_addrgray[3].sync_rd_addrgray                                                                                  |    <0.001 |
+|               reclock_rd_addrgray[4].sync_rd_addrgray                                                                                  |    <0.001 |
+|               reclock_rd_addrgray[5].sync_rd_addrgray                                                                                  |    <0.001 |
+|               reclock_wr_addrgray[0].sync_wr_addrgray                                                                                  |    <0.001 |
+|               reclock_wr_addrgray[1].sync_wr_addrgray                                                                                  |    <0.001 |
+|               reclock_wr_addrgray[2].sync_wr_addrgray                                                                                  |    <0.001 |
+|               reclock_wr_addrgray[3].sync_wr_addrgray                                                                                  |    <0.001 |
+|               reclock_wr_addrgray[4].sync_wr_addrgray                                                                                  |    <0.001 |
+|               reclock_wr_addrgray[5].sync_wr_addrgray                                                                                  |    <0.001 |
+|               sync_initialize_ram_comp                                                                                                 |    <0.001 |
+|             vcu_trd_gig_ethernet_pcs_pma_0_1_gt_i                                                                                      |     0.115 |
+|               inst                                                                                                                     |     0.115 |
+|                 gen_gtwizard_gthe4_top.vcu_trd_gig_ethernet_pcs_pma_0_1_gt_gtwizard_gthe4_inst                                         |     0.115 |
+|                   gen_gtwizard_gthe4.gen_channel_container[1].gen_enabled_channel.gthe4_channel_wrapper_inst                           |     0.111 |
+|                     channel_inst                                                                                                       |     0.111 |
+|                   gen_gtwizard_gthe4.gen_cpll_cal_gthe4.gen_cpll_cal_inst[0].gtwizard_ultrascale_v1_7_4_gthe4_cpll_cal_inst            |     0.003 |
+|                     bit_synchronizer_drprst_inst                                                                                       |    <0.001 |
+|                     gtwizard_ultrascale_v1_7_4_gte4_drp_arb_i                                                                          |    <0.001 |
+|                     gtwizard_ultrascale_v1_7_4_gthe4_cpll_cal_tx_i                                                                     |     0.002 |
+|                       U_TXOUTCLK_FREQ_COUNTER                                                                                          |     0.001 |
+|                         reset_synchronizer_testclk_rst_inst                                                                            |    <0.001 |
+|                       bit_synchronizer_cplllock_inst                                                                                   |    <0.001 |
+|                       bit_synchronizer_txoutclksel_inst0                                                                               |    <0.001 |
+|                       bit_synchronizer_txoutclksel_inst1                                                                               |    <0.001 |
+|                       bit_synchronizer_txoutclksel_inst2                                                                               |    <0.001 |
+|                       bit_synchronizer_txprgdivresetdone_inst                                                                          |    <0.001 |
+|                       bit_synchronizer_txprogdivreset_inst                                                                             |    <0.001 |
+|                     reset_synchronizer_resetin_tx_inst                                                                                 |    <0.001 |
+|                   gen_gtwizard_gthe4.gen_pwrgood_delay_inst[0].delay_powergood_inst                                                    |     0.000 |
+|                   gen_gtwizard_gthe4.gen_reset_controller_internal.gen_single_instance.gen_ch_xrd[0].bit_synchronizer_rxresetdone_inst |    <0.001 |
+|                   gen_gtwizard_gthe4.gen_reset_controller_internal.gen_single_instance.gen_ch_xrd[0].bit_synchronizer_txresetdone_inst |    <0.001 |
+|                   gen_gtwizard_gthe4.gen_reset_controller_internal.gen_single_instance.gtwiz_reset_inst                                |     0.001 |
+|                     bit_synchronizer_gtpowergood_inst                                                                                  |    <0.001 |
+|                     bit_synchronizer_gtwiz_reset_rx_datapath_dly_inst                                                                  |    <0.001 |
+|                     bit_synchronizer_gtwiz_reset_rx_pll_and_datapath_dly_inst                                                          |    <0.001 |
+|                     bit_synchronizer_gtwiz_reset_tx_datapath_dly_inst                                                                  |    <0.001 |
+|                     bit_synchronizer_gtwiz_reset_tx_pll_and_datapath_dly_inst                                                          |    <0.001 |
+|                     bit_synchronizer_gtwiz_reset_userclk_rx_active_inst                                                                |    <0.001 |
+|                     bit_synchronizer_gtwiz_reset_userclk_tx_active_inst                                                                |    <0.001 |
+|                     bit_synchronizer_plllock_rx_inst                                                                                   |    <0.001 |
+|                     bit_synchronizer_plllock_tx_inst                                                                                   |    <0.001 |
+|                     bit_synchronizer_rxcdrlock_inst                                                                                    |    <0.001 |
+|                     reset_synchronizer_gtwiz_reset_all_inst                                                                            |    <0.001 |
+|                     reset_synchronizer_gtwiz_reset_rx_any_inst                                                                         |    <0.001 |
+|                     reset_synchronizer_gtwiz_reset_rx_datapath_inst                                                                    |    <0.001 |
+|                     reset_synchronizer_gtwiz_reset_rx_pll_and_datapath_inst                                                            |    <0.001 |
+|                     reset_synchronizer_gtwiz_reset_tx_any_inst                                                                         |    <0.001 |
+|                     reset_synchronizer_gtwiz_reset_tx_datapath_inst                                                                    |    <0.001 |
+|                     reset_synchronizer_gtwiz_reset_tx_pll_and_datapath_inst                                                            |    <0.001 |
+|                     reset_synchronizer_rx_done_inst                                                                                    |    <0.001 |
+|                     reset_synchronizer_tx_done_inst                                                                                    |    <0.001 |
+|                     reset_synchronizer_txprogdivreset_inst                                                                             |    <0.001 |
+|                   gen_gtwizard_gthe4.gen_rx_buffer_bypass_internal.gen_single_instance.gtwiz_buffbypass_rx_inst                        |    <0.001 |
+|                     gen_gtwiz_buffbypass_rx_main.gen_auto_mode.bit_synchronizer_mastersyncdone_inst                                    |    <0.001 |
+|                     gen_gtwiz_buffbypass_rx_main.gen_auto_mode.reset_synchronizer_resetdone_inst                                       |    <0.001 |
+|           vcu_trd_gig_ethernet_pcs_pma_0_1_core                                                                                        |    <0.001 |
+|             gpcs_pma_inst                                                                                                              |    <0.001 |
+|               HAS_AUTO_NEG.AN_RX_GMII_AT_TXOUTCLK.AUTO_NEGOTIATION                                                                     |    <0.001 |
+|               HAS_MANAGEMENT.MDIO                                                                                                      |    <0.001 |
+|                 MDIO_IF_ENABLE.MDIO_INTERFACE_1                                                                                        |    <0.001 |
+|                 SYNC_MDC                                                                                                               |     0.000 |
+|                 SYNC_MDIO_IN                                                                                                           |     0.000 |
+|               MGT_RESET.SYNC_ASYNC_RESET                                                                                               |     0.000 |
+|               RX_GMII_AT_TXOUTCLK.RECEIVER_TXOUTCLK                                                                                    |    <0.001 |
+|               RX_GMII_AT_TXOUTCLK.SYNCHRONISATION                                                                                      |    <0.001 |
+|               SYNC_SIGNAL_DETECT                                                                                                       |    <0.001 |
+|               TRANSMITTER                                                                                                              |    <0.001 |
+|     proc_sys_reset_vcu_0                                                                                                               |    <0.001 |
+|       U0                                                                                                                               |    <0.001 |
+|         EXT_LPF                                                                                                                        |    <0.001 |
+|           ACTIVE_LOW_AUX.ACT_LO_AUX                                                                                                    |    <0.001 |
+|           ACTIVE_LOW_EXT.ACT_LO_EXT                                                                                                    |    <0.001 |
+|         SEQ                                                                                                                            |    <0.001 |
+|           SEQ_COUNTER                                                                                                                  |    <0.001 |
+|     proc_sys_reset_vcu_1                                                                                                               |    <0.001 |
+|       U0                                                                                                                               |    <0.001 |
+|         EXT_LPF                                                                                                                        |    <0.001 |
+|           ACTIVE_LOW_AUX.ACT_LO_AUX                                                                                                    |    <0.001 |
+|           ACTIVE_LOW_EXT.ACT_LO_EXT                                                                                                    |    <0.001 |
+|         SEQ                                                                                                                            |    <0.001 |
+|           SEQ_COUNTER                                                                                                                  |    <0.001 |
+|     v_smpte_uhdsdi_rx_ss_0                                                                                                             |     0.009 |
+|       inst                                                                                                                             |     0.009 |
+|         v_sdi_rx_vid_bridge                                                                                                            |     0.002 |
+|           inst                                                                                                                         |     0.002 |
+|             generate_12g_sdi_bridge.SDI_12G_RX_BRIDGE_INST                                                                             |     0.002 |
+|               CLKEN_INST                                                                                                               |    <0.001 |
+|               CONVERTER_INST                                                                                                           |    <0.001 |
+|               SUBIMAGE_FORMATTER_INST                                                                                                  |     0.001 |
+|                 FIFO_EVEN_INST                                                                                                         |    <0.001 |
+|                 FIFO_ODD_INST                                                                                                          |    <0.001 |
+|               TIMING_DETECTOR_INST                                                                                                     |    <0.001 |
+|             generate_3g_sdi_bridge.SDI_3G_RX_BRIDGE_INST                                                                               |    <0.001 |
+|               ce_gen                                                                                                                   |    <0.001 |
+|               converter                                                                                                                |    <0.001 |
+|               formatter                                                                                                                |    <0.001 |
+|                 link_b_fifo                                                                                                            |     0.000 |
+|               sync_extract                                                                                                             |    <0.001 |
+|               trs_decode                                                                                                               |    <0.001 |
+|         v_smpte_uhdsdi_rx                                                                                                              |     0.005 |
+|           inst                                                                                                                         |     0.005 |
+|             RX                                                                                                                         |     0.002 |
+|               AUTORATE                                                                                                                 |    <0.001 |
+|               INCLUDE_EDH.EDH                                                                                                          |    <0.001 |
+|                 EDH_RX                                                                                                                 |    <0.001 |
+|               PLOD0                                                                                                                    |    <0.001 |
+|               PLOD1                                                                                                                    |    <0.001 |
+|               PLOD2                                                                                                                    |    <0.001 |
+|               PLOD3                                                                                                                    |    <0.001 |
+|               PLOD4                                                                                                                    |    <0.001 |
+|               PLOD5                                                                                                                    |    <0.001 |
+|               PLOD6                                                                                                                    |    <0.001 |
+|               PLOD7                                                                                                                    |    <0.001 |
+|               RXCRC1                                                                                                                   |    <0.001 |
+|                 crc_C                                                                                                                  |    <0.001 |
+|               RXCRC2                                                                                                                   |    <0.001 |
+|               RXCRC3                                                                                                                   |    <0.001 |
+|               RXCRC4                                                                                                                   |    <0.001 |
+|               RXCRC5                                                                                                                   |    <0.001 |
+|               RXCRC6                                                                                                                   |    <0.001 |
+|               RXCRC7                                                                                                                   |    <0.001 |
+|               RXCRC8                                                                                                                   |    <0.001 |
+|               RXDPCOMMON                                                                                                               |    <0.001 |
+|                 DMUX1                                                                                                                  |    <0.001 |
+|                 FRM                                                                                                                    |    <0.001 |
+|                 RSTR                                                                                                                   |    <0.001 |
+|               TD                                                                                                                       |    <0.001 |
+|             gen_axi4lite_rx.v_smpte_uhdsdi_rx_v1_0_0_s00_axi_inst                                                                      |    <0.001 |
+|             gen_axi4lite_sync.mode_det_sts_sys2axi                                                                                     |    <0.001 |
+|             gen_axi4lite_sync.module_ctrl_axi2sys                                                                                      |    <0.001 |
+|             gen_axi4lite_sync.rcv_st352_always_axi2rxclk                                                                               |    <0.001 |
+|             gen_axi4lite_sync.rx_edh_sts_sys2axi                                                                                       |    <0.001 |
+|             gen_axi4lite_sync.rx_st352_valid_sys2axi                                                                                   |    <0.001 |
+|             gen_axi4lite_sync.sdi_rx_bridge_ctrl_sync2sys                                                                              |    <0.001 |
+|             gen_axi4lite_sync.sts_sb_sync2axi                                                                                          |    <0.001 |
+|             gen_axi4lite_sync.ts_det_sts_sys2axi                                                                                       |    <0.001 |
+|             gen_axi4lite_sync.vid_in_axi4s_overflow_sync2axi                                                                           |    <0.001 |
+|             gen_axi4lite_sync.vid_in_axi4s_underflow_sync2axi                                                                          |    <0.001 |
+|             gen_axi4lite_sync.vid_lock_st352_vld_int_sys2axi                                                                           |    <0.001 |
+|               req_sync_to_out_clk                                                                                                      |    <0.001 |
+|             gen_axi4lite_sync.video_lock_int_sys2axi                                                                                   |    <0.001 |
+|               req_sync_to_out_clk                                                                                                      |    <0.001 |
+|             gen_axi4lite_sync.video_lock_window_sync2sys                                                                               |    <0.001 |
+|             gen_axi4lite_sync.video_unlock_int_sys2axi                                                                                 |    <0.001 |
+|               req_sync_to_out_clk                                                                                                      |    <0.001 |
+|             rx_rst_int_sync2sys                                                                                                        |    <0.001 |
+|             sts_sb_sync2sys                                                                                                            |    <0.001 |
+|             vid_in_axi4s_module_enable_sync2axis_clk                                                                                   |     0.000 |
+|             vid_in_axi4s_module_enable_sync2sys                                                                                        |    <0.001 |
+|         v_vid_in_axi4s                                                                                                                 |     0.001 |
+|           inst                                                                                                                         |     0.001 |
+|             COUPLER_INST                                                                                                               |     0.001 |
+|               generate_async_fifo.FIFO_INST                                                                                            |     0.001 |
+|                 XPM_FIFO_ASYNC_INST                                                                                                    |     0.001 |
+|                   gnuram_async_fifo.xpm_fifo_base_inst                                                                                 |     0.001 |
+|                     gen_cdc_pntr.rd_pntr_cdc_inst                                                                                      |    <0.001 |
+|                     gen_cdc_pntr.rpw_gray_reg                                                                                          |    <0.001 |
+|                     gen_cdc_pntr.wpr_gray_reg                                                                                          |    <0.001 |
+|                     gen_cdc_pntr.wr_pntr_cdc_inst                                                                                      |    <0.001 |
+|                     rdp_inst                                                                                                           |    <0.001 |
+|                     rdpp1_inst                                                                                                         |    <0.001 |
+|                     rst_d1_inst                                                                                                        |    <0.001 |
+|                     wrp_inst                                                                                                           |    <0.001 |
+|                     wrpp1_inst                                                                                                         |    <0.001 |
+|                     wrpp2_inst                                                                                                         |    <0.001 |
+|                     xpm_fifo_rst_inst                                                                                                  |    <0.001 |
+|                       gen_rst_ic.rrst_wr_inst                                                                                          |    <0.001 |
+|                       gen_rst_ic.wrst_rd_inst                                                                                          |    <0.001 |
+|             FORMATTER_INST                                                                                                             |    <0.001 |
+|     v_smpte_uhdsdi_tx_ss_0                                                                                                             |     0.020 |
+|       inst                                                                                                                             |     0.020 |
+|         axi_crossbar                                                                                                                   |    <0.001 |
+|           inst                                                                                                                         |    <0.001 |
+|             gen_sasd.crossbar_sasd_0                                                                                                   |    <0.001 |
+|               addr_arbiter_inst                                                                                                        |    <0.001 |
+|               reg_slice_r                                                                                                              |    <0.001 |
+|               splitter_ar                                                                                                              |    <0.001 |
+|               splitter_aw                                                                                                              |    <0.001 |
+|         v_axi4s_vid_out                                                                                                                |     0.003 |
+|           inst                                                                                                                         |     0.003 |
+|             COUPLER_INST                                                                                                               |     0.003 |
+|               generate_async_fifo.FIFO_INST                                                                                            |     0.003 |
+|                 XPM_FIFO_ASYNC_INST                                                                                                    |     0.003 |
+|                   gnuram_async_fifo.xpm_fifo_base_inst                                                                                 |     0.002 |
+|                     gen_cdc_pntr.wpr_gray_reg                                                                                          |    <0.001 |
+|                     gen_cdc_pntr.wpr_gray_reg_dc                                                                                       |    <0.001 |
+|                     gen_cdc_pntr.wr_pntr_cdc_dc_inst                                                                                   |    <0.001 |
+|                     gen_cdc_pntr.wr_pntr_cdc_inst                                                                                      |    <0.001 |
+|                     gen_fwft.rdpp1_inst                                                                                                |    <0.001 |
+|                     gen_sdpram.xpm_memory_base_inst                                                                                    |    <0.001 |
+|                     rdp_inst                                                                                                           |    <0.001 |
+|                     rdpp1_inst                                                                                                         |    <0.001 |
+|                     wrp_inst                                                                                                           |     0.000 |
+|                     xpm_fifo_rst_inst                                                                                                  |    <0.001 |
+|                       gen_rst_ic.rrst_wr_inst                                                                                          |    <0.001 |
+|                       gen_rst_ic.wrst_rd_inst                                                                                          |    <0.001 |
+|             SYNC_INST                                                                                                                  |    <0.001 |
+|         v_smpte_uhdsdi_tx                                                                                                              |     0.003 |
+|           inst                                                                                                                         |     0.003 |
+|             GEN_AXI4LITE_SYNC.axi4s_vid_out_locked_sync2axi                                                                            |    <0.001 |
+|             GEN_AXI4LITE_SYNC.gttx_resetdone_sync2axi                                                                                  |    <0.001 |
+|             GEN_AXI4LITE_SYNC_1.axi4s_vid_out_status_sync2axi                                                                          |    <0.001 |
+|             GEN_AXI4LITE_SYNC_1.axi4s_vid_out_underflow_sync2axi                                                                       |    <0.001 |
+|             GEN_AXI4LITE_SYNC_1.module_ctrl_sync2sys                                                                                   |    <0.001 |
+|             GEN_AXI4LITE_SYNC_1.sdi_tx_bridge_ctrl_sync2sys                                                                            |    <0.001 |
+|             GEN_AXI4LITE_SYNC_1.sdi_tx_bridge_sts_sync2axi                                                                             |    <0.001 |
+|             GEN_AXI4LITE_SYNC_1.sts_sb_sync2axi                                                                                        |    <0.001 |
+|             GEN_AXI4LITE_SYNC_1.tx_ce_align_err_sync2axi                                                                               |    <0.001 |
+|             GEN_AXI4LITE_TX.v_smpte_uhdsdi_tx_v1_0_0_s00_axi_inst                                                                      |     0.001 |
+|             TX                                                                                                                         |    <0.001 |
+|               TXOUT                                                                                                                    |    <0.001 |
+|                 BITREP                                                                                                                 |    <0.001 |
+|             axi4s_vid_out_overflow_sync2axi                                                                                            |    <0.001 |
+|             tx_rst_int_sync2sys                                                                                                        |    <0.001 |
+|         v_tc                                                                                                                           |     0.013 |
+|           U0                                                                                                                           |     0.013 |
+|             U_TC_TOP                                                                                                                   |     0.002 |
+|               GEN_GENERATOR.U_TC_GEN                                                                                                   |     0.002 |
+|             U_VIDEO_CTRL                                                                                                               |     0.011 |
+|               AXI4_LITE_INTERFACE.AXI_LITE_IPIF_I                                                                                      |    <0.001 |
+|                 I_SLAVE_ATTACHMENT                                                                                                     |    <0.001 |
+|                   I_DECODER                                                                                                            |    <0.001 |
+|                     MEM_DECODE_GEN[0].GEN_FOR_MULTI_CS.MEM_SELECT_I                                                                    |    <0.001 |
+|               AXI4_LITE_INTERFACE.CORE_MUX0                                                                                            |    <0.001 |
+|               AXI4_LITE_INTERFACE.GENR_MUX0                                                                                            |     0.003 |
+|               AXI4_LITE_INTERFACE.SYNC2PROCCLK_I                                                                                       |    <0.001 |
+|               AXI4_LITE_INTERFACE.SYNC2VIDCLK_I                                                                                        |     0.001 |
+|         v_vid_sdi_tx_bridge                                                                                                            |    <0.001 |
+|           inst                                                                                                                         |    <0.001 |
+|             generate_12g_sdi_bridge.SDI_12G_TX_BRIDGE_INST                                                                             |    <0.001 |
+|               CLKEN_INST                                                                                                               |    <0.001 |
+|               SUBIMAGE_FORMATTER_INST                                                                                                  |     0.000 |
+|                 FIFO_EVEN_INST                                                                                                         |     0.000 |
+|             generate_3g_sdi_bridge.SDI_3G_TX_BRIDGE_INST                                                                               |    <0.001 |
+|               ce_gen                                                                                                                   |    <0.001 |
+|               converter                                                                                                                |    <0.001 |
+|               embedder                                                                                                                 |    <0.001 |
+|     vcu_0                                                                                                                              |     1.283 |
+|       inst                                                                                                                             |     1.283 |
+|         mem_combo_bram_10bps                                                                                                           |     0.023 |
+|           xpm_memory_base_inst                                                                                                         |     0.023 |
+|         mem_combo_uram_10bps                                                                                                           |     0.119 |
+|           xpm_memory_base_inst                                                                                                         |     0.119 |
+|         softip_regs                                                                                                                    |    <0.001 |
+|     vcu_axi_lite_0                                                                                                                     |     0.007 |
+|       s00_couplers                                                                                                                     |     0.005 |
+|         auto_pc                                                                                                                        |     0.005 |
+|           inst                                                                                                                         |     0.005 |
+|             gen_axilite.gen_b2s_conv.axilite_b2s                                                                                       |     0.005 |
+|               RD.ar_channel_0                                                                                                          |    <0.001 |
+|                 ar_cmd_fsm_0                                                                                                           |    <0.001 |
+|                 cmd_translator_0                                                                                                       |    <0.001 |
+|                   incr_cmd_0                                                                                                           |    <0.001 |
+|                   wrap_cmd_0                                                                                                           |    <0.001 |
+|               RD.r_channel_0                                                                                                           |     0.001 |
+|                 rd_data_fifo_0                                                                                                         |    <0.001 |
+|                 transaction_fifo_0                                                                                                     |    <0.001 |
+|               SI_REG                                                                                                                   |     0.002 |
+|                 ar.ar_pipe                                                                                                             |    <0.001 |
+|                 aw.aw_pipe                                                                                                             |    <0.001 |
+|                 b.b_pipe                                                                                                               |    <0.001 |
+|                 r.r_pipe                                                                                                               |    <0.001 |
+|               WR.aw_channel_0                                                                                                          |    <0.001 |
+|                 aw_cmd_fsm_0                                                                                                           |    <0.001 |
+|                 cmd_translator_0                                                                                                       |    <0.001 |
+|                   incr_cmd_0                                                                                                           |    <0.001 |
+|                   wrap_cmd_0                                                                                                           |    <0.001 |
+|               WR.b_channel_0                                                                                                           |    <0.001 |
+|                 bid_fifo_0                                                                                                             |    <0.001 |
+|                 bresp_fifo_0                                                                                                           |    <0.001 |
+|       xbar                                                                                                                             |     0.002 |
+|         inst                                                                                                                           |     0.002 |
+|           gen_sasd.crossbar_sasd_0                                                                                                     |     0.002 |
+|             addr_arbiter_inst                                                                                                          |     0.001 |
+|             gen_decerr.decerr_slave_inst                                                                                               |    <0.001 |
+|             reg_slice_r                                                                                                                |    <0.001 |
+|             splitter_ar                                                                                                                |    <0.001 |
+|             splitter_aw                                                                                                                |    <0.001 |
+|     vcu_clk_wiz0                                                                                                                       |     0.006 |
+|       inst                                                                                                                             |     0.006 |
+|         AXI_LITE_IPIF_I                                                                                                                |    <0.001 |
+|           I_SLAVE_ATTACHMENT                                                                                                           |    <0.001 |
+|             I_DECODER                                                                                                                  |    <0.001 |
+|         CLK_CORE_DRP_I                                                                                                                 |     0.006 |
+|           clk_inst                                                                                                                     |    <0.001 |
+|           mmcm_drp_inst                                                                                                                |     0.001 |
+|         SOFT_RESET_I                                                                                                                   |    <0.001 |
+|     vcu_dec0_reg_slice                                                                                                                 |     0.010 |
+|       inst                                                                                                                             |     0.010 |
+|         ar.ar_pipe                                                                                                                     |     0.001 |
+|         aw.aw_pipe                                                                                                                     |     0.001 |
+|         b.b_pipe                                                                                                                       |    <0.001 |
+|         r.r_pipe                                                                                                                       |     0.004 |
+|         w.w_pipe                                                                                                                       |     0.003 |
+|     vcu_dec1_reg_slice                                                                                                                 |     0.010 |
+|       inst                                                                                                                             |     0.010 |
+|         ar.ar_pipe                                                                                                                     |    <0.001 |
+|         aw.aw_pipe                                                                                                                     |    <0.001 |
+|         b.b_pipe                                                                                                                       |    <0.001 |
+|         r.r_pipe                                                                                                                       |     0.005 |
+|         w.w_pipe                                                                                                                       |     0.003 |
+|     vcu_enc0_reg_slice                                                                                                                 |     0.008 |
+|       inst                                                                                                                             |     0.008 |
+|         ar.ar_pipe                                                                                                                     |    <0.001 |
+|         aw.aw_pipe                                                                                                                     |    <0.001 |
+|         b.b_pipe                                                                                                                       |    <0.001 |
+|         r.r_pipe                                                                                                                       |     0.003 |
+|         w.w_pipe                                                                                                                       |     0.004 |
+|     vcu_enc1_reg_slice                                                                                                                 |     0.009 |
+|       inst                                                                                                                             |     0.009 |
+|         ar.ar_pipe                                                                                                                     |    <0.001 |
+|         aw.aw_pipe                                                                                                                     |     0.001 |
+|         b.b_pipe                                                                                                                       |    <0.001 |
+|         r.r_pipe                                                                                                                       |     0.003 |
+|         w.w_pipe                                                                                                                       |     0.004 |
+|     vcu_interrupt                                                                                                                      |     0.000 |
+|     vcu_mcu_reg_slice                                                                                                                  |     0.004 |
+|       inst                                                                                                                             |     0.004 |
+|         ar.ar_pipe                                                                                                                     |    <0.001 |
+|         aw.aw_pipe                                                                                                                     |    <0.001 |
+|         b.b_pipe                                                                                                                       |    <0.001 |
+|         r.r_pipe                                                                                                                       |    <0.001 |
+|         w.w_pipe                                                                                                                       |     0.001 |
+|     zynq_ultra_ps_e_0                                                                                                                  |     2.226 |
+|       inst                                                                                                                             |     2.226 |
++----------------------------------------------------------------------------------------------------------------------------------------+-----------+
+
+

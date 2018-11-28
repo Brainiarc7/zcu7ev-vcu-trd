@@ -1,0 +1,16 @@
+Vivado Simulator 2018.2
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: /opt/Xilinx/Vivado/2018.2/bin/unwrapped/lnx64.o/xelab -wto 96a40a79a34b464eb6f89648a7d971a6 --incr --debug typical --relax --mt 8 --include ../../../../vcu_trd.srcs/sources_1/bd/vcu_trd/ip/vcu_trd_zynq_ultra_ps_e_0_0/sim_tlm --include ../../../../vcu_trd.srcs/sources_1/bd/vcu_trd/ip/vcu_trd_zynq_ultra_ps_e_0_0/sim -L axi_infrastructure_v1_1_0 -L smartconnect_v1_0 -L axi_protocol_checker_v2_0_3 -L axi_vip_v1_1_3 -L zynq_ultra_ps_e_vip_v1_0_3 -L xil_defaultlib -L lib_cdc_v1_0_2 -L proc_sys_reset_v5_0_12 -L gtwizard_ultrascale_v1_7_4 -L gig_ethernet_pcs_pma_v16_1_4 -L axi_register_slice_v2_1_17 -L xlconcat_v2_1_1 -L generic_baseblocks_v2_1_0 -L fifo_generator_v13_2_2 -L axi_data_fifo_v2_1_16 -L axi_crossbar_v2_1_18 -L axi_protocol_converter_v2_1_17 -L xilinx_vip -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot vcu_trd_wrapper_behav xil_defaultlib.vcu_trd_wrapper xil_defaultlib.glbl -log elaborate.log 
+Using 8 slave threads.
+Starting static elaboration
+ERROR: [VRFC 10-2063] Module <vcu_trd_vcu_0_0> not found while processing module instance <vcu_0> [/home/brainiarc7/designs/vcu_trd/vcu_trd.srcs/sources_1/bd/vcu_trd/sim/vcu_trd.v:2317]
+ERROR: [VRFC 10-2063] Module <vcu_trd_vcu_axi_lite_0_0> not found while processing module instance <vcu_axi_lite_0> [/home/brainiarc7/designs/vcu_trd/vcu_trd.srcs/sources_1/bd/vcu_trd/sim/vcu_trd.v:2537]
+ERROR: [VRFC 10-2063] Module <vcu_trd_vcu_clk_wiz0_0> not found while processing module instance <vcu_clk_wiz0> [/home/brainiarc7/designs/vcu_trd/vcu_trd.srcs/sources_1/bd/vcu_trd/sim/vcu_trd.v:2577]
+ERROR: [VRFC 10-2063] Module <vcu_trd_vcu_dec0_reg_slice_0> not found while processing module instance <vcu_dec0_reg_slice> [/home/brainiarc7/designs/vcu_trd/vcu_trd.srcs/sources_1/bd/vcu_trd/sim/vcu_trd.v:2582]
+ERROR: [VRFC 10-2063] Module <vcu_trd_vcu_dec1_reg_slice_0> not found while processing module instance <vcu_dec1_reg_slice> [/home/brainiarc7/designs/vcu_trd/vcu_trd.srcs/sources_1/bd/vcu_trd/sim/vcu_trd.v:2661]
+ERROR: [VRFC 10-2063] Module <vcu_trd_vcu_enc0_reg_slice_0> not found while processing module instance <vcu_enc0_reg_slice> [/home/brainiarc7/designs/vcu_trd/vcu_trd.srcs/sources_1/bd/vcu_trd/sim/vcu_trd.v:2740]
+ERROR: [VRFC 10-2063] Module <vcu_trd_vcu_enc1_reg_slice_0> not found while processing module instance <vcu_enc1_reg_slice> [/home/brainiarc7/designs/vcu_trd/vcu_trd.srcs/sources_1/bd/vcu_trd/sim/vcu_trd.v:2819]
+ERROR: [VRFC 10-2063] Module <vcu_trd_vcu_interrupt_0> not found while processing module instance <vcu_interrupt> [/home/brainiarc7/designs/vcu_trd/vcu_trd.srcs/sources_1/bd/vcu_trd/sim/vcu_trd.v:2898]
+ERROR: [VRFC 10-2063] Module <vcu_trd_vcu_mcu_reg_slice_0> not found while processing module instance <vcu_mcu_reg_slice> [/home/brainiarc7/designs/vcu_trd/vcu_trd.srcs/sources_1/bd/vcu_trd/sim/vcu_trd.v:2901]
+ERROR: [VRFC 10-2063] Module <vcu_trd_zynq_ultra_ps_e_0_0> not found while processing module instance <zynq_ultra_ps_e_0> [/home/brainiarc7/designs/vcu_trd/vcu_trd.srcs/sources_1/bd/vcu_trd/sim/vcu_trd.v:2980]
+ERROR: [XSIM 43-3322] Static elaboration of top level Verilog design unit(s) in library work failed.

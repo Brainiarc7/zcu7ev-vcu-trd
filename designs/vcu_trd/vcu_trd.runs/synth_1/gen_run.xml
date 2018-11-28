@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="synth_1" LaunchPart="xczu7ev-fbvb900-1-i" LaunchTime="1543408581">
+  <File Type="VDS-TIMING-PB" Name="vcu_trd_wrapper_timing_summary_synth.pb"/>
+  <File Type="VDS-TIMINGSUMMARY" Name="vcu_trd_wrapper_timing_summary_synth.rpt"/>
+  <File Type="RDS-DCP" Name="vcu_trd_wrapper.dcp"/>
+  <File Type="RDS-UTIL-PB" Name="vcu_trd_wrapper_utilization_synth.pb"/>
+  <File Type="RDS-UTIL" Name="vcu_trd_wrapper_utilization_synth.rpt"/>
+  <File Type="RDS-PROPCONSTRS" Name="vcu_trd_wrapper_drc_synth.rpt"/>
+  <File Type="RDS-RDS" Name="vcu_trd_wrapper.vds"/>
+  <File Type="REPORTS-TCL" Name="vcu_trd_wrapper_reports.tcl"/>
+  <File Type="PA-TCL" Name="vcu_trd_wrapper.tcl"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/bd/vcu_trd/vcu_trd.bd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/bd/vcu_trd/hdl/vcu_trd_wrapper.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="vcu_trd_wrapper"/>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PSRCDIR/constrs_1/imports/Xilinx/UltraZed-EV-CC-Master-XDC.xdc">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../Xilinx/UltraZed-EV-CC-Master-XDC.xdc"/>
+        <Attr Name="ImportTime" Val="1529102382"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2018"/>
+    <Step Id="synth_design"/>
+  </Strategy>
+</GenRun>

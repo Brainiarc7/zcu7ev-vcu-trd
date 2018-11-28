@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:02:38 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Wed Nov 28 15:36:24 2018
+# Process ID: 18976
+# Current directory: /home/brainiarc7/designs/vcu_trd/vcu_trd.runs/synth_1
+# Command line: vivado -log vcu_trd_wrapper.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source vcu_trd_wrapper.tcl
+# Log file: /home/brainiarc7/designs/vcu_trd/vcu_trd.runs/synth_1/vcu_trd_wrapper.vds
+# Journal file: /home/brainiarc7/designs/vcu_trd/vcu_trd.runs/synth_1/vivado.jou
+#-----------------------------------------------------------
+source vcu_trd_wrapper.tcl -notrace

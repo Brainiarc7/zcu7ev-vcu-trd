@@ -1,0 +1,1043 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:02:38 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Tue Nov 27 19:32:24 2018
+# Process ID: 17013
+# Current directory: /home/brainiarc7/designs
+# Command line: vivado
+# Log file: /home/brainiarc7/designs/vivado.log
+# Journal file: /home/brainiarc7/designs/vivado.jou
+#-----------------------------------------------------------
+start_gui
+WARNING: [Board 49-26] cannot add Board Part em.avnet.com:ultrazed_7ev_cc_es2:part0:1.1 available at /opt/Xilinx/Vivado/2018.2/data/boards/board_files/ultrazed_7ev_cc_es2/1.1/board.xml as part xczu7ev-fbvb900-1-i-es2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part em.avnet.com:ultrazed_eg_iocc:part0:1.0 available at /opt/Xilinx/Vivado/2018.2/data/boards/board_files/ultrazed_3eg_iocc_es1/1.0/board.xml as part xczu3eg-sfva625-1-i-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part em.avnet.com:ultrazed_eg_pciecc:part0:1.0 available at /opt/Xilinx/Vivado/2018.2/data/boards/board_files/ultrazed_3eg_pciecc_es1/1.0/board.xml as part xczu3eg-sfva625-1-i-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part em.avnet.com:ultrazed_eg_som:part0:1.0 available at /opt/Xilinx/Vivado/2018.2/data/boards/board_files/ultrazed_3eg_som_es1/1.0/board.xml as part xczu3eg-sfva625-1-i-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part em.avnet.com:ultrazed_ev_som_es2:part0:1.1 available at /opt/Xilinx/Vivado/2018.2/data/boards/board_files/ultrazed_7ev_som_es2/1.1/board.xml as part xczu7ev-fbvb900-1-i-es2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part em.avnet.com:ultrazed_7ev_cc_es2:part0:1.1 available at /opt/Xilinx/Vivado/2018.2/data/boards/board_files/ultrazed_7ev_cc_es2/1.1/board.xml as part xczu7ev-fbvb900-1-i-es2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part em.avnet.com:ultrazed_eg_iocc:part0:1.0 available at /opt/Xilinx/Vivado/2018.2/data/boards/board_files/ultrazed_3eg_iocc_es1/1.0/board.xml as part xczu3eg-sfva625-1-i-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part em.avnet.com:ultrazed_eg_pciecc:part0:1.0 available at /opt/Xilinx/Vivado/2018.2/data/boards/board_files/ultrazed_3eg_pciecc_es1/1.0/board.xml as part xczu3eg-sfva625-1-i-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part em.avnet.com:ultrazed_eg_som:part0:1.0 available at /opt/Xilinx/Vivado/2018.2/data/boards/board_files/ultrazed_3eg_som_es1/1.0/board.xml as part xczu3eg-sfva625-1-i-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part em.avnet.com:ultrazed_ev_som_es2:part0:1.1 available at /opt/Xilinx/Vivado/2018.2/data/boards/board_files/ultrazed_7ev_som_es2/1.1/board.xml as part xczu7ev-fbvb900-1-i-es2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part em.avnet.com:ultrazed_7ev_cc_es2:part0:1.1 available at /opt/Xilinx/Vivado/2018.2/data/boards/board_files/ultrazed_7ev_cc_es2/1.1/board.xml as part xczu7ev-fbvb900-1-i-es2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part em.avnet.com:ultrazed_eg_iocc:part0:1.0 available at /opt/Xilinx/Vivado/2018.2/data/boards/board_files/ultrazed_3eg_iocc_es1/1.0/board.xml as part xczu3eg-sfva625-1-i-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part em.avnet.com:ultrazed_eg_pciecc:part0:1.0 available at /opt/Xilinx/Vivado/2018.2/data/boards/board_files/ultrazed_3eg_pciecc_es1/1.0/board.xml as part xczu3eg-sfva625-1-i-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part em.avnet.com:ultrazed_eg_som:part0:1.0 available at /opt/Xilinx/Vivado/2018.2/data/boards/board_files/ultrazed_3eg_som_es1/1.0/board.xml as part xczu3eg-sfva625-1-i-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part em.avnet.com:ultrazed_ev_som_es2:part0:1.1 available at /opt/Xilinx/Vivado/2018.2/data/boards/board_files/ultrazed_7ev_som_es2/1.1/board.xml as part xczu7ev-fbvb900-1-i-es2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part em.avnet.com:ultrazed_7ev_cc_es2:part0:1.1 available at /opt/Xilinx/Vivado/2018.2/data/boards/board_files/ultrazed_7ev_cc_es2/1.1/board.xml as part xczu7ev-fbvb900-1-i-es2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part em.avnet.com:ultrazed_eg_iocc:part0:1.0 available at /opt/Xilinx/Vivado/2018.2/data/boards/board_files/ultrazed_3eg_iocc_es1/1.0/board.xml as part xczu3eg-sfva625-1-i-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part em.avnet.com:ultrazed_eg_pciecc:part0:1.0 available at /opt/Xilinx/Vivado/2018.2/data/boards/board_files/ultrazed_3eg_pciecc_es1/1.0/board.xml as part xczu3eg-sfva625-1-i-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part em.avnet.com:ultrazed_eg_som:part0:1.0 available at /opt/Xilinx/Vivado/2018.2/data/boards/board_files/ultrazed_3eg_som_es1/1.0/board.xml as part xczu3eg-sfva625-1-i-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part em.avnet.com:ultrazed_ev_som_es2:part0:1.1 available at /opt/Xilinx/Vivado/2018.2/data/boards/board_files/ultrazed_7ev_som_es2/1.1/board.xml as part xczu7ev-fbvb900-1-i-es2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part em.avnet.com:ultrazed_7ev_cc_es2:part0:1.1 available at /opt/Xilinx/Vivado/2018.2/data/boards/board_files/ultrazed_7ev_cc_es2/1.1/board.xml as part xczu7ev-fbvb900-1-i-es2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part em.avnet.com:ultrazed_eg_iocc:part0:1.0 available at /opt/Xilinx/Vivado/2018.2/data/boards/board_files/ultrazed_3eg_iocc_es1/1.0/board.xml as part xczu3eg-sfva625-1-i-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part em.avnet.com:ultrazed_eg_pciecc:part0:1.0 available at /opt/Xilinx/Vivado/2018.2/data/boards/board_files/ultrazed_3eg_pciecc_es1/1.0/board.xml as part xczu3eg-sfva625-1-i-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part em.avnet.com:ultrazed_eg_som:part0:1.0 available at /opt/Xilinx/Vivado/2018.2/data/boards/board_files/ultrazed_3eg_som_es1/1.0/board.xml as part xczu3eg-sfva625-1-i-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part em.avnet.com:ultrazed_ev_som_es2:part0:1.1 available at /opt/Xilinx/Vivado/2018.2/data/boards/board_files/ultrazed_7ev_som_es2/1.1/board.xml as part xczu7ev-fbvb900-1-i-es2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part em.avnet.com:ultrazed_7ev_cc_es2:part0:1.1 available at /opt/Xilinx/Vivado/2018.2/data/boards/board_files/ultrazed_7ev_cc_es2/1.1/board.xml as part xczu7ev-fbvb900-1-i-es2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part em.avnet.com:ultrazed_eg_iocc:part0:1.0 available at /opt/Xilinx/Vivado/2018.2/data/boards/board_files/ultrazed_3eg_iocc_es1/1.0/board.xml as part xczu3eg-sfva625-1-i-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part em.avnet.com:ultrazed_eg_pciecc:part0:1.0 available at /opt/Xilinx/Vivado/2018.2/data/boards/board_files/ultrazed_3eg_pciecc_es1/1.0/board.xml as part xczu3eg-sfva625-1-i-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part em.avnet.com:ultrazed_eg_som:part0:1.0 available at /opt/Xilinx/Vivado/2018.2/data/boards/board_files/ultrazed_3eg_som_es1/1.0/board.xml as part xczu3eg-sfva625-1-i-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part em.avnet.com:ultrazed_ev_som_es2:part0:1.1 available at /opt/Xilinx/Vivado/2018.2/data/boards/board_files/ultrazed_7ev_som_es2/1.1/board.xml as part xczu7ev-fbvb900-1-i-es2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part em.avnet.com:ultrazed_7ev_cc_es2:part0:1.1 available at /opt/Xilinx/Vivado/2018.2/data/boards/board_files/ultrazed_7ev_cc_es2/1.1/board.xml as part xczu7ev-fbvb900-1-i-es2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part em.avnet.com:ultrazed_eg_iocc:part0:1.0 available at /opt/Xilinx/Vivado/2018.2/data/boards/board_files/ultrazed_3eg_iocc_es1/1.0/board.xml as part xczu3eg-sfva625-1-i-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part em.avnet.com:ultrazed_eg_pciecc:part0:1.0 available at /opt/Xilinx/Vivado/2018.2/data/boards/board_files/ultrazed_3eg_pciecc_es1/1.0/board.xml as part xczu3eg-sfva625-1-i-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part em.avnet.com:ultrazed_eg_som:part0:1.0 available at /opt/Xilinx/Vivado/2018.2/data/boards/board_files/ultrazed_3eg_som_es1/1.0/board.xml as part xczu3eg-sfva625-1-i-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part em.avnet.com:ultrazed_ev_som_es2:part0:1.1 available at /opt/Xilinx/Vivado/2018.2/data/boards/board_files/ultrazed_7ev_som_es2/1.1/board.xml as part xczu7ev-fbvb900-1-i-es2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part em.avnet.com:ultrazed_7ev_cc_es2:part0:1.1 available at /opt/Xilinx/Vivado/2018.2/data/boards/board_files/ultrazed_7ev_cc_es2/1.1/board.xml as part xczu7ev-fbvb900-1-i-es2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part em.avnet.com:ultrazed_eg_iocc:part0:1.0 available at /opt/Xilinx/Vivado/2018.2/data/boards/board_files/ultrazed_3eg_iocc_es1/1.0/board.xml as part xczu3eg-sfva625-1-i-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part em.avnet.com:ultrazed_eg_pciecc:part0:1.0 available at /opt/Xilinx/Vivado/2018.2/data/boards/board_files/ultrazed_3eg_pciecc_es1/1.0/board.xml as part xczu3eg-sfva625-1-i-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part em.avnet.com:ultrazed_eg_som:part0:1.0 available at /opt/Xilinx/Vivado/2018.2/data/boards/board_files/ultrazed_3eg_som_es1/1.0/board.xml as part xczu3eg-sfva625-1-i-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part em.avnet.com:ultrazed_ev_som_es2:part0:1.1 available at /opt/Xilinx/Vivado/2018.2/data/boards/board_files/ultrazed_7ev_som_es2/1.1/board.xml as part xczu7ev-fbvb900-1-i-es2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part em.avnet.com:ultrazed_7ev_cc_es2:part0:1.1 available at /opt/Xilinx/Vivado/2018.2/data/boards/board_files/ultrazed_7ev_cc_es2/1.1/board.xml as part xczu7ev-fbvb900-1-i-es2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part em.avnet.com:ultrazed_eg_iocc:part0:1.0 available at /opt/Xilinx/Vivado/2018.2/data/boards/board_files/ultrazed_3eg_iocc_es1/1.0/board.xml as part xczu3eg-sfva625-1-i-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part em.avnet.com:ultrazed_eg_pciecc:part0:1.0 available at /opt/Xilinx/Vivado/2018.2/data/boards/board_files/ultrazed_3eg_pciecc_es1/1.0/board.xml as part xczu3eg-sfva625-1-i-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part em.avnet.com:ultrazed_eg_som:part0:1.0 available at /opt/Xilinx/Vivado/2018.2/data/boards/board_files/ultrazed_3eg_som_es1/1.0/board.xml as part xczu3eg-sfva625-1-i-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part em.avnet.com:ultrazed_ev_som_es2:part0:1.1 available at /opt/Xilinx/Vivado/2018.2/data/boards/board_files/ultrazed_7ev_som_es2/1.1/board.xml as part xczu7ev-fbvb900-1-i-es2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part em.avnet.com:ultrazed_7ev_cc_es2:part0:1.1 available at /opt/Xilinx/Vivado/2018.2/data/boards/board_files/ultrazed_7ev_cc_es2/1.1/board.xml as part xczu7ev-fbvb900-1-i-es2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part em.avnet.com:ultrazed_eg_iocc:part0:1.0 available at /opt/Xilinx/Vivado/2018.2/data/boards/board_files/ultrazed_3eg_iocc_es1/1.0/board.xml as part xczu3eg-sfva625-1-i-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part em.avnet.com:ultrazed_eg_pciecc:part0:1.0 available at /opt/Xilinx/Vivado/2018.2/data/boards/board_files/ultrazed_3eg_pciecc_es1/1.0/board.xml as part xczu3eg-sfva625-1-i-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part em.avnet.com:ultrazed_eg_som:part0:1.0 available at /opt/Xilinx/Vivado/2018.2/data/boards/board_files/ultrazed_3eg_som_es1/1.0/board.xml as part xczu3eg-sfva625-1-i-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part em.avnet.com:ultrazed_ev_som_es2:part0:1.1 available at /opt/Xilinx/Vivado/2018.2/data/boards/board_files/ultrazed_7ev_som_es2/1.1/board.xml as part xczu7ev-fbvb900-1-i-es2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part em.avnet.com:ultrazed_7ev_cc_es2:part0:1.1 available at /opt/Xilinx/Vivado/2018.2/data/boards/board_files/ultrazed_7ev_cc_es2/1.1/board.xml as part xczu7ev-fbvb900-1-i-es2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part em.avnet.com:ultrazed_eg_iocc:part0:1.0 available at /opt/Xilinx/Vivado/2018.2/data/boards/board_files/ultrazed_3eg_iocc_es1/1.0/board.xml as part xczu3eg-sfva625-1-i-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part em.avnet.com:ultrazed_eg_pciecc:part0:1.0 available at /opt/Xilinx/Vivado/2018.2/data/boards/board_files/ultrazed_3eg_pciecc_es1/1.0/board.xml as part xczu3eg-sfva625-1-i-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part em.avnet.com:ultrazed_eg_som:part0:1.0 available at /opt/Xilinx/Vivado/2018.2/data/boards/board_files/ultrazed_3eg_som_es1/1.0/board.xml as part xczu3eg-sfva625-1-i-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part em.avnet.com:ultrazed_ev_som_es2:part0:1.1 available at /opt/Xilinx/Vivado/2018.2/data/boards/board_files/ultrazed_7ev_som_es2/1.1/board.xml as part xczu7ev-fbvb900-1-i-es2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part em.avnet.com:ultrazed_7ev_cc_es2:part0:1.1 available at /opt/Xilinx/Vivado/2018.2/data/boards/board_files/ultrazed_7ev_cc_es2/1.1/board.xml as part xczu7ev-fbvb900-1-i-es2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part em.avnet.com:ultrazed_eg_iocc:part0:1.0 available at /opt/Xilinx/Vivado/2018.2/data/boards/board_files/ultrazed_3eg_iocc_es1/1.0/board.xml as part xczu3eg-sfva625-1-i-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part em.avnet.com:ultrazed_eg_pciecc:part0:1.0 available at /opt/Xilinx/Vivado/2018.2/data/boards/board_files/ultrazed_3eg_pciecc_es1/1.0/board.xml as part xczu3eg-sfva625-1-i-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part em.avnet.com:ultrazed_eg_som:part0:1.0 available at /opt/Xilinx/Vivado/2018.2/data/boards/board_files/ultrazed_3eg_som_es1/1.0/board.xml as part xczu3eg-sfva625-1-i-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part em.avnet.com:ultrazed_ev_som_es2:part0:1.1 available at /opt/Xilinx/Vivado/2018.2/data/boards/board_files/ultrazed_7ev_som_es2/1.1/board.xml as part xczu7ev-fbvb900-1-i-es2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part em.avnet.com:ultrazed_7ev_cc_es2:part0:1.1 available at /opt/Xilinx/Vivado/2018.2/data/boards/board_files/ultrazed_7ev_cc_es2/1.1/board.xml as part xczu7ev-fbvb900-1-i-es2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part em.avnet.com:ultrazed_eg_iocc:part0:1.0 available at /opt/Xilinx/Vivado/2018.2/data/boards/board_files/ultrazed_3eg_iocc_es1/1.0/board.xml as part xczu3eg-sfva625-1-i-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part em.avnet.com:ultrazed_eg_pciecc:part0:1.0 available at /opt/Xilinx/Vivado/2018.2/data/boards/board_files/ultrazed_3eg_pciecc_es1/1.0/board.xml as part xczu3eg-sfva625-1-i-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part em.avnet.com:ultrazed_eg_som:part0:1.0 available at /opt/Xilinx/Vivado/2018.2/data/boards/board_files/ultrazed_3eg_som_es1/1.0/board.xml as part xczu3eg-sfva625-1-i-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part em.avnet.com:ultrazed_ev_som_es2:part0:1.1 available at /opt/Xilinx/Vivado/2018.2/data/boards/board_files/ultrazed_7ev_som_es2/1.1/board.xml as part xczu7ev-fbvb900-1-i-es2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part em.avnet.com:ultrazed_7ev_cc_es2:part0:1.1 available at /opt/Xilinx/Vivado/2018.2/data/boards/board_files/ultrazed_7ev_cc_es2/1.1/board.xml as part xczu7ev-fbvb900-1-i-es2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part em.avnet.com:ultrazed_eg_iocc:part0:1.0 available at /opt/Xilinx/Vivado/2018.2/data/boards/board_files/ultrazed_3eg_iocc_es1/1.0/board.xml as part xczu3eg-sfva625-1-i-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part em.avnet.com:ultrazed_eg_pciecc:part0:1.0 available at /opt/Xilinx/Vivado/2018.2/data/boards/board_files/ultrazed_3eg_pciecc_es1/1.0/board.xml as part xczu3eg-sfva625-1-i-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part em.avnet.com:ultrazed_eg_som:part0:1.0 available at /opt/Xilinx/Vivado/2018.2/data/boards/board_files/ultrazed_3eg_som_es1/1.0/board.xml as part xczu3eg-sfva625-1-i-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part em.avnet.com:ultrazed_ev_som_es2:part0:1.1 available at /opt/Xilinx/Vivado/2018.2/data/boards/board_files/ultrazed_7ev_som_es2/1.1/board.xml as part xczu7ev-fbvb900-1-i-es2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part em.avnet.com:ultrazed_7ev_cc_es2:part0:1.1 available at /opt/Xilinx/Vivado/2018.2/data/boards/board_files/ultrazed_7ev_cc_es2/1.1/board.xml as part xczu7ev-fbvb900-1-i-es2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part em.avnet.com:ultrazed_eg_iocc:part0:1.0 available at /opt/Xilinx/Vivado/2018.2/data/boards/board_files/ultrazed_3eg_iocc_es1/1.0/board.xml as part xczu3eg-sfva625-1-i-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part em.avnet.com:ultrazed_eg_pciecc:part0:1.0 available at /opt/Xilinx/Vivado/2018.2/data/boards/board_files/ultrazed_3eg_pciecc_es1/1.0/board.xml as part xczu3eg-sfva625-1-i-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part em.avnet.com:ultrazed_eg_som:part0:1.0 available at /opt/Xilinx/Vivado/2018.2/data/boards/board_files/ultrazed_3eg_som_es1/1.0/board.xml as part xczu3eg-sfva625-1-i-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part em.avnet.com:ultrazed_ev_som_es2:part0:1.1 available at /opt/Xilinx/Vivado/2018.2/data/boards/board_files/ultrazed_7ev_som_es2/1.1/board.xml as part xczu7ev-fbvb900-1-i-es2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part em.avnet.com:ultrazed_7ev_cc_es2:part0:1.1 available at /opt/Xilinx/Vivado/2018.2/data/boards/board_files/ultrazed_7ev_cc_es2/1.1/board.xml as part xczu7ev-fbvb900-1-i-es2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part em.avnet.com:ultrazed_eg_iocc:part0:1.0 available at /opt/Xilinx/Vivado/2018.2/data/boards/board_files/ultrazed_3eg_iocc_es1/1.0/board.xml as part xczu3eg-sfva625-1-i-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part em.avnet.com:ultrazed_eg_pciecc:part0:1.0 available at /opt/Xilinx/Vivado/2018.2/data/boards/board_files/ultrazed_3eg_pciecc_es1/1.0/board.xml as part xczu3eg-sfva625-1-i-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part em.avnet.com:ultrazed_eg_som:part0:1.0 available at /opt/Xilinx/Vivado/2018.2/data/boards/board_files/ultrazed_3eg_som_es1/1.0/board.xml as part xczu3eg-sfva625-1-i-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part em.avnet.com:ultrazed_ev_som_es2:part0:1.1 available at /opt/Xilinx/Vivado/2018.2/data/boards/board_files/ultrazed_7ev_som_es2/1.1/board.xml as part xczu7ev-fbvb900-1-i-es2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part em.avnet.com:ultrazed_7ev_cc_es2:part0:1.1 available at /opt/Xilinx/Vivado/2018.2/data/boards/board_files/ultrazed_7ev_cc_es2/1.1/board.xml as part xczu7ev-fbvb900-1-i-es2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part em.avnet.com:ultrazed_eg_iocc:part0:1.0 available at /opt/Xilinx/Vivado/2018.2/data/boards/board_files/ultrazed_3eg_iocc_es1/1.0/board.xml as part xczu3eg-sfva625-1-i-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part em.avnet.com:ultrazed_eg_pciecc:part0:1.0 available at /opt/Xilinx/Vivado/2018.2/data/boards/board_files/ultrazed_3eg_pciecc_es1/1.0/board.xml as part xczu3eg-sfva625-1-i-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part em.avnet.com:ultrazed_eg_som:part0:1.0 available at /opt/Xilinx/Vivado/2018.2/data/boards/board_files/ultrazed_3eg_som_es1/1.0/board.xml as part xczu3eg-sfva625-1-i-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part em.avnet.com:ultrazed_ev_som_es2:part0:1.1 available at /opt/Xilinx/Vivado/2018.2/data/boards/board_files/ultrazed_7ev_som_es2/1.1/board.xml as part xczu7ev-fbvb900-1-i-es2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part em.avnet.com:ultrazed_7ev_cc_es2:part0:1.1 available at /opt/Xilinx/Vivado/2018.2/data/boards/board_files/ultrazed_7ev_cc_es2/1.1/board.xml as part xczu7ev-fbvb900-1-i-es2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part em.avnet.com:ultrazed_eg_iocc:part0:1.0 available at /opt/Xilinx/Vivado/2018.2/data/boards/board_files/ultrazed_3eg_iocc_es1/1.0/board.xml as part xczu3eg-sfva625-1-i-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part em.avnet.com:ultrazed_eg_pciecc:part0:1.0 available at /opt/Xilinx/Vivado/2018.2/data/boards/board_files/ultrazed_3eg_pciecc_es1/1.0/board.xml as part xczu3eg-sfva625-1-i-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part em.avnet.com:ultrazed_eg_som:part0:1.0 available at /opt/Xilinx/Vivado/2018.2/data/boards/board_files/ultrazed_3eg_som_es1/1.0/board.xml as part xczu3eg-sfva625-1-i-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part em.avnet.com:ultrazed_ev_som_es2:part0:1.1 available at /opt/Xilinx/Vivado/2018.2/data/boards/board_files/ultrazed_7ev_som_es2/1.1/board.xml as part xczu7ev-fbvb900-1-i-es2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part em.avnet.com:ultrazed_7ev_cc_es2:part0:1.1 available at /opt/Xilinx/Vivado/2018.2/data/boards/board_files/ultrazed_7ev_cc_es2/1.1/board.xml as part xczu7ev-fbvb900-1-i-es2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part em.avnet.com:ultrazed_eg_iocc:part0:1.0 available at /opt/Xilinx/Vivado/2018.2/data/boards/board_files/ultrazed_3eg_iocc_es1/1.0/board.xml as part xczu3eg-sfva625-1-i-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part em.avnet.com:ultrazed_eg_pciecc:part0:1.0 available at /opt/Xilinx/Vivado/2018.2/data/boards/board_files/ultrazed_3eg_pciecc_es1/1.0/board.xml as part xczu3eg-sfva625-1-i-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part em.avnet.com:ultrazed_eg_som:part0:1.0 available at /opt/Xilinx/Vivado/2018.2/data/boards/board_files/ultrazed_3eg_som_es1/1.0/board.xml as part xczu3eg-sfva625-1-i-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part em.avnet.com:ultrazed_ev_som_es2:part0:1.1 available at /opt/Xilinx/Vivado/2018.2/data/boards/board_files/ultrazed_7ev_som_es2/1.1/board.xml as part xczu7ev-fbvb900-1-i-es2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part em.avnet.com:ultrazed_7ev_cc_es2:part0:1.1 available at /opt/Xilinx/Vivado/2018.2/data/boards/board_files/ultrazed_7ev_cc_es2/1.1/board.xml as part xczu7ev-fbvb900-1-i-es2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part em.avnet.com:ultrazed_eg_iocc:part0:1.0 available at /opt/Xilinx/Vivado/2018.2/data/boards/board_files/ultrazed_3eg_iocc_es1/1.0/board.xml as part xczu3eg-sfva625-1-i-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part em.avnet.com:ultrazed_eg_pciecc:part0:1.0 available at /opt/Xilinx/Vivado/2018.2/data/boards/board_files/ultrazed_3eg_pciecc_es1/1.0/board.xml as part xczu3eg-sfva625-1-i-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part em.avnet.com:ultrazed_eg_som:part0:1.0 available at /opt/Xilinx/Vivado/2018.2/data/boards/board_files/ultrazed_3eg_som_es1/1.0/board.xml as part xczu3eg-sfva625-1-i-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part em.avnet.com:ultrazed_ev_som_es2:part0:1.1 available at /opt/Xilinx/Vivado/2018.2/data/boards/board_files/ultrazed_7ev_som_es2/1.1/board.xml as part xczu7ev-fbvb900-1-i-es2 specified in board_part file is either invalid or not available
+INFO: [Common 17-14] Message 'Board 49-26' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+create_project vcu_trd /home/brainiarc7/designs/vcu_trd -part xczu7ev-fbvb900-1-i
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/opt/Xilinx/Vivado/2018.2/data/ip'.
+create_project: Time (s): cpu = 00:00:08 ; elapsed = 00:00:06 . Memory (MB): peak = 6451.152 ; gain = 21.016 ; free physical = 15583 ; free virtual = 34019
+import_files -fileset constrs_1 -force -norecurse /home/brainiarc7/Xilinx/UltraZed-EV-CC-Master-XDC.xdc
+create_bd_design "vcu_trd"
+Wrote  : </home/brainiarc7/designs/vcu_trd/vcu_trd.srcs/sources_1/bd/vcu_trd/vcu_trd.bd> 
+update_compile_order -fileset sources_1
+startgroup
+create_bd_cell -type ip -vlnv xilinx.com:ip:zynq_ultra_ps_e:3.2 zynq_ultra_ps_e_0
+endgroup
+startgroup
+create_bd_cell -type ip -vlnv xilinx.com:ip:vcu:1.1 vcu_0
+INFO: [xilinx.com:ip:vcu:1.1-17] /vcu_0: Init 
+endgroup
+startgroup
+apply_bd_automation -rule xilinx.com:bd_rule:axi4 -config { Clk_master {Auto} Clk_slave {Auto} Clk_xbar {Auto} Master {/zynq_ultra_ps_e_0/M_AXI_HPM0_LPD} Slave {/vcu_0/S_AXI_LITE} intc_ip {New AXI Interconnect} master_apm {0}}  [get_bd_intf_pins vcu_0/S_AXI_LITE]
+</vcu_0/S_AXI_LITE/Reg> is being mapped into </zynq_ultra_ps_e_0/Data> at <0x80000000 [ 1M ]>
+apply_bd_automation -rule xilinx.com:bd_rule:clkrst -config {Clk "/zynq_ultra_ps_e_0/pl_clk0 (99 MHz)" }  [get_bd_pins vcu_0/pll_ref_clk]
+endgroup
+startgroup
+create_bd_cell -type ip -vlnv xilinx.com:ip:gig_ethernet_pcs_pma:16.1 gig_ethernet_pcs_pma_0
+INFO: [Device 21-403] Loading part xczu7ev-fbvb900-1-i
+INFO: [xilinx.com:ip:gig_ethernet_pcs_pma:16.1-98989] vcu_trd_gig_ethernet_pcs_pma_0_0: ARCHITECTURE : zynquplus
+INFO: [xilinx.com:ip:gig_ethernet_pcs_pma:16.1-98989] vcu_trd_gig_ethernet_pcs_pma_0_0: PART : xczu7ev-fbvb900-1-i
+INFO: [xilinx.com:ip:gig_ethernet_pcs_pma:16.1-98989] vcu_trd_gig_ethernet_pcs_pma_0_0: SPEEDGRADE : -1
+INFO: [xilinx.com:ip:gig_ethernet_pcs_pma:16.1-98989] vcu_trd_gig_ethernet_pcs_pma_0_0: Standard : 1000BASEX
+Sourcing the elaborate.xit file.
+Calling update_contents for BASEX .
+Done sourcing the elaborate.xit file.
+create_bd_cell: Time (s): cpu = 00:00:16 ; elapsed = 00:00:22 . Memory (MB): peak = 7404.883 ; gain = 659.434 ; free physical = 14700 ; free virtual = 33139
+endgroup
+WARNING: [BD 5-235] No pins matched 'get_bd_pins /gig_ethernet_pcs_pma_0/sfp'
+WARNING: [BD 5-235] No pins matched 'get_bd_pins /gig_ethernet_pcs_pma_0/sfp'
+startgroup
+apply_bd_automation -rule xilinx.com:bd_rule:board -config { Manual_Source {Auto}}  [get_bd_intf_pins gig_ethernet_pcs_pma_0/sfp]
+INFO: [board_rule 100-100] create_bd_intf_port -mode Master -vlnv xilinx.com:interface:sfp_rtl:1.0 sfp_rtl_0
+INFO: [board_rule 100-100] connect_bd_intf_net /sfp_rtl_0 /gig_ethernet_pcs_pma_0/sfp
+apply_bd_automation -rule xilinx.com:bd_rule:clkrst -config {Clk "New Clocking Wizard (100 MHz)" }  [get_bd_pins gig_ethernet_pcs_pma_0/gtrefclk]
+create_bd_cell: Time (s): cpu = 00:00:20 ; elapsed = 00:00:34 . Memory (MB): peak = 7587.840 ; gain = 166.953 ; free physical = 14286 ; free virtual = 32726
+apply_bd_automation: Time (s): cpu = 00:00:20 ; elapsed = 00:00:34 . Memory (MB): peak = 7587.840 ; gain = 166.953 ; free physical = 14287 ; free virtual = 32726
+apply_bd_automation -rule xilinx.com:bd_rule:clkrst -config {Clk "/zynq_ultra_ps_e_0/pl_clk0 (99 MHz)" }  [get_bd_pins gig_ethernet_pcs_pma_0/independent_clock_bufg]
+apply_bd_automation -rule xilinx.com:bd_rule:clkrst -config {Clk "New Clocking Wizard (100 MHz)" }  [get_bd_pins gig_ethernet_pcs_pma_0/userclk]
+apply_bd_automation -rule xilinx.com:bd_rule:clkrst -config {Clk "New Clocking Wizard (100 MHz)" }  [get_bd_pins gig_ethernet_pcs_pma_0/userclk2]
+apply_bd_automation -rule xilinx.com:bd_rule:clkrst -config {Clk "New Clocking Wizard (100 MHz)" }  [get_bd_pins gig_ethernet_pcs_pma_0/rxuserclk]
+apply_bd_automation -rule xilinx.com:bd_rule:clkrst -config {Clk "New Clocking Wizard (100 MHz)" }  [get_bd_pins gig_ethernet_pcs_pma_0/rxuserclk2]
+endgroup
+apply_bd_automation -rule xilinx.com:bd_rule:vcu -config {mem_map "Zynq_Memory_Map" }  [get_bd_cells vcu_0]
+WARNING: [IP_Flow 19-3374] An attempt to modify the value of disabled parameter 'MMCM_DIVCLK_DIVIDE' from '5' to '4' has been ignored for IP 'vcu_clk_wiz0'
+WARNING: [IP_Flow 19-3374] An attempt to modify the value of disabled parameter 'MMCM_CLKFBOUT_MULT_F' from '66.625' to '53.125' has been ignored for IP 'vcu_clk_wiz0'
+WARNING: [IP_Flow 19-3374] An attempt to modify the value of disabled parameter 'MMCM_CLKOUT0_DIVIDE_F' from '40.375' to '40.250' has been ignored for IP 'vcu_clk_wiz0'
+</zynq_ultra_ps_e_0/SAXIGP0/HPC0_DDR_LOW> is being mapped into </vcu_0/Code> at <0x00000000 [ 2G ]>
+</zynq_ultra_ps_e_0/SAXIGP4/HP2_DDR_LOW> is being mapped into </vcu_0/DecData0> at <0x00000000 [ 2G ]>
+</zynq_ultra_ps_e_0/SAXIGP5/HP3_DDR_LOW> is being mapped into </vcu_0/DecData1> at <0x00000000 [ 2G ]>
+</zynq_ultra_ps_e_0/SAXIGP2/HP0_DDR_LOW> is being mapped into </vcu_0/EncData0> at <0x00000000 [ 2G ]>
+</zynq_ultra_ps_e_0/SAXIGP3/HP1_DDR_LOW> is being mapped into </vcu_0/EncData1> at <0x00000000 [ 2G ]>
+</zynq_ultra_ps_e_0/SAXIGP0/HPC0_LPS_OCM> is being mapped into </vcu_0/Code> at <0xFF000000 [ 16M ]>
+</zynq_ultra_ps_e_0/SAXIGP4/HP2_LPS_OCM> is being mapped into </vcu_0/DecData0> at <0xFF000000 [ 16M ]>
+</zynq_ultra_ps_e_0/SAXIGP5/HP3_LPS_OCM> is being mapped into </vcu_0/DecData1> at <0xFF000000 [ 16M ]>
+</zynq_ultra_ps_e_0/SAXIGP2/HP0_LPS_OCM> is being mapped into </vcu_0/EncData0> at <0xFF000000 [ 16M ]>
+</zynq_ultra_ps_e_0/SAXIGP3/HP1_LPS_OCM> is being mapped into </vcu_0/EncData1> at <0xFF000000 [ 16M ]>
+startgroup
+set_property -dict [list CONFIG.NO_OF_STREAMS {3} CONFIG.ENC_FRAME_SIZE {1}] [get_bd_cells vcu_0]
+endgroup
+startgroup
+apply_bd_automation -rule xilinx.com:bd_rule:board -config { Manual_Source {Auto} rst_polarity {ACTIVE_HIGH}}  [get_bd_pins clk_wiz/reset]
+INFO: [board_rule 100-100] create_bd_port -dir I reset_rtl_0 -type rst
+INFO: [board_rule 100-100] set_property CONFIG.POLARITY  /reset_rtl_0
+INFO: [board_rule 100-100] connect_bd_net /reset_rtl_0 /clk_wiz/reset
+INFO: [board_rule 100-100] set_property CONFIG.POLARITY ACTIVE_HIGH /reset_rtl_0
+apply_bd_automation -rule xilinx.com:bd_rule:board -config { Clk {/zynq_ultra_ps_e_0/pl_clk0 (99 MHz)} Manual_Source {Auto}}  [get_bd_pins clk_wiz/clk_in1]
+apply_bd_automation -rule xilinx.com:bd_rule:board -config { Manual_Source {Auto} rst_polarity {ACTIVE_HIGH}}  [get_bd_pins clk_wiz_1/reset]
+INFO: [board_rule 100-100] create_bd_port -dir I reset_rtl_0_0 -type rst
+INFO: [board_rule 100-100] set_property CONFIG.POLARITY  /reset_rtl_0_0
+INFO: [board_rule 100-100] connect_bd_net /reset_rtl_0_0 /clk_wiz_1/reset
+INFO: [board_rule 100-100] set_property CONFIG.POLARITY ACTIVE_HIGH /reset_rtl_0_0
+apply_bd_automation -rule xilinx.com:bd_rule:board -config { Clk {/zynq_ultra_ps_e_0/pl_clk0 (99 MHz)} Manual_Source {Auto}}  [get_bd_pins clk_wiz_1/clk_in1]
+apply_bd_automation -rule xilinx.com:bd_rule:board -config { Manual_Source {Auto} rst_polarity {ACTIVE_HIGH}}  [get_bd_pins clk_wiz_2/reset]
+INFO: [board_rule 100-100] create_bd_port -dir I reset_rtl_0_0_1 -type rst
+INFO: [board_rule 100-100] set_property CONFIG.POLARITY  /reset_rtl_0_0_1
+INFO: [board_rule 100-100] connect_bd_net /reset_rtl_0_0_1 /clk_wiz_2/reset
+INFO: [board_rule 100-100] set_property CONFIG.POLARITY ACTIVE_HIGH /reset_rtl_0_0_1
+apply_bd_automation -rule xilinx.com:bd_rule:board -config { Clk {/zynq_ultra_ps_e_0/pl_clk0 (99 MHz)} Manual_Source {Auto}}  [get_bd_pins clk_wiz_2/clk_in1]
+apply_bd_automation -rule xilinx.com:bd_rule:board -config { Manual_Source {Auto} rst_polarity {ACTIVE_HIGH}}  [get_bd_pins clk_wiz_3/reset]
+INFO: [board_rule 100-100] create_bd_port -dir I reset_rtl_0_0_1_2 -type rst
+INFO: [board_rule 100-100] set_property CONFIG.POLARITY  /reset_rtl_0_0_1_2
+INFO: [board_rule 100-100] connect_bd_net /reset_rtl_0_0_1_2 /clk_wiz_3/reset
+INFO: [board_rule 100-100] set_property CONFIG.POLARITY ACTIVE_HIGH /reset_rtl_0_0_1_2
+apply_bd_automation -rule xilinx.com:bd_rule:board -config { Clk {/zynq_ultra_ps_e_0/pl_clk0 (99 MHz)} Manual_Source {Auto}}  [get_bd_pins clk_wiz_3/clk_in1]
+apply_bd_automation -rule xilinx.com:bd_rule:board -config { Manual_Source {Auto} rst_polarity {ACTIVE_HIGH}}  [get_bd_pins clk_wiz_4/reset]
+INFO: [board_rule 100-100] create_bd_port -dir I reset_rtl_0_0_1_2_3 -type rst
+INFO: [board_rule 100-100] set_property CONFIG.POLARITY  /reset_rtl_0_0_1_2_3
+INFO: [board_rule 100-100] connect_bd_net /reset_rtl_0_0_1_2_3 /clk_wiz_4/reset
+INFO: [board_rule 100-100] set_property CONFIG.POLARITY ACTIVE_HIGH /reset_rtl_0_0_1_2_3
+apply_bd_automation -rule xilinx.com:bd_rule:board -config { Clk {/zynq_ultra_ps_e_0/pl_clk0 (99 MHz)} Manual_Source {Auto}}  [get_bd_pins clk_wiz_4/clk_in1]
+endgroup
+set_property synth_checkpoint_mode None [get_files  /home/brainiarc7/designs/vcu_trd/vcu_trd.srcs/sources_1/bd/vcu_trd/vcu_trd.bd]
+generate_target all [get_files  /home/brainiarc7/designs/vcu_trd/vcu_trd.srcs/sources_1/bd/vcu_trd/vcu_trd.bd]
+WARNING: [IP_Flow 19-4684] Expected long value for param HDL_PLL_CLK_LO but, float/scientific notation value 0.0 is provided. The value is converted to long type(0)
+WARNING: [IP_Flow 19-4684] Expected long value for param HDL_PLL_CLK_HI but, float/scientific notation value 100.0 is provided. The value is converted to long type(100)
+INFO: [xilinx.com:ip:vcu:1.1-603] vcu_trd_vcu_0_0:  in flao2hex  update method .. 0.0 
+INFO: [xilinx.com:ip:vcu:1.1-603] vcu_trd_vcu_0_0:  in HDL_AXI_ENC_CLK  update method ..0 
+INFO: [xilinx.com:ip:vcu:1.1-603] vcu_trd_vcu_0_0:  in flao2hex  update method .. 0.0 
+INFO: [xilinx.com:ip:vcu:1.1-603] vcu_trd_vcu_0_0:  in HDL_AXI_DEC_CLK  update method ..0 
+INFO: [xilinx.com:ip:vcu:1.1-17] /vcu_0:Pre-Propagate  .
+ERROR: [xilinx.com:ip:vcu:1.1-17] /vcu_0 VCU REF clock needs to be 27 - 60. Actual 99.999
+ERROR: [xilinx.com:ip:vcu:1.1-17] /vcu_0 VCU REF clock needs to be 27 - 60. Actual 99.999
+INFO: [xilinx.com:ip:vcu:1.1-17] /vcu_0: Post Propogate  .
+WARNING: [BD 41-237] Bus Interface property AWUSER_WIDTH does not match between /ps8_0_axi_periph/s00_couplers/auto_pc/S_AXI(0) and /zynq_ultra_ps_e_0/M_AXI_HPM0_LPD(16)
+WARNING: [BD 41-237] Bus Interface property ARUSER_WIDTH does not match between /ps8_0_axi_periph/s00_couplers/auto_pc/S_AXI(0) and /zynq_ultra_ps_e_0/M_AXI_HPM0_LPD(16)
+WARNING: [BD 41-237] Bus Interface property AWUSER_WIDTH does not match between /zynq_ultra_ps_e_0/S_AXI_HP0_FPD(1) and /vcu_enc0_reg_slice/M_AXI(0)
+WARNING: [BD 41-237] Bus Interface property ARUSER_WIDTH does not match between /zynq_ultra_ps_e_0/S_AXI_HP0_FPD(1) and /vcu_enc0_reg_slice/M_AXI(0)
+WARNING: [BD 41-237] Bus Interface property AWUSER_WIDTH does not match between /zynq_ultra_ps_e_0/S_AXI_HP1_FPD(1) and /vcu_enc1_reg_slice/M_AXI(0)
+WARNING: [BD 41-237] Bus Interface property ARUSER_WIDTH does not match between /zynq_ultra_ps_e_0/S_AXI_HP1_FPD(1) and /vcu_enc1_reg_slice/M_AXI(0)
+WARNING: [BD 41-237] Bus Interface property AWUSER_WIDTH does not match between /zynq_ultra_ps_e_0/S_AXI_HP2_FPD(1) and /vcu_dec0_reg_slice/M_AXI(0)
+WARNING: [BD 41-237] Bus Interface property ARUSER_WIDTH does not match between /zynq_ultra_ps_e_0/S_AXI_HP2_FPD(1) and /vcu_dec0_reg_slice/M_AXI(0)
+WARNING: [BD 41-237] Bus Interface property AWUSER_WIDTH does not match between /zynq_ultra_ps_e_0/S_AXI_HP3_FPD(1) and /vcu_dec1_reg_slice/M_AXI(0)
+WARNING: [BD 41-237] Bus Interface property ARUSER_WIDTH does not match between /zynq_ultra_ps_e_0/S_AXI_HP3_FPD(1) and /vcu_dec1_reg_slice/M_AXI(0)
+WARNING: [BD 41-237] Bus Interface property AWUSER_WIDTH does not match between /zynq_ultra_ps_e_0/S_AXI_HPC0_FPD(1) and /vcu_mcu_reg_slice/M_AXI(0)
+WARNING: [BD 41-237] Bus Interface property ARUSER_WIDTH does not match between /zynq_ultra_ps_e_0/S_AXI_HPC0_FPD(1) and /vcu_mcu_reg_slice/M_AXI(0)
+ERROR: [BD 41-238] Port/Pin property FREQ_HZ does not match between /gig_ethernet_pcs_pma_0/gtrefclk(125000000) and /clk_wiz/clk_out1(99999000)
+ERROR: [BD 41-238] Port/Pin property FREQ_HZ does not match between /gig_ethernet_pcs_pma_0/userclk(62500000) and /clk_wiz_1/clk_out1(99999000)
+ERROR: [BD 41-238] Port/Pin property FREQ_HZ does not match between /gig_ethernet_pcs_pma_0/userclk2(125000000) and /clk_wiz_2/clk_out1(99999000)
+ERROR: [BD 41-238] Port/Pin property FREQ_HZ does not match between /gig_ethernet_pcs_pma_0/rxuserclk(62500000) and /clk_wiz_3/clk_out1(99999000)
+ERROR: [BD 41-238] Port/Pin property FREQ_HZ does not match between /gig_ethernet_pcs_pma_0/rxuserclk2(62500000) and /clk_wiz_4/clk_out1(99999000)
+ERROR: [BD 41-1031] Hdl Generation failed for the IP Integrator design /home/brainiarc7/designs/vcu_trd/vcu_trd.srcs/sources_1/bd/vcu_trd/vcu_trd.bd 
+ERROR: [Common 17-39] 'generate_target' failed due to earlier errors.
+startgroup
+endgroup
+startgroup
+set_property -dict [list CONFIG.ENABLE_ENCODER {true} CONFIG.ENC_FRAME_SIZE {1} CONFIG.ENC_BUFFER_EN {false}] [get_bd_cells vcu_0]
+endgroup
+startgroup
+set_property -dict [list CONFIG.USE_SPREAD_SPECTRUM {false} CONFIG.USE_PHASE_ALIGNMENT {true} CONFIG.USE_DYN_RECONFIG {true} CONFIG.SECONDARY_SOURCE {Single_ended_clock_capable_pin} CONFIG.CLKIN1_JITTER_PS {80.0} CONFIG.CLKOUT1_REQUESTED_DUTY_CYCLE {50.0} CONFIG.CLKOUT1_DRIVES {Buffer} CONFIG.CLKOUT2_DRIVES {Buffer} CONFIG.CLKOUT3_DRIVES {Buffer} CONFIG.CLKOUT4_DRIVES {Buffer} CONFIG.CLKOUT5_DRIVES {Buffer} CONFIG.CLKOUT6_DRIVES {Buffer} CONFIG.CLKOUT7_DRIVES {Buffer} CONFIG.MMCM_DIVCLK_DIVIDE {5} CONFIG.MMCM_BANDWIDTH {OPTIMIZED} CONFIG.MMCM_CLKFBOUT_MULT_F {48.000} CONFIG.MMCM_CLKIN1_PERIOD {8.000} CONFIG.MMCM_CLKIN2_PERIOD {10.000} CONFIG.MMCM_CLKOUT0_DIVIDE_F {12.000} CONFIG.CLKOUT1_JITTER {177.983} CONFIG.CLKOUT1_PHASE_ERROR {222.305}] [get_bd_cells clk_wiz]
+WARNING: [IP_Flow 19-3374] An attempt to modify the value of disabled parameter 'MMCM_DIVCLK_DIVIDE' from '1' to '5' has been ignored for IP 'clk_wiz'
+WARNING: [IP_Flow 19-3374] An attempt to modify the value of disabled parameter 'MMCM_CLKFBOUT_MULT_F' from '12.000' to '48.000' has been ignored for IP 'clk_wiz'
+WARNING: [IP_Flow 19-3374] An attempt to modify the value of disabled parameter 'MMCM_CLKIN1_PERIOD' from '10.000' to '8.000' has been ignored for IP 'clk_wiz'
+WARNING: [BD 41-1684] Pin /clk_wiz/reset is now disabled. All connections to this pin have been removed. 
+delete_bd_objs [get_bd_nets reset_rtl_0_1]
+endgroup
+startgroup
+set_property -dict [list CONFIG.USE_PHASE_ALIGNMENT {true} CONFIG.USE_DYN_PHASE_SHIFT {true} CONFIG.USE_DYN_RECONFIG {true} CONFIG.SECONDARY_SOURCE {Single_ended_clock_capable_pin} CONFIG.CLKOUT1_DRIVES {Buffer} CONFIG.CLKOUT2_DRIVES {Buffer} CONFIG.CLKOUT3_DRIVES {Buffer} CONFIG.CLKOUT4_DRIVES {Buffer} CONFIG.CLKOUT5_DRIVES {Buffer} CONFIG.CLKOUT6_DRIVES {Buffer} CONFIG.CLKOUT7_DRIVES {Buffer}] [get_bd_cells clk_wiz_1]
+WARNING: [BD 41-1684] Pin /clk_wiz_1/reset is now disabled. All connections to this pin have been removed. 
+delete_bd_objs [get_bd_nets reset_rtl_0_0_1]
+endgroup
+startgroup
+set_property -dict [list CONFIG.USE_DYN_PHASE_SHIFT {true} CONFIG.USE_DYN_RECONFIG {true}] [get_bd_cells clk_wiz_2]
+WARNING: [BD 41-1684] Pin /clk_wiz_2/reset is now disabled. All connections to this pin have been removed. 
+delete_bd_objs [get_bd_nets reset_rtl_0_0_1_1]
+endgroup
+startgroup
+set_property -dict [list CONFIG.USE_PHASE_ALIGNMENT {true} CONFIG.USE_DYN_PHASE_SHIFT {true} CONFIG.USE_DYN_RECONFIG {true} CONFIG.SECONDARY_SOURCE {Single_ended_clock_capable_pin} CONFIG.CLKOUT1_DRIVES {Buffer} CONFIG.CLKOUT2_DRIVES {Buffer} CONFIG.CLKOUT3_DRIVES {Buffer} CONFIG.CLKOUT4_DRIVES {Buffer} CONFIG.CLKOUT5_DRIVES {Buffer} CONFIG.CLKOUT6_DRIVES {Buffer} CONFIG.CLKOUT7_DRIVES {Buffer}] [get_bd_cells clk_wiz_3]
+WARNING: [BD 41-1684] Pin /clk_wiz_3/reset is now disabled. All connections to this pin have been removed. 
+delete_bd_objs [get_bd_nets reset_rtl_0_0_1_2_1]
+endgroup
+startgroup
+set_property -dict [list CONFIG.USE_SPREAD_SPECTRUM {false} CONFIG.USE_PHASE_ALIGNMENT {true} CONFIG.USE_DYN_RECONFIG {true} CONFIG.SECONDARY_SOURCE {Single_ended_clock_capable_pin} CONFIG.CLKIN1_JITTER_PS {80.0} CONFIG.CLKOUT1_REQUESTED_DUTY_CYCLE {50.0} CONFIG.CLKOUT1_DRIVES {Buffer} CONFIG.CLKOUT2_DRIVES {Buffer} CONFIG.CLKOUT3_DRIVES {Buffer} CONFIG.CLKOUT4_DRIVES {Buffer} CONFIG.CLKOUT5_DRIVES {Buffer} CONFIG.CLKOUT6_DRIVES {Buffer} CONFIG.CLKOUT7_DRIVES {Buffer} CONFIG.MMCM_DIVCLK_DIVIDE {5} CONFIG.MMCM_BANDWIDTH {OPTIMIZED} CONFIG.MMCM_CLKFBOUT_MULT_F {48.000} CONFIG.MMCM_CLKIN1_PERIOD {8.000} CONFIG.MMCM_CLKIN2_PERIOD {10.000} CONFIG.MMCM_CLKOUT0_DIVIDE_F {12.000} CONFIG.CLKOUT1_JITTER {177.983} CONFIG.CLKOUT1_PHASE_ERROR {222.305}] [get_bd_cells clk_wiz_4]
+WARNING: [IP_Flow 19-3374] An attempt to modify the value of disabled parameter 'MMCM_DIVCLK_DIVIDE' from '1' to '5' has been ignored for IP 'clk_wiz_4'
+WARNING: [IP_Flow 19-3374] An attempt to modify the value of disabled parameter 'MMCM_CLKFBOUT_MULT_F' from '12.000' to '48.000' has been ignored for IP 'clk_wiz_4'
+WARNING: [IP_Flow 19-3374] An attempt to modify the value of disabled parameter 'MMCM_CLKIN1_PERIOD' from '10.000' to '8.000' has been ignored for IP 'clk_wiz_4'
+WARNING: [BD 41-1684] Pin /clk_wiz_4/reset is now disabled. All connections to this pin have been removed. 
+delete_bd_objs [get_bd_nets reset_rtl_0_0_1_2_3_1]
+endgroup
+startgroup
+apply_bd_automation -rule xilinx.com:bd_rule:axi4 -config { Clk_master {/zynq_ultra_ps_e_0/pl_clk0 (99 MHz)} Clk_slave {Auto} Clk_xbar {/zynq_ultra_ps_e_0/pl_clk0 (99 MHz)} Master {/zynq_ultra_ps_e_0/M_AXI_HPM0_LPD} Slave {/clk_wiz/s_axi_lite} intc_ip {/ps8_0_axi_periph} master_apm {0}}  [get_bd_intf_pins clk_wiz/s_axi_lite]
+</clk_wiz/s_axi_lite/Reg> is being mapped into </zynq_ultra_ps_e_0/Data> at <0x80100000 [ 64K ]>
+apply_bd_automation -rule xilinx.com:bd_rule:axi4 -config { Clk_master {/zynq_ultra_ps_e_0/pl_clk0 (99 MHz)} Clk_slave {Auto} Clk_xbar {/zynq_ultra_ps_e_0/pl_clk0 (99 MHz)} Master {/zynq_ultra_ps_e_0/M_AXI_HPM0_LPD} Slave {/clk_wiz_1/s_axi_lite} intc_ip {/ps8_0_axi_periph} master_apm {0}}  [get_bd_intf_pins clk_wiz_1/s_axi_lite]
+</clk_wiz_1/s_axi_lite/Reg> is being mapped into </zynq_ultra_ps_e_0/Data> at <0x80110000 [ 64K ]>
+apply_bd_automation -rule xilinx.com:bd_rule:axi4 -config { Clk_master {/zynq_ultra_ps_e_0/pl_clk0 (99 MHz)} Clk_slave {Auto} Clk_xbar {/zynq_ultra_ps_e_0/pl_clk0 (99 MHz)} Master {/zynq_ultra_ps_e_0/M_AXI_HPM0_LPD} Slave {/clk_wiz_2/s_axi_lite} intc_ip {/ps8_0_axi_periph} master_apm {0}}  [get_bd_intf_pins clk_wiz_2/s_axi_lite]
+</clk_wiz_2/s_axi_lite/Reg> is being mapped into </zynq_ultra_ps_e_0/Data> at <0x80120000 [ 64K ]>
+apply_bd_automation -rule xilinx.com:bd_rule:axi4 -config { Clk_master {/zynq_ultra_ps_e_0/pl_clk0 (99 MHz)} Clk_slave {Auto} Clk_xbar {/zynq_ultra_ps_e_0/pl_clk0 (99 MHz)} Master {/zynq_ultra_ps_e_0/M_AXI_HPM0_LPD} Slave {/clk_wiz_3/s_axi_lite} intc_ip {/ps8_0_axi_periph} master_apm {0}}  [get_bd_intf_pins clk_wiz_3/s_axi_lite]
+</clk_wiz_3/s_axi_lite/Reg> is being mapped into </zynq_ultra_ps_e_0/Data> at <0x80130000 [ 64K ]>
+apply_bd_automation -rule xilinx.com:bd_rule:axi4 -config { Clk_master {/zynq_ultra_ps_e_0/pl_clk0 (99 MHz)} Clk_slave {Auto} Clk_xbar {/zynq_ultra_ps_e_0/pl_clk0 (99 MHz)} Master {/zynq_ultra_ps_e_0/M_AXI_HPM0_LPD} Slave {/clk_wiz_4/s_axi_lite} intc_ip {/ps8_0_axi_periph} master_apm {0}}  [get_bd_intf_pins clk_wiz_4/s_axi_lite]
+</clk_wiz_4/s_axi_lite/Reg> is being mapped into </zynq_ultra_ps_e_0/Data> at <0x80140000 [ 64K ]>
+endgroup
+validate_bd_design
+INFO: [xilinx.com:ip:vcu:1.1-17] /vcu_0:Pre-Propagate  .
+ERROR: [xilinx.com:ip:vcu:1.1-17] /vcu_0 VCU REF clock needs to be 27 - 60. Actual 99.999
+ERROR: [xilinx.com:ip:vcu:1.1-17] /vcu_0 VCU REF clock needs to be 27 - 60. Actual 99.999
+INFO: [xilinx.com:ip:vcu:1.1-17] /vcu_0: Post Propogate  .
+WARNING: [BD 41-237] Bus Interface property AWUSER_WIDTH does not match between /ps8_0_axi_periph/s00_couplers/auto_pc/S_AXI(0) and /zynq_ultra_ps_e_0/M_AXI_HPM0_LPD(16)
+WARNING: [BD 41-237] Bus Interface property ARUSER_WIDTH does not match between /ps8_0_axi_periph/s00_couplers/auto_pc/S_AXI(0) and /zynq_ultra_ps_e_0/M_AXI_HPM0_LPD(16)
+WARNING: [BD 41-237] Bus Interface property AWUSER_WIDTH does not match between /zynq_ultra_ps_e_0/S_AXI_HP0_FPD(1) and /vcu_enc0_reg_slice/M_AXI(0)
+WARNING: [BD 41-237] Bus Interface property ARUSER_WIDTH does not match between /zynq_ultra_ps_e_0/S_AXI_HP0_FPD(1) and /vcu_enc0_reg_slice/M_AXI(0)
+WARNING: [BD 41-237] Bus Interface property AWUSER_WIDTH does not match between /zynq_ultra_ps_e_0/S_AXI_HP1_FPD(1) and /vcu_enc1_reg_slice/M_AXI(0)
+WARNING: [BD 41-237] Bus Interface property ARUSER_WIDTH does not match between /zynq_ultra_ps_e_0/S_AXI_HP1_FPD(1) and /vcu_enc1_reg_slice/M_AXI(0)
+WARNING: [BD 41-237] Bus Interface property AWUSER_WIDTH does not match between /zynq_ultra_ps_e_0/S_AXI_HP2_FPD(1) and /vcu_dec0_reg_slice/M_AXI(0)
+WARNING: [BD 41-237] Bus Interface property ARUSER_WIDTH does not match between /zynq_ultra_ps_e_0/S_AXI_HP2_FPD(1) and /vcu_dec0_reg_slice/M_AXI(0)
+WARNING: [BD 41-237] Bus Interface property AWUSER_WIDTH does not match between /zynq_ultra_ps_e_0/S_AXI_HP3_FPD(1) and /vcu_dec1_reg_slice/M_AXI(0)
+WARNING: [BD 41-237] Bus Interface property ARUSER_WIDTH does not match between /zynq_ultra_ps_e_0/S_AXI_HP3_FPD(1) and /vcu_dec1_reg_slice/M_AXI(0)
+WARNING: [BD 41-237] Bus Interface property AWUSER_WIDTH does not match between /zynq_ultra_ps_e_0/S_AXI_HPC0_FPD(1) and /vcu_mcu_reg_slice/M_AXI(0)
+WARNING: [BD 41-237] Bus Interface property ARUSER_WIDTH does not match between /zynq_ultra_ps_e_0/S_AXI_HPC0_FPD(1) and /vcu_mcu_reg_slice/M_AXI(0)
+ERROR: [BD 41-238] Port/Pin property FREQ_HZ does not match between /gig_ethernet_pcs_pma_0/gtrefclk(125000000) and /clk_wiz/clk_out1(99999000)
+ERROR: [BD 41-238] Port/Pin property FREQ_HZ does not match between /gig_ethernet_pcs_pma_0/userclk(62500000) and /clk_wiz_1/clk_out1(99999000)
+ERROR: [BD 41-238] Port/Pin property FREQ_HZ does not match between /gig_ethernet_pcs_pma_0/userclk2(125000000) and /clk_wiz_2/clk_out1(99999000)
+ERROR: [BD 41-238] Port/Pin property FREQ_HZ does not match between /gig_ethernet_pcs_pma_0/rxuserclk(62500000) and /clk_wiz_3/clk_out1(99999000)
+ERROR: [BD 41-238] Port/Pin property FREQ_HZ does not match between /gig_ethernet_pcs_pma_0/rxuserclk2(62500000) and /clk_wiz_4/clk_out1(99999000)
+ERROR: [Common 17-39] 'validate_bd_design' failed due to earlier errors.
+startgroup
+set_property -dict [list CONFIG.CLKOUT1_REQUESTED_OUT_FREQ {125.000} CONFIG.MMCM_DIVCLK_DIVIDE {1} CONFIG.MMCM_CLKFBOUT_MULT_F {10.000} CONFIG.MMCM_CLKOUT0_DIVIDE_F {8.000} CONFIG.CLKOUT1_JITTER {125.249} CONFIG.CLKOUT1_PHASE_ERROR {98.576}] [get_bd_cells clk_wiz]
+endgroup
+startgroup
+set_property -dict [list CONFIG.CLKOUT1_REQUESTED_OUT_FREQ {62.5} CONFIG.MMCM_DIVCLK_DIVIDE {9} CONFIG.MMCM_CLKFBOUT_MULT_F {118.000} CONFIG.MMCM_CLKOUT0_DIVIDE_F {21.000} CONFIG.CLKOUT1_JITTER {195.720} CONFIG.CLKOUT1_PHASE_ERROR {309.492}] [get_bd_cells clk_wiz_1]
+endgroup
+startgroup
+set_property -dict [list CONFIG.CLKOUT1_REQUESTED_OUT_FREQ {125} CONFIG.MMCM_DIVCLK_DIVIDE {1} CONFIG.MMCM_CLKFBOUT_MULT_F {10.000} CONFIG.MMCM_CLKOUT0_DIVIDE_F {8.000} CONFIG.CLKOUT1_JITTER {125.249} CONFIG.CLKOUT1_PHASE_ERROR {98.576}] [get_bd_cells clk_wiz_2]
+endgroup
+startgroup
+set_property -dict [list CONFIG.CLKOUT1_REQUESTED_OUT_FREQ {62.5000} CONFIG.MMCM_DIVCLK_DIVIDE {9} CONFIG.MMCM_CLKFBOUT_MULT_F {118.000} CONFIG.MMCM_CLKOUT0_DIVIDE_F {21.000} CONFIG.CLKOUT1_JITTER {195.720} CONFIG.CLKOUT1_PHASE_ERROR {309.492}] [get_bd_cells clk_wiz_3]
+endgroup
+startgroup
+set_property -dict [list CONFIG.CLKOUT1_REQUESTED_OUT_FREQ {62.500} CONFIG.MMCM_DIVCLK_DIVIDE {9} CONFIG.MMCM_CLKFBOUT_MULT_F {116.000} CONFIG.MMCM_CLKOUT0_DIVIDE_F {20.625} CONFIG.CLKOUT1_JITTER {201.150} CONFIG.CLKOUT1_PHASE_ERROR {317.450}] [get_bd_cells clk_wiz_4]
+endgroup
+validate_bd_design
+INFO: [xilinx.com:ip:vcu:1.1-17] /vcu_0:Pre-Propagate  .
+ERROR: [xilinx.com:ip:vcu:1.1-17] /vcu_0 VCU REF clock needs to be 27 - 60. Actual 99.999
+ERROR: [xilinx.com:ip:vcu:1.1-17] /vcu_0 VCU REF clock needs to be 27 - 60. Actual 99.999
+INFO: [xilinx.com:ip:vcu:1.1-17] /vcu_0: Post Propogate  .
+WARNING: [BD 41-237] Bus Interface property AWUSER_WIDTH does not match between /ps8_0_axi_periph/s00_couplers/auto_pc/S_AXI(0) and /zynq_ultra_ps_e_0/M_AXI_HPM0_LPD(16)
+WARNING: [BD 41-237] Bus Interface property ARUSER_WIDTH does not match between /ps8_0_axi_periph/s00_couplers/auto_pc/S_AXI(0) and /zynq_ultra_ps_e_0/M_AXI_HPM0_LPD(16)
+WARNING: [BD 41-237] Bus Interface property AWUSER_WIDTH does not match between /zynq_ultra_ps_e_0/S_AXI_HP0_FPD(1) and /vcu_enc0_reg_slice/M_AXI(0)
+WARNING: [BD 41-237] Bus Interface property ARUSER_WIDTH does not match between /zynq_ultra_ps_e_0/S_AXI_HP0_FPD(1) and /vcu_enc0_reg_slice/M_AXI(0)
+WARNING: [BD 41-237] Bus Interface property AWUSER_WIDTH does not match between /zynq_ultra_ps_e_0/S_AXI_HP1_FPD(1) and /vcu_enc1_reg_slice/M_AXI(0)
+WARNING: [BD 41-237] Bus Interface property ARUSER_WIDTH does not match between /zynq_ultra_ps_e_0/S_AXI_HP1_FPD(1) and /vcu_enc1_reg_slice/M_AXI(0)
+WARNING: [BD 41-237] Bus Interface property AWUSER_WIDTH does not match between /zynq_ultra_ps_e_0/S_AXI_HP2_FPD(1) and /vcu_dec0_reg_slice/M_AXI(0)
+WARNING: [BD 41-237] Bus Interface property ARUSER_WIDTH does not match between /zynq_ultra_ps_e_0/S_AXI_HP2_FPD(1) and /vcu_dec0_reg_slice/M_AXI(0)
+WARNING: [BD 41-237] Bus Interface property AWUSER_WIDTH does not match between /zynq_ultra_ps_e_0/S_AXI_HP3_FPD(1) and /vcu_dec1_reg_slice/M_AXI(0)
+WARNING: [BD 41-237] Bus Interface property ARUSER_WIDTH does not match between /zynq_ultra_ps_e_0/S_AXI_HP3_FPD(1) and /vcu_dec1_reg_slice/M_AXI(0)
+WARNING: [BD 41-237] Bus Interface property AWUSER_WIDTH does not match between /zynq_ultra_ps_e_0/S_AXI_HPC0_FPD(1) and /vcu_mcu_reg_slice/M_AXI(0)
+WARNING: [BD 41-237] Bus Interface property ARUSER_WIDTH does not match between /zynq_ultra_ps_e_0/S_AXI_HPC0_FPD(1) and /vcu_mcu_reg_slice/M_AXI(0)
+ERROR: [BD 41-238] Port/Pin property FREQ_HZ does not match between /gig_ethernet_pcs_pma_0/gtrefclk(125000000) and /clk_wiz/clk_out1(124998750)
+ERROR: [BD 41-238] Port/Pin property FREQ_HZ does not match between /gig_ethernet_pcs_pma_0/userclk(62500000) and /clk_wiz_1/clk_out1(62433238)
+ERROR: [BD 41-238] Port/Pin property FREQ_HZ does not match between /gig_ethernet_pcs_pma_0/userclk2(125000000) and /clk_wiz_2/clk_out1(124998750)
+ERROR: [BD 41-238] Port/Pin property FREQ_HZ does not match between /gig_ethernet_pcs_pma_0/rxuserclk(62500000) and /clk_wiz_3/clk_out1(62433238)
+ERROR: [BD 41-238] Port/Pin property FREQ_HZ does not match between /gig_ethernet_pcs_pma_0/rxuserclk2(62500000) and /clk_wiz_4/clk_out1(62490957)
+ERROR: [Common 17-39] 'validate_bd_design' failed due to earlier errors.
+startgroup
+set_property -dict [list CONFIG.OVERRIDE_MMCM {false}] [get_bd_cells clk_wiz]
+endgroup
+generate_target all [get_files  /home/brainiarc7/designs/vcu_trd/vcu_trd.srcs/sources_1/bd/vcu_trd/vcu_trd.bd]
+INFO: [xilinx.com:ip:vcu:1.1-17] /vcu_0:Pre-Propagate  .
+ERROR: [xilinx.com:ip:vcu:1.1-17] /vcu_0 VCU REF clock needs to be 27 - 60. Actual 99.999
+ERROR: [xilinx.com:ip:vcu:1.1-17] /vcu_0 VCU REF clock needs to be 27 - 60. Actual 99.999
+INFO: [xilinx.com:ip:vcu:1.1-17] /vcu_0: Post Propogate  .
+WARNING: [BD 41-237] Bus Interface property AWUSER_WIDTH does not match between /ps8_0_axi_periph/s00_couplers/auto_pc/S_AXI(0) and /zynq_ultra_ps_e_0/M_AXI_HPM0_LPD(16)
+WARNING: [BD 41-237] Bus Interface property ARUSER_WIDTH does not match between /ps8_0_axi_periph/s00_couplers/auto_pc/S_AXI(0) and /zynq_ultra_ps_e_0/M_AXI_HPM0_LPD(16)
+WARNING: [BD 41-237] Bus Interface property AWUSER_WIDTH does not match between /zynq_ultra_ps_e_0/S_AXI_HP0_FPD(1) and /vcu_enc0_reg_slice/M_AXI(0)
+WARNING: [BD 41-237] Bus Interface property ARUSER_WIDTH does not match between /zynq_ultra_ps_e_0/S_AXI_HP0_FPD(1) and /vcu_enc0_reg_slice/M_AXI(0)
+WARNING: [BD 41-237] Bus Interface property AWUSER_WIDTH does not match between /zynq_ultra_ps_e_0/S_AXI_HP1_FPD(1) and /vcu_enc1_reg_slice/M_AXI(0)
+WARNING: [BD 41-237] Bus Interface property ARUSER_WIDTH does not match between /zynq_ultra_ps_e_0/S_AXI_HP1_FPD(1) and /vcu_enc1_reg_slice/M_AXI(0)
+WARNING: [BD 41-237] Bus Interface property AWUSER_WIDTH does not match between /zynq_ultra_ps_e_0/S_AXI_HP2_FPD(1) and /vcu_dec0_reg_slice/M_AXI(0)
+WARNING: [BD 41-237] Bus Interface property ARUSER_WIDTH does not match between /zynq_ultra_ps_e_0/S_AXI_HP2_FPD(1) and /vcu_dec0_reg_slice/M_AXI(0)
+WARNING: [BD 41-237] Bus Interface property AWUSER_WIDTH does not match between /zynq_ultra_ps_e_0/S_AXI_HP3_FPD(1) and /vcu_dec1_reg_slice/M_AXI(0)
+WARNING: [BD 41-237] Bus Interface property ARUSER_WIDTH does not match between /zynq_ultra_ps_e_0/S_AXI_HP3_FPD(1) and /vcu_dec1_reg_slice/M_AXI(0)
+WARNING: [BD 41-237] Bus Interface property AWUSER_WIDTH does not match between /zynq_ultra_ps_e_0/S_AXI_HPC0_FPD(1) and /vcu_mcu_reg_slice/M_AXI(0)
+WARNING: [BD 41-237] Bus Interface property ARUSER_WIDTH does not match between /zynq_ultra_ps_e_0/S_AXI_HPC0_FPD(1) and /vcu_mcu_reg_slice/M_AXI(0)
+ERROR: [BD 41-238] Port/Pin property FREQ_HZ does not match between /gig_ethernet_pcs_pma_0/gtrefclk(125000000) and /clk_wiz/clk_out1(124998750)
+ERROR: [BD 41-238] Port/Pin property FREQ_HZ does not match between /gig_ethernet_pcs_pma_0/userclk(62500000) and /clk_wiz_1/clk_out1(62433238)
+ERROR: [BD 41-238] Port/Pin property FREQ_HZ does not match between /gig_ethernet_pcs_pma_0/userclk2(125000000) and /clk_wiz_2/clk_out1(124998750)
+ERROR: [BD 41-238] Port/Pin property FREQ_HZ does not match between /gig_ethernet_pcs_pma_0/rxuserclk(62500000) and /clk_wiz_3/clk_out1(62433238)
+ERROR: [BD 41-238] Port/Pin property FREQ_HZ does not match between /gig_ethernet_pcs_pma_0/rxuserclk2(62500000) and /clk_wiz_4/clk_out1(62490957)
+ERROR: [BD 41-1031] Hdl Generation failed for the IP Integrator design /home/brainiarc7/designs/vcu_trd/vcu_trd.srcs/sources_1/bd/vcu_trd/vcu_trd.bd 
+ERROR: [Common 17-39] 'generate_target' failed due to earlier errors.
+startgroup
+set_property -dict [list CONFIG.CLKOUT1_REQUESTED_OUT_FREQ {625} CONFIG.MMCM_DIVCLK_DIVIDE {1} CONFIG.MMCM_CLKFBOUT_MULT_F {12.500} CONFIG.MMCM_CLKOUT0_DIVIDE_F {2.000} CONFIG.CLKOUT1_JITTER {80.440} CONFIG.CLKOUT1_PHASE_ERROR {84.520}] [get_bd_cells clk_wiz_4]
+endgroup
+validate_bd_design
+INFO: [xilinx.com:ip:vcu:1.1-17] /vcu_0:Pre-Propagate  .
+ERROR: [xilinx.com:ip:vcu:1.1-17] /vcu_0 VCU REF clock needs to be 27 - 60. Actual 99.999
+ERROR: [xilinx.com:ip:vcu:1.1-17] /vcu_0 VCU REF clock needs to be 27 - 60. Actual 99.999
+INFO: [xilinx.com:ip:vcu:1.1-17] /vcu_0: Post Propogate  .
+WARNING: [BD 41-237] Bus Interface property AWUSER_WIDTH does not match between /ps8_0_axi_periph/s00_couplers/auto_pc/S_AXI(0) and /zynq_ultra_ps_e_0/M_AXI_HPM0_LPD(16)
+WARNING: [BD 41-237] Bus Interface property ARUSER_WIDTH does not match between /ps8_0_axi_periph/s00_couplers/auto_pc/S_AXI(0) and /zynq_ultra_ps_e_0/M_AXI_HPM0_LPD(16)
+WARNING: [BD 41-237] Bus Interface property AWUSER_WIDTH does not match between /zynq_ultra_ps_e_0/S_AXI_HP0_FPD(1) and /vcu_enc0_reg_slice/M_AXI(0)
+WARNING: [BD 41-237] Bus Interface property ARUSER_WIDTH does not match between /zynq_ultra_ps_e_0/S_AXI_HP0_FPD(1) and /vcu_enc0_reg_slice/M_AXI(0)
+WARNING: [BD 41-237] Bus Interface property AWUSER_WIDTH does not match between /zynq_ultra_ps_e_0/S_AXI_HP1_FPD(1) and /vcu_enc1_reg_slice/M_AXI(0)
+WARNING: [BD 41-237] Bus Interface property ARUSER_WIDTH does not match between /zynq_ultra_ps_e_0/S_AXI_HP1_FPD(1) and /vcu_enc1_reg_slice/M_AXI(0)
+WARNING: [BD 41-237] Bus Interface property AWUSER_WIDTH does not match between /zynq_ultra_ps_e_0/S_AXI_HP2_FPD(1) and /vcu_dec0_reg_slice/M_AXI(0)
+WARNING: [BD 41-237] Bus Interface property ARUSER_WIDTH does not match between /zynq_ultra_ps_e_0/S_AXI_HP2_FPD(1) and /vcu_dec0_reg_slice/M_AXI(0)
+WARNING: [BD 41-237] Bus Interface property AWUSER_WIDTH does not match between /zynq_ultra_ps_e_0/S_AXI_HP3_FPD(1) and /vcu_dec1_reg_slice/M_AXI(0)
+WARNING: [BD 41-237] Bus Interface property ARUSER_WIDTH does not match between /zynq_ultra_ps_e_0/S_AXI_HP3_FPD(1) and /vcu_dec1_reg_slice/M_AXI(0)
+WARNING: [BD 41-237] Bus Interface property AWUSER_WIDTH does not match between /zynq_ultra_ps_e_0/S_AXI_HPC0_FPD(1) and /vcu_mcu_reg_slice/M_AXI(0)
+WARNING: [BD 41-237] Bus Interface property ARUSER_WIDTH does not match between /zynq_ultra_ps_e_0/S_AXI_HPC0_FPD(1) and /vcu_mcu_reg_slice/M_AXI(0)
+ERROR: [BD 41-238] Port/Pin property FREQ_HZ does not match between /gig_ethernet_pcs_pma_0/gtrefclk(125000000) and /clk_wiz/clk_out1(124998750)
+ERROR: [BD 41-238] Port/Pin property FREQ_HZ does not match between /gig_ethernet_pcs_pma_0/userclk(62500000) and /clk_wiz_1/clk_out1(62433238)
+ERROR: [BD 41-238] Port/Pin property FREQ_HZ does not match between /gig_ethernet_pcs_pma_0/userclk2(125000000) and /clk_wiz_2/clk_out1(124998750)
+ERROR: [BD 41-238] Port/Pin property FREQ_HZ does not match between /gig_ethernet_pcs_pma_0/rxuserclk(62500000) and /clk_wiz_3/clk_out1(62433238)
+ERROR: [BD 41-238] Port/Pin property FREQ_HZ does not match between /gig_ethernet_pcs_pma_0/rxuserclk2(62500000) and /clk_wiz_4/clk_out1(624993750)
+ERROR: [Common 17-39] 'validate_bd_design' failed due to earlier errors.
+startgroup
+set_property -dict [list CONFIG.USE_PHASE_ALIGNMENT {false} CONFIG.USE_DYN_RECONFIG {false} CONFIG.CLKOUT1_REQUESTED_OUT_FREQ {62.5} CONFIG.AXI_DRP {false} CONFIG.PHASE_DUTY_CONFIG {false} CONFIG.SECONDARY_SOURCE {Single_ended_clock_capable_pin} CONFIG.CLKOUT1_DRIVES {Buffer} CONFIG.CLKOUT2_DRIVES {Buffer} CONFIG.CLKOUT3_DRIVES {Buffer} CONFIG.CLKOUT4_DRIVES {Buffer} CONFIG.CLKOUT5_DRIVES {Buffer} CONFIG.CLKOUT6_DRIVES {Buffer} CONFIG.CLKOUT7_DRIVES {Buffer} CONFIG.MMCM_DIVCLK_DIVIDE {9} CONFIG.MMCM_CLKFBOUT_MULT_F {116.000} CONFIG.MMCM_CLKOUT0_DIVIDE_F {20.625} CONFIG.CLKOUT1_JITTER {201.150} CONFIG.CLKOUT1_PHASE_ERROR {317.450}] [get_bd_cells clk_wiz_4]
+WARNING: [BD 41-1684] Pin /clk_wiz_4/s_axi_aclk is now disabled. All connections to this pin have been removed. 
+WARNING: [BD 41-1684] Pin /clk_wiz_4/s_axi_aresetn is now disabled. All connections to this pin have been removed. 
+delete_bd_objs [get_bd_intf_nets ps8_0_axi_periph_M05_AXI]
+endgroup
+validate_bd_design
+INFO: [xilinx.com:ip:vcu:1.1-17] /vcu_0:Pre-Propagate  .
+ERROR: [xilinx.com:ip:vcu:1.1-17] /vcu_0 VCU REF clock needs to be 27 - 60. Actual 99.999
+ERROR: [xilinx.com:ip:vcu:1.1-17] /vcu_0 VCU REF clock needs to be 27 - 60. Actual 99.999
+INFO: [xilinx.com:ip:vcu:1.1-17] /vcu_0: Post Propogate  .
+WARNING: [BD 41-237] Bus Interface property AWUSER_WIDTH does not match between /ps8_0_axi_periph/s00_couplers/auto_pc/S_AXI(0) and /zynq_ultra_ps_e_0/M_AXI_HPM0_LPD(16)
+WARNING: [BD 41-237] Bus Interface property ARUSER_WIDTH does not match between /ps8_0_axi_periph/s00_couplers/auto_pc/S_AXI(0) and /zynq_ultra_ps_e_0/M_AXI_HPM0_LPD(16)
+WARNING: [BD 41-237] Bus Interface property AWUSER_WIDTH does not match between /zynq_ultra_ps_e_0/S_AXI_HP0_FPD(1) and /vcu_enc0_reg_slice/M_AXI(0)
+WARNING: [BD 41-237] Bus Interface property ARUSER_WIDTH does not match between /zynq_ultra_ps_e_0/S_AXI_HP0_FPD(1) and /vcu_enc0_reg_slice/M_AXI(0)
+WARNING: [BD 41-237] Bus Interface property AWUSER_WIDTH does not match between /zynq_ultra_ps_e_0/S_AXI_HP1_FPD(1) and /vcu_enc1_reg_slice/M_AXI(0)
+WARNING: [BD 41-237] Bus Interface property ARUSER_WIDTH does not match between /zynq_ultra_ps_e_0/S_AXI_HP1_FPD(1) and /vcu_enc1_reg_slice/M_AXI(0)
+WARNING: [BD 41-237] Bus Interface property AWUSER_WIDTH does not match between /zynq_ultra_ps_e_0/S_AXI_HP2_FPD(1) and /vcu_dec0_reg_slice/M_AXI(0)
+WARNING: [BD 41-237] Bus Interface property ARUSER_WIDTH does not match between /zynq_ultra_ps_e_0/S_AXI_HP2_FPD(1) and /vcu_dec0_reg_slice/M_AXI(0)
+WARNING: [BD 41-237] Bus Interface property AWUSER_WIDTH does not match between /zynq_ultra_ps_e_0/S_AXI_HP3_FPD(1) and /vcu_dec1_reg_slice/M_AXI(0)
+WARNING: [BD 41-237] Bus Interface property ARUSER_WIDTH does not match between /zynq_ultra_ps_e_0/S_AXI_HP3_FPD(1) and /vcu_dec1_reg_slice/M_AXI(0)
+WARNING: [BD 41-237] Bus Interface property AWUSER_WIDTH does not match between /zynq_ultra_ps_e_0/S_AXI_HPC0_FPD(1) and /vcu_mcu_reg_slice/M_AXI(0)
+WARNING: [BD 41-237] Bus Interface property ARUSER_WIDTH does not match between /zynq_ultra_ps_e_0/S_AXI_HPC0_FPD(1) and /vcu_mcu_reg_slice/M_AXI(0)
+ERROR: [BD 41-238] Port/Pin property FREQ_HZ does not match between /gig_ethernet_pcs_pma_0/gtrefclk(125000000) and /clk_wiz/clk_out1(124998750)
+ERROR: [BD 41-238] Port/Pin property FREQ_HZ does not match between /gig_ethernet_pcs_pma_0/userclk(62500000) and /clk_wiz_1/clk_out1(62433238)
+ERROR: [BD 41-238] Port/Pin property FREQ_HZ does not match between /gig_ethernet_pcs_pma_0/userclk2(125000000) and /clk_wiz_2/clk_out1(124998750)
+ERROR: [BD 41-238] Port/Pin property FREQ_HZ does not match between /gig_ethernet_pcs_pma_0/rxuserclk(62500000) and /clk_wiz_3/clk_out1(62433238)
+ERROR: [BD 41-238] Port/Pin property FREQ_HZ does not match between /gig_ethernet_pcs_pma_0/rxuserclk2(62500000) and /clk_wiz_4/clk_out1(62490957)
+ERROR: [Common 17-39] 'validate_bd_design' failed due to earlier errors.
+apply_bd_automation -rule xilinx.com:bd_rule:board -config { Manual_Source {Auto} rst_polarity {ACTIVE_HIGH}}  [get_bd_pins clk_wiz_4/reset]
+INFO: [board_rule 100-100] create_bd_port -dir I reset_rtl_0_0_1_2_3_4 -type rst
+INFO: [board_rule 100-100] set_property CONFIG.POLARITY  /reset_rtl_0_0_1_2_3_4
+INFO: [board_rule 100-100] connect_bd_net /reset_rtl_0_0_1_2_3_4 /clk_wiz_4/reset
+INFO: [board_rule 100-100] set_property CONFIG.POLARITY ACTIVE_HIGH /reset_rtl_0_0_1_2_3_4
+validate_bd_design
+INFO: [xilinx.com:ip:vcu:1.1-17] /vcu_0:Pre-Propagate  .
+ERROR: [xilinx.com:ip:vcu:1.1-17] /vcu_0 VCU REF clock needs to be 27 - 60. Actual 99.999
+ERROR: [xilinx.com:ip:vcu:1.1-17] /vcu_0 VCU REF clock needs to be 27 - 60. Actual 99.999
+INFO: [xilinx.com:ip:vcu:1.1-17] /vcu_0: Post Propogate  .
+WARNING: [BD 41-237] Bus Interface property AWUSER_WIDTH does not match between /ps8_0_axi_periph/s00_couplers/auto_pc/S_AXI(0) and /zynq_ultra_ps_e_0/M_AXI_HPM0_LPD(16)
+WARNING: [BD 41-237] Bus Interface property ARUSER_WIDTH does not match between /ps8_0_axi_periph/s00_couplers/auto_pc/S_AXI(0) and /zynq_ultra_ps_e_0/M_AXI_HPM0_LPD(16)
+WARNING: [BD 41-237] Bus Interface property AWUSER_WIDTH does not match between /zynq_ultra_ps_e_0/S_AXI_HP0_FPD(1) and /vcu_enc0_reg_slice/M_AXI(0)
+WARNING: [BD 41-237] Bus Interface property ARUSER_WIDTH does not match between /zynq_ultra_ps_e_0/S_AXI_HP0_FPD(1) and /vcu_enc0_reg_slice/M_AXI(0)
+WARNING: [BD 41-237] Bus Interface property AWUSER_WIDTH does not match between /zynq_ultra_ps_e_0/S_AXI_HP1_FPD(1) and /vcu_enc1_reg_slice/M_AXI(0)
+WARNING: [BD 41-237] Bus Interface property ARUSER_WIDTH does not match between /zynq_ultra_ps_e_0/S_AXI_HP1_FPD(1) and /vcu_enc1_reg_slice/M_AXI(0)
+WARNING: [BD 41-237] Bus Interface property AWUSER_WIDTH does not match between /zynq_ultra_ps_e_0/S_AXI_HP2_FPD(1) and /vcu_dec0_reg_slice/M_AXI(0)
+WARNING: [BD 41-237] Bus Interface property ARUSER_WIDTH does not match between /zynq_ultra_ps_e_0/S_AXI_HP2_FPD(1) and /vcu_dec0_reg_slice/M_AXI(0)
+WARNING: [BD 41-237] Bus Interface property AWUSER_WIDTH does not match between /zynq_ultra_ps_e_0/S_AXI_HP3_FPD(1) and /vcu_dec1_reg_slice/M_AXI(0)
+WARNING: [BD 41-237] Bus Interface property ARUSER_WIDTH does not match between /zynq_ultra_ps_e_0/S_AXI_HP3_FPD(1) and /vcu_dec1_reg_slice/M_AXI(0)
+WARNING: [BD 41-237] Bus Interface property AWUSER_WIDTH does not match between /zynq_ultra_ps_e_0/S_AXI_HPC0_FPD(1) and /vcu_mcu_reg_slice/M_AXI(0)
+WARNING: [BD 41-237] Bus Interface property ARUSER_WIDTH does not match between /zynq_ultra_ps_e_0/S_AXI_HPC0_FPD(1) and /vcu_mcu_reg_slice/M_AXI(0)
+ERROR: [BD 41-238] Port/Pin property FREQ_HZ does not match between /gig_ethernet_pcs_pma_0/gtrefclk(125000000) and /clk_wiz/clk_out1(124998750)
+ERROR: [BD 41-238] Port/Pin property FREQ_HZ does not match between /gig_ethernet_pcs_pma_0/userclk(62500000) and /clk_wiz_1/clk_out1(62433238)
+ERROR: [BD 41-238] Port/Pin property FREQ_HZ does not match between /gig_ethernet_pcs_pma_0/userclk2(125000000) and /clk_wiz_2/clk_out1(124998750)
+ERROR: [BD 41-238] Port/Pin property FREQ_HZ does not match between /gig_ethernet_pcs_pma_0/rxuserclk(62500000) and /clk_wiz_3/clk_out1(62433238)
+ERROR: [BD 41-238] Port/Pin property FREQ_HZ does not match between /gig_ethernet_pcs_pma_0/rxuserclk2(62500000) and /clk_wiz_4/clk_out1(62490957)
+ERROR: [Common 17-39] 'validate_bd_design' failed due to earlier errors.
+startgroup
+set_property -dict [list CONFIG.USE_FREQ_SYNTH {true} CONFIG.CLKOUT1_REQUESTED_OUT_FREQ {62.599} CONFIG.CLKOUT2_REQUESTED_OUT_FREQ {99.999} CONFIG.CLKOUT3_REQUESTED_OUT_FREQ {99.999} CONFIG.CLKOUT4_REQUESTED_OUT_FREQ {99.999} CONFIG.CLKOUT5_REQUESTED_OUT_FREQ {99.999} CONFIG.CLKOUT6_REQUESTED_OUT_FREQ {99.999} CONFIG.CLKOUT7_REQUESTED_OUT_FREQ {99.999} CONFIG.MMCM_DIVCLK_DIVIDE {3} CONFIG.MMCM_CLKFBOUT_MULT_F {38.500} CONFIG.MMCM_CLKOUT0_DIVIDE_F {20.500} CONFIG.CLKOUT1_JITTER {158.280} CONFIG.CLKOUT1_PHASE_ERROR {167.841}] [get_bd_cells clk_wiz_4]
+WARNING: [IP_Flow 19-3374] An attempt to modify the value of disabled parameter 'CLKOUT2_REQUESTED_OUT_FREQ' from '100.000' to '99.999' has been ignored for IP 'clk_wiz_4'
+WARNING: [IP_Flow 19-3374] An attempt to modify the value of disabled parameter 'CLKOUT3_REQUESTED_OUT_FREQ' from '100.000' to '99.999' has been ignored for IP 'clk_wiz_4'
+WARNING: [IP_Flow 19-3374] An attempt to modify the value of disabled parameter 'CLKOUT4_REQUESTED_OUT_FREQ' from '100.000' to '99.999' has been ignored for IP 'clk_wiz_4'
+WARNING: [IP_Flow 19-3374] An attempt to modify the value of disabled parameter 'CLKOUT5_REQUESTED_OUT_FREQ' from '100.000' to '99.999' has been ignored for IP 'clk_wiz_4'
+WARNING: [IP_Flow 19-3374] An attempt to modify the value of disabled parameter 'CLKOUT6_REQUESTED_OUT_FREQ' from '100.000' to '99.999' has been ignored for IP 'clk_wiz_4'
+WARNING: [IP_Flow 19-3374] An attempt to modify the value of disabled parameter 'CLKOUT7_REQUESTED_OUT_FREQ' from '100.000' to '99.999' has been ignored for IP 'clk_wiz_4'
+endgroup
+validate_bd_design
+INFO: [xilinx.com:ip:vcu:1.1-17] /vcu_0:Pre-Propagate  .
+ERROR: [xilinx.com:ip:vcu:1.1-17] /vcu_0 VCU REF clock needs to be 27 - 60. Actual 99.999
+ERROR: [xilinx.com:ip:vcu:1.1-17] /vcu_0 VCU REF clock needs to be 27 - 60. Actual 99.999
+INFO: [xilinx.com:ip:vcu:1.1-17] /vcu_0: Post Propogate  .
+WARNING: [BD 41-237] Bus Interface property AWUSER_WIDTH does not match between /ps8_0_axi_periph/s00_couplers/auto_pc/S_AXI(0) and /zynq_ultra_ps_e_0/M_AXI_HPM0_LPD(16)
+WARNING: [BD 41-237] Bus Interface property ARUSER_WIDTH does not match between /ps8_0_axi_periph/s00_couplers/auto_pc/S_AXI(0) and /zynq_ultra_ps_e_0/M_AXI_HPM0_LPD(16)
+WARNING: [BD 41-237] Bus Interface property AWUSER_WIDTH does not match between /zynq_ultra_ps_e_0/S_AXI_HP0_FPD(1) and /vcu_enc0_reg_slice/M_AXI(0)
+WARNING: [BD 41-237] Bus Interface property ARUSER_WIDTH does not match between /zynq_ultra_ps_e_0/S_AXI_HP0_FPD(1) and /vcu_enc0_reg_slice/M_AXI(0)
+WARNING: [BD 41-237] Bus Interface property AWUSER_WIDTH does not match between /zynq_ultra_ps_e_0/S_AXI_HP1_FPD(1) and /vcu_enc1_reg_slice/M_AXI(0)
+WARNING: [BD 41-237] Bus Interface property ARUSER_WIDTH does not match between /zynq_ultra_ps_e_0/S_AXI_HP1_FPD(1) and /vcu_enc1_reg_slice/M_AXI(0)
+WARNING: [BD 41-237] Bus Interface property AWUSER_WIDTH does not match between /zynq_ultra_ps_e_0/S_AXI_HP2_FPD(1) and /vcu_dec0_reg_slice/M_AXI(0)
+WARNING: [BD 41-237] Bus Interface property ARUSER_WIDTH does not match between /zynq_ultra_ps_e_0/S_AXI_HP2_FPD(1) and /vcu_dec0_reg_slice/M_AXI(0)
+WARNING: [BD 41-237] Bus Interface property AWUSER_WIDTH does not match between /zynq_ultra_ps_e_0/S_AXI_HP3_FPD(1) and /vcu_dec1_reg_slice/M_AXI(0)
+WARNING: [BD 41-237] Bus Interface property ARUSER_WIDTH does not match between /zynq_ultra_ps_e_0/S_AXI_HP3_FPD(1) and /vcu_dec1_reg_slice/M_AXI(0)
+WARNING: [BD 41-237] Bus Interface property AWUSER_WIDTH does not match between /zynq_ultra_ps_e_0/S_AXI_HPC0_FPD(1) and /vcu_mcu_reg_slice/M_AXI(0)
+WARNING: [BD 41-237] Bus Interface property ARUSER_WIDTH does not match between /zynq_ultra_ps_e_0/S_AXI_HPC0_FPD(1) and /vcu_mcu_reg_slice/M_AXI(0)
+ERROR: [BD 41-238] Port/Pin property FREQ_HZ does not match between /gig_ethernet_pcs_pma_0/gtrefclk(125000000) and /clk_wiz/clk_out1(124998750)
+ERROR: [BD 41-238] Port/Pin property FREQ_HZ does not match between /gig_ethernet_pcs_pma_0/userclk(62500000) and /clk_wiz_1/clk_out1(62433238)
+ERROR: [BD 41-238] Port/Pin property FREQ_HZ does not match between /gig_ethernet_pcs_pma_0/userclk2(125000000) and /clk_wiz_2/clk_out1(124998750)
+ERROR: [BD 41-238] Port/Pin property FREQ_HZ does not match between /gig_ethernet_pcs_pma_0/rxuserclk(62500000) and /clk_wiz_3/clk_out1(62433238)
+ERROR: [BD 41-238] Port/Pin property FREQ_HZ does not match between /gig_ethernet_pcs_pma_0/rxuserclk2(62500000) and /clk_wiz_4/clk_out1(62601000)
+ERROR: [Common 17-39] 'validate_bd_design' failed due to earlier errors.
+startgroup
+set_property -dict [list CONFIG.CLKOUT1_REQUESTED_OUT_FREQ {062.500} CONFIG.MMCM_DIVCLK_DIVIDE {9} CONFIG.MMCM_CLKFBOUT_MULT_F {116.000} CONFIG.MMCM_CLKOUT0_DIVIDE_F {20.625} CONFIG.CLKOUT1_JITTER {201.150} CONFIG.CLKOUT1_PHASE_ERROR {317.450}] [get_bd_cells clk_wiz_4]
+endgroup
+validate_bd_design
+INFO: [xilinx.com:ip:vcu:1.1-17] /vcu_0:Pre-Propagate  .
+ERROR: [xilinx.com:ip:vcu:1.1-17] /vcu_0 VCU REF clock needs to be 27 - 60. Actual 99.999
+ERROR: [xilinx.com:ip:vcu:1.1-17] /vcu_0 VCU REF clock needs to be 27 - 60. Actual 99.999
+INFO: [xilinx.com:ip:vcu:1.1-17] /vcu_0: Post Propogate  .
+WARNING: [BD 41-237] Bus Interface property AWUSER_WIDTH does not match between /ps8_0_axi_periph/s00_couplers/auto_pc/S_AXI(0) and /zynq_ultra_ps_e_0/M_AXI_HPM0_LPD(16)
+WARNING: [BD 41-237] Bus Interface property ARUSER_WIDTH does not match between /ps8_0_axi_periph/s00_couplers/auto_pc/S_AXI(0) and /zynq_ultra_ps_e_0/M_AXI_HPM0_LPD(16)
+WARNING: [BD 41-237] Bus Interface property AWUSER_WIDTH does not match between /zynq_ultra_ps_e_0/S_AXI_HP0_FPD(1) and /vcu_enc0_reg_slice/M_AXI(0)
+WARNING: [BD 41-237] Bus Interface property ARUSER_WIDTH does not match between /zynq_ultra_ps_e_0/S_AXI_HP0_FPD(1) and /vcu_enc0_reg_slice/M_AXI(0)
+INFO: [Common 17-14] Message 'BD 41-237' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+ERROR: [BD 41-238] Port/Pin property FREQ_HZ does not match between /gig_ethernet_pcs_pma_0/gtrefclk(125000000) and /clk_wiz/clk_out1(124998750)
+ERROR: [BD 41-238] Port/Pin property FREQ_HZ does not match between /gig_ethernet_pcs_pma_0/userclk(62500000) and /clk_wiz_1/clk_out1(62433238)
+ERROR: [BD 41-238] Port/Pin property FREQ_HZ does not match between /gig_ethernet_pcs_pma_0/userclk2(125000000) and /clk_wiz_2/clk_out1(124998750)
+ERROR: [BD 41-238] Port/Pin property FREQ_HZ does not match between /gig_ethernet_pcs_pma_0/rxuserclk(62500000) and /clk_wiz_3/clk_out1(62433238)
+ERROR: [BD 41-238] Port/Pin property FREQ_HZ does not match between /gig_ethernet_pcs_pma_0/rxuserclk2(62500000) and /clk_wiz_4/clk_out1(62490957)
+ERROR: [Common 17-39] 'validate_bd_design' failed due to earlier errors.
+startgroup
+endgroup
+startgroup
+set_property -dict [list CONFIG.CLKOUT1_REQUESTED_OUT_FREQ {62.5} CONFIG.MMCM_DIVCLK_DIVIDE {9}] [get_bd_cells clk_wiz_4]
+endgroup
+validate_bd_design
+INFO: [xilinx.com:ip:vcu:1.1-17] /vcu_0:Pre-Propagate  .
+ERROR: [xilinx.com:ip:vcu:1.1-17] /vcu_0 VCU REF clock needs to be 27 - 60. Actual 99.999
+ERROR: [xilinx.com:ip:vcu:1.1-17] /vcu_0 VCU REF clock needs to be 27 - 60. Actual 99.999
+INFO: [xilinx.com:ip:vcu:1.1-17] /vcu_0: Post Propogate  .
+ERROR: [BD 41-238] Port/Pin property FREQ_HZ does not match between /gig_ethernet_pcs_pma_0/gtrefclk(125000000) and /clk_wiz/clk_out1(124998750)
+ERROR: [BD 41-238] Port/Pin property FREQ_HZ does not match between /gig_ethernet_pcs_pma_0/userclk(62500000) and /clk_wiz_1/clk_out1(62433238)
+ERROR: [BD 41-238] Port/Pin property FREQ_HZ does not match between /gig_ethernet_pcs_pma_0/userclk2(125000000) and /clk_wiz_2/clk_out1(124998750)
+ERROR: [BD 41-238] Port/Pin property FREQ_HZ does not match between /gig_ethernet_pcs_pma_0/rxuserclk(62500000) and /clk_wiz_3/clk_out1(62433238)
+ERROR: [BD 41-238] Port/Pin property FREQ_HZ does not match between /gig_ethernet_pcs_pma_0/rxuserclk2(62500000) and /clk_wiz_4/clk_out1(62490957)
+ERROR: [Common 17-39] 'validate_bd_design' failed due to earlier errors.
+validate_bd_design
+INFO: [xilinx.com:ip:vcu:1.1-17] /vcu_0:Pre-Propagate  .
+ERROR: [xilinx.com:ip:vcu:1.1-17] /vcu_0 VCU REF clock needs to be 27 - 60. Actual 99.999
+ERROR: [xilinx.com:ip:vcu:1.1-17] /vcu_0 VCU REF clock needs to be 27 - 60. Actual 99.999
+INFO: [xilinx.com:ip:vcu:1.1-17] /vcu_0: Post Propogate  .
+ERROR: [BD 41-238] Port/Pin property FREQ_HZ does not match between /gig_ethernet_pcs_pma_0/gtrefclk(125000000) and /clk_wiz/clk_out1(124998750)
+ERROR: [BD 41-238] Port/Pin property FREQ_HZ does not match between /gig_ethernet_pcs_pma_0/userclk(62500000) and /clk_wiz_1/clk_out1(62433238)
+ERROR: [BD 41-238] Port/Pin property FREQ_HZ does not match between /gig_ethernet_pcs_pma_0/userclk2(125000000) and /clk_wiz_2/clk_out1(124998750)
+ERROR: [BD 41-238] Port/Pin property FREQ_HZ does not match between /gig_ethernet_pcs_pma_0/rxuserclk(62500000) and /clk_wiz_3/clk_out1(62433238)
+ERROR: [BD 41-238] Port/Pin property FREQ_HZ does not match between /gig_ethernet_pcs_pma_0/rxuserclk2(62500000) and /clk_wiz_4/clk_out1(62490957)
+ERROR: [Common 17-39] 'validate_bd_design' failed due to earlier errors.
+startgroup
+set_property -dict [list CONFIG.NO_OF_STREAMS {4} CONFIG.ENC_CODING_TYPE {1} CONFIG.ENC_COLOR_DEPTH {1} CONFIG.ENC_BUFFER_EN {true} CONFIG.ENC_BUFFER_TYPE {2} CONFIG.DEC_CODING_TYPE {1} CONFIG.ENC_BUFFER_MANUAL_OVERRIDE {1} CONFIG.ENC_BUFFER_SIZE {2640} CONFIG.ENC_BUFFER_SIZE_ACTUAL {2805} CONFIG.ENC_BUFFER_MOTION_VEC_RANGE {2} CONFIG.ENC_BUFFER_B_FRAME {0} CONFIG.ENC_MEM_URAM_USED {0} CONFIG.TABLE_NO {3}] [get_bd_cells vcu_0]
+WARNING: [IP_Flow 19-3374] An attempt to modify the value of disabled parameter 'ENC_BUFFER_MOTION_VEC_RANGE' from '0' to '2' has been ignored for IP 'vcu_0'
+endgroup
+validate_bd_design
+INFO: [xilinx.com:ip:vcu:1.1-17] /vcu_0:Pre-Propagate  .
+ERROR: [xilinx.com:ip:vcu:1.1-17] /vcu_0 VCU REF clock needs to be 27 - 60. Actual 99.999
+ERROR: [xilinx.com:ip:vcu:1.1-17] /vcu_0 VCU REF clock needs to be 27 - 60. Actual 99.999
+INFO: [xilinx.com:ip:vcu:1.1-17] /vcu_0: Post Propogate  .
+ERROR: [BD 41-238] Port/Pin property FREQ_HZ does not match between /gig_ethernet_pcs_pma_0/gtrefclk(125000000) and /clk_wiz/clk_out1(124998750)
+ERROR: [BD 41-238] Port/Pin property FREQ_HZ does not match between /gig_ethernet_pcs_pma_0/userclk(62500000) and /clk_wiz_1/clk_out1(62433238)
+ERROR: [BD 41-238] Port/Pin property FREQ_HZ does not match between /gig_ethernet_pcs_pma_0/userclk2(125000000) and /clk_wiz_2/clk_out1(124998750)
+ERROR: [BD 41-238] Port/Pin property FREQ_HZ does not match between /gig_ethernet_pcs_pma_0/rxuserclk(62500000) and /clk_wiz_3/clk_out1(62433238)
+ERROR: [BD 41-238] Port/Pin property FREQ_HZ does not match between /gig_ethernet_pcs_pma_0/rxuserclk2(62500000) and /clk_wiz_4/clk_out1(62490957)
+ERROR: [Common 17-39] 'validate_bd_design' failed due to earlier errors.
+WARNING: [IP_Flow 19-474] Invalid Parameter 'Component_Name'
+startgroup
+set_property -dict [list CONFIG.PSU__CRL_APB__PL0_REF_CTRL__FREQMHZ {60}] [get_bd_cells zynq_ultra_ps_e_0]
+endgroup
+validate_bd_design
+WARNING: [IP_Flow 19-4684] Expected long value for param HDL_PLL_CLK_LO but, float/scientific notation value 25.9999999999998 is provided. The value is converted to long type(25)
+WARNING: [IP_Flow 19-4684] Expected long value for param HDL_PLL_CLK_HI but, float/scientific notation value 59.0 is provided. The value is converted to long type(59)
+INFO: [xilinx.com:ip:vcu:1.1-603] vcu_trd_vcu_0_0:  in flao2hex  update method .. 3.32 
+INFO: [xilinx.com:ip:vcu:1.1-603] vcu_trd_vcu_0_0:  in HDL_AXI_MCU_CLK  update method ..1079278305 
+INFO: [xilinx.com:ip:vcu:1.1-17] /vcu_0:Pre-Propagate  .
+INFO: [xilinx.com:ip:vcu:1.1-17] /vcu_0: Post Propogate  .
+ERROR: [BD 41-238] Port/Pin property FREQ_HZ does not match between /gig_ethernet_pcs_pma_0/gtrefclk(125000000) and /clk_wiz/clk_out1(125002947)
+ERROR: [BD 41-238] Port/Pin property FREQ_HZ does not match between /gig_ethernet_pcs_pma_0/userclk(62500000) and /clk_wiz_1/clk_out1(62491309)
+ERROR: [BD 41-238] Port/Pin property FREQ_HZ does not match between /gig_ethernet_pcs_pma_0/userclk2(125000000) and /clk_wiz_2/clk_out1(124982618)
+ERROR: [BD 41-238] Port/Pin property FREQ_HZ does not match between /gig_ethernet_pcs_pma_0/rxuserclk(62500000) and /clk_wiz_3/clk_out1(62491309)
+ERROR: [BD 41-238] Port/Pin property FREQ_HZ does not match between /gig_ethernet_pcs_pma_0/rxuserclk2(62500000) and /clk_wiz_4/clk_out1(62502029)
+ERROR: [Common 17-39] 'validate_bd_design' failed due to earlier errors.
+validate_bd_design
+INFO: [xilinx.com:ip:vcu:1.1-17] /vcu_0:Pre-Propagate  .
+INFO: [xilinx.com:ip:vcu:1.1-17] /vcu_0: Post Propogate  .
+ERROR: [BD 41-238] Port/Pin property FREQ_HZ does not match between /gig_ethernet_pcs_pma_0/gtrefclk(125000000) and /clk_wiz/clk_out1(125002947)
+ERROR: [BD 41-238] Port/Pin property FREQ_HZ does not match between /gig_ethernet_pcs_pma_0/userclk(62500000) and /clk_wiz_1/clk_out1(62491309)
+ERROR: [BD 41-238] Port/Pin property FREQ_HZ does not match between /gig_ethernet_pcs_pma_0/userclk2(125000000) and /clk_wiz_2/clk_out1(124982618)
+ERROR: [BD 41-238] Port/Pin property FREQ_HZ does not match between /gig_ethernet_pcs_pma_0/rxuserclk(62500000) and /clk_wiz_3/clk_out1(62491309)
+ERROR: [BD 41-238] Port/Pin property FREQ_HZ does not match between /gig_ethernet_pcs_pma_0/rxuserclk2(62500000) and /clk_wiz_4/clk_out1(62502029)
+ERROR: [Common 17-39] 'validate_bd_design' failed due to earlier errors.
+INFO: [xilinx.com:ip:gig_ethernet_pcs_pma:16.1-98989] vcu_trd_gig_ethernet_pcs_pma_0_0: ARCHITECTURE : zynquplus
+INFO: [xilinx.com:ip:gig_ethernet_pcs_pma:16.1-98989] vcu_trd_gig_ethernet_pcs_pma_0_0: PART : xczu7ev-fbvb900-1-i
+INFO: [xilinx.com:ip:gig_ethernet_pcs_pma:16.1-98989] vcu_trd_gig_ethernet_pcs_pma_0_0: SPEEDGRADE : -1
+INFO: [xilinx.com:ip:gig_ethernet_pcs_pma:16.1-98989] vcu_trd_gig_ethernet_pcs_pma_0_0: Standard : 1000BASEX
+INFO: [xilinx.com:ip:gig_ethernet_pcs_pma:16.1-98989] vcu_trd_gig_ethernet_pcs_pma_0_0: ARCHITECTURE : zynquplus
+INFO: [xilinx.com:ip:gig_ethernet_pcs_pma:16.1-98989] vcu_trd_gig_ethernet_pcs_pma_0_0: PART : xczu7ev-fbvb900-1-i
+INFO: [xilinx.com:ip:gig_ethernet_pcs_pma:16.1-98989] vcu_trd_gig_ethernet_pcs_pma_0_0: SPEEDGRADE : -1
+INFO: [xilinx.com:ip:gig_ethernet_pcs_pma:16.1-98989] vcu_trd_gig_ethernet_pcs_pma_0_0: Standard : 1000BASEX
+INFO: [xilinx.com:ip:gig_ethernet_pcs_pma:16.1-98989] vcu_trd_gig_ethernet_pcs_pma_0_0: ARCHITECTURE : zynquplus
+INFO: [xilinx.com:ip:gig_ethernet_pcs_pma:16.1-98989] vcu_trd_gig_ethernet_pcs_pma_0_0: PART : xczu7ev-fbvb900-1-i
+INFO: [xilinx.com:ip:gig_ethernet_pcs_pma:16.1-98989] vcu_trd_gig_ethernet_pcs_pma_0_0: SPEEDGRADE : -1
+INFO: [xilinx.com:ip:gig_ethernet_pcs_pma:16.1-98989] vcu_trd_gig_ethernet_pcs_pma_0_0: Standard : 1000BASEX
+startgroup
+set_property -dict [list CONFIG.MaxDataRate {1G} CONFIG.Ext_Management_Interface {true} CONFIG.TransceiverControl {true}] [get_bd_cells gig_ethernet_pcs_pma_0]
+Sourcing the elaborate.xit file.
+Calling update_contents for BASEX .
+Done sourcing the elaborate.xit file.
+endgroup
+apply_bd_automation -rule xilinx.com:bd_rule:board -config { Manual_Source {Auto}}  [get_bd_intf_pins gig_ethernet_pcs_pma_0/ext_mdio_pcs_pma]
+INFO: [board_rule 100-100] create_bd_intf_port -mode Master -vlnv xilinx.com:interface:mdio_rtl:1.0 mdio_rtl_0
+INFO: [board_rule 100-100] connect_bd_intf_net /mdio_rtl_0 /gig_ethernet_pcs_pma_0/ext_mdio_pcs_pma
+validate_bd_design
+ERROR: [BD 41-758] The following clock pins are not connected to a valid clock source: 
+/gig_ethernet_pcs_pma_0/gt_drpclk
+
+ERROR: [Common 17-39] 'validate_bd_design' failed due to earlier errors.
+connect_bd_net [get_bd_pins gig_ethernet_pcs_pma_0/gt_drpclk] [get_bd_pins clk_wiz/clk_out1]
+validate_bd_design
+INFO: [xilinx.com:ip:vcu:1.1-17] /vcu_0:Pre-Propagate  .
+INFO: [xilinx.com:ip:vcu:1.1-17] /vcu_0: Post Propogate  .
+ERROR: [BD 41-238] Port/Pin property FREQ_HZ does not match between /gig_ethernet_pcs_pma_0/gtrefclk(125000000) and /clk_wiz/clk_out1(125002947)
+ERROR: [BD 41-238] Port/Pin property FREQ_HZ does not match between /gig_ethernet_pcs_pma_0/userclk(62500000) and /clk_wiz_1/clk_out1(62491309)
+ERROR: [BD 41-238] Port/Pin property FREQ_HZ does not match between /gig_ethernet_pcs_pma_0/userclk2(125000000) and /clk_wiz_2/clk_out1(124982618)
+ERROR: [BD 41-238] Port/Pin property FREQ_HZ does not match between /gig_ethernet_pcs_pma_0/rxuserclk(62500000) and /clk_wiz_3/clk_out1(62491309)
+ERROR: [BD 41-238] Port/Pin property FREQ_HZ does not match between /gig_ethernet_pcs_pma_0/rxuserclk2(62500000) and /clk_wiz_4/clk_out1(62502029)
+ERROR: [Common 17-39] 'validate_bd_design' failed due to earlier errors.
+disconnect_bd_net /clk_wiz_clk_out1 [get_bd_pins clk_wiz/clk_out1]
+apply_bd_automation -rule xilinx.com:bd_rule:clkrst -config {Clk "New Clocking Wizard (100 MHz)" }  [get_bd_pins gig_ethernet_pcs_pma_0/gtrefclk]
+startgroup
+apply_bd_automation -rule xilinx.com:bd_rule:board -config { Manual_Source {Auto} rst_polarity {ACTIVE_HIGH}}  [get_bd_pins clk_wiz_5/reset]
+INFO: [board_rule 100-100] create_bd_port -dir I reset_rtl_0_0_1_2_3_4_5 -type rst
+INFO: [board_rule 100-100] set_property CONFIG.POLARITY  /reset_rtl_0_0_1_2_3_4_5
+INFO: [board_rule 100-100] connect_bd_net /reset_rtl_0_0_1_2_3_4_5 /clk_wiz_5/reset
+INFO: [board_rule 100-100] set_property CONFIG.POLARITY ACTIVE_HIGH /reset_rtl_0_0_1_2_3_4_5
+apply_bd_automation -rule xilinx.com:bd_rule:board -config { Clk {/zynq_ultra_ps_e_0/pl_clk0 (59 MHz)} Manual_Source {Auto}}  [get_bd_pins clk_wiz_5/clk_in1]
+endgroup
+validate_bd_design
+INFO: [xilinx.com:ip:vcu:1.1-17] /vcu_0:Pre-Propagate  .
+INFO: [xilinx.com:ip:vcu:1.1-17] /vcu_0: Post Propogate  .
+ERROR: [BD 41-238] Port/Pin property FREQ_HZ does not match between /gig_ethernet_pcs_pma_0/userclk(62500000) and /clk_wiz_1/clk_out1(62491309)
+ERROR: [BD 41-238] Port/Pin property FREQ_HZ does not match between /gig_ethernet_pcs_pma_0/userclk2(125000000) and /clk_wiz_2/clk_out1(124982618)
+ERROR: [BD 41-238] Port/Pin property FREQ_HZ does not match between /gig_ethernet_pcs_pma_0/rxuserclk(62500000) and /clk_wiz_3/clk_out1(62491309)
+ERROR: [BD 41-238] Port/Pin property FREQ_HZ does not match between /gig_ethernet_pcs_pma_0/rxuserclk2(62500000) and /clk_wiz_4/clk_out1(62502029)
+ERROR: [BD 41-238] Port/Pin property FREQ_HZ does not match between /gig_ethernet_pcs_pma_0/gtrefclk(125000000) and /clk_wiz_5/clk_out1(100007885)
+ERROR: [Common 17-39] 'validate_bd_design' failed due to earlier errors.
+startgroup
+set_property -dict [list CONFIG.USE_PHASE_ALIGNMENT {true} CONFIG.USE_DYN_RECONFIG {true} CONFIG.CLKOUT1_REQUESTED_OUT_FREQ {125.000000000000} CONFIG.SECONDARY_SOURCE {Single_ended_clock_capable_pin} CONFIG.CLKOUT1_DRIVES {Buffer} CONFIG.CLKOUT2_DRIVES {Buffer} CONFIG.CLKOUT3_DRIVES {Buffer} CONFIG.CLKOUT4_DRIVES {Buffer} CONFIG.CLKOUT5_DRIVES {Buffer} CONFIG.CLKOUT6_DRIVES {Buffer} CONFIG.CLKOUT7_DRIVES {Buffer} CONFIG.MMCM_DIVCLK_DIVIDE {5} CONFIG.MMCM_CLKFBOUT_MULT_F {69.875} CONFIG.MMCM_CLKIN2_PERIOD {10.000} CONFIG.MMCM_CLKOUT0_DIVIDE_F {6.625} CONFIG.CLKOUT1_JITTER {384.183} CONFIG.CLKOUT1_PHASE_ERROR {618.145}] [get_bd_cells clk_wiz_5]
+WARNING: [BD 41-1684] Pin /clk_wiz_5/reset is now disabled. All connections to this pin have been removed. 
+delete_bd_objs [get_bd_nets reset_rtl_0_0_1_2_3_4_5_1]
+endgroup
+apply_bd_automation -rule xilinx.com:bd_rule:axi4 -config { Clk_master {/zynq_ultra_ps_e_0/pl_clk0 (59 MHz)} Clk_slave {Auto} Clk_xbar {/zynq_ultra_ps_e_0/pl_clk0 (59 MHz)} Master {/zynq_ultra_ps_e_0/M_AXI_HPM0_LPD} Slave {/clk_wiz_5/s_axi_lite} intc_ip {/ps8_0_axi_periph} master_apm {0}}  [get_bd_intf_pins clk_wiz_5/s_axi_lite]
+</clk_wiz_5/s_axi_lite/Reg> is being mapped into </zynq_ultra_ps_e_0/Data> at <0x80140000 [ 64K ]>
+validate_bd_design
+INFO: [xilinx.com:ip:vcu:1.1-17] /vcu_0:Pre-Propagate  .
+INFO: [xilinx.com:ip:vcu:1.1-17] /vcu_0: Post Propogate  .
+ERROR: [BD 41-238] Port/Pin property FREQ_HZ does not match between /gig_ethernet_pcs_pma_0/userclk(62500000) and /clk_wiz_1/clk_out1(62491309)
+ERROR: [BD 41-238] Port/Pin property FREQ_HZ does not match between /gig_ethernet_pcs_pma_0/userclk2(125000000) and /clk_wiz_2/clk_out1(124982618)
+ERROR: [BD 41-238] Port/Pin property FREQ_HZ does not match between /gig_ethernet_pcs_pma_0/rxuserclk(62500000) and /clk_wiz_3/clk_out1(62491309)
+ERROR: [BD 41-238] Port/Pin property FREQ_HZ does not match between /gig_ethernet_pcs_pma_0/rxuserclk2(62500000) and /clk_wiz_4/clk_out1(62502029)
+ERROR: [BD 41-238] Port/Pin property FREQ_HZ does not match between /gig_ethernet_pcs_pma_0/gtrefclk(125000000) and /clk_wiz_5/clk_out1(125002947)
+ERROR: [Common 17-39] 'validate_bd_design' failed due to earlier errors.
+INFO: [xilinx.com:ip:gig_ethernet_pcs_pma:16.1-98989] vcu_trd_gig_ethernet_pcs_pma_0_0: ARCHITECTURE : zynquplus
+INFO: [xilinx.com:ip:gig_ethernet_pcs_pma:16.1-98989] vcu_trd_gig_ethernet_pcs_pma_0_0: PART : xczu7ev-fbvb900-1-i
+INFO: [xilinx.com:ip:gig_ethernet_pcs_pma:16.1-98989] vcu_trd_gig_ethernet_pcs_pma_0_0: SPEEDGRADE : -1
+INFO: [xilinx.com:ip:gig_ethernet_pcs_pma:16.1-98989] vcu_trd_gig_ethernet_pcs_pma_0_0: Standard : 1000BASEX
+startgroup
+set_property -dict [list CONFIG.SupportLevel {Include_Shared_Logic_in_Core}] [get_bd_cells gig_ethernet_pcs_pma_0]
+Sourcing the elaborate.xit file.
+Calling update_contents for BASEX .
+Done sourcing the elaborate.xit file.
+WARNING: [BD 41-1684] Pin /gig_ethernet_pcs_pma_0/gtrefclk is now disabled. All connections to this pin have been removed. 
+WARNING: [BD 41-1684] Pin /gig_ethernet_pcs_pma_0/userclk is now disabled. All connections to this pin have been removed. 
+WARNING: [BD 41-1684] Pin /gig_ethernet_pcs_pma_0/userclk2 is now disabled. All connections to this pin have been removed. 
+WARNING: [BD 41-1684] Pin /gig_ethernet_pcs_pma_0/rxuserclk is now disabled. All connections to this pin have been removed. 
+WARNING: [BD 41-1684] Pin /gig_ethernet_pcs_pma_0/rxuserclk2 is now disabled. All connections to this pin have been removed. 
+delete_bd_objs [get_bd_nets clk_wiz_1_clk_out1] [get_bd_nets clk_wiz_2_clk_out1] [get_bd_nets clk_wiz_3_clk_out1] [get_bd_nets clk_wiz_4_clk_out1]
+endgroup
+validate_bd_design
+ERROR: [BD 41-758] The following clock pins are not connected to a valid clock source: 
+/gig_ethernet_pcs_pma_0/gtrefclk_in
+
+ERROR: [Common 17-39] 'validate_bd_design' failed due to earlier errors.
+apply_bd_automation -rule xilinx.com:bd_rule:board -config { Manual_Source {Auto}}  [get_bd_intf_pins gig_ethernet_pcs_pma_0/gtrefclk_in]
+INFO: [board_rule 100-100] create_bd_intf_port -mode Slave -vlnv xilinx.com:interface:diff_clock_rtl:1.0 diff_clock_rtl_0
+INFO: [board_rule 100-100] set_property CONFIG.FREQ_HZ 100000000 /diff_clock_rtl_0
+INFO: [board_rule 100-100] connect_bd_intf_net /diff_clock_rtl_0 /gig_ethernet_pcs_pma_0/gtrefclk_in
+validate_bd_design
+INFO: [xilinx.com:ip:vcu:1.1-17] /vcu_0:Pre-Propagate  .
+INFO: [xilinx.com:ip:vcu:1.1-17] /vcu_0: Post Propogate  .
+CRITICAL WARNING: [BD 41-759] The input pins (listed below) are either not connected or do not have a source port, and they don't have a tie-off specified. These pins are tied-off to all 0's to avoid error in Implementation flow.
+Please check your design and connect them as needed: 
+/gig_ethernet_pcs_pma_0/reset
+/clk_wiz_1/psclk
+/clk_wiz_1/psen
+/clk_wiz_1/psincdec
+/clk_wiz_2/psclk
+/clk_wiz_2/psen
+/clk_wiz_2/psincdec
+/clk_wiz_3/psclk
+/clk_wiz_3/psen
+/clk_wiz_3/psincdec
+
+startgroup
+create_bd_cell -type ip -vlnv xilinx.com:ip:clk_wiz:6.0 clk_wiz_0
+endgroup
+startgroup
+apply_bd_automation -rule xilinx.com:bd_rule:board -config { Manual_Source {Auto} rst_polarity {ACTIVE_HIGH}}  [get_bd_pins clk_wiz_0/reset]
+INFO: [board_rule 100-100] create_bd_port -dir I reset_rtl_0_0_1_2_3_4_5_6 -type rst
+INFO: [board_rule 100-100] set_property CONFIG.POLARITY  /reset_rtl_0_0_1_2_3_4_5_6
+INFO: [board_rule 100-100] connect_bd_net /reset_rtl_0_0_1_2_3_4_5_6 /clk_wiz_0/reset
+INFO: [board_rule 100-100] set_property CONFIG.POLARITY ACTIVE_HIGH /reset_rtl_0_0_1_2_3_4_5_6
+apply_bd_automation -rule xilinx.com:bd_rule:board -config { Clk {/zynq_ultra_ps_e_0/pl_clk0 (59 MHz)} Manual_Source {Auto}}  [get_bd_pins clk_wiz_0/clk_in1]
+endgroup
+validate_bd_design
+INFO: [xilinx.com:ip:vcu:1.1-17] /vcu_0:Pre-Propagate  .
+INFO: [xilinx.com:ip:vcu:1.1-17] /vcu_0: Post Propogate  .
+CRITICAL WARNING: [BD 41-759] The input pins (listed below) are either not connected or do not have a source port, and they don't have a tie-off specified. These pins are tied-off to all 0's to avoid error in Implementation flow.
+Please check your design and connect them as needed: 
+/gig_ethernet_pcs_pma_0/reset
+/clk_wiz_1/psclk
+/clk_wiz_1/psen
+/clk_wiz_1/psincdec
+/clk_wiz_2/psclk
+/clk_wiz_2/psen
+/clk_wiz_2/psincdec
+/clk_wiz_3/psclk
+/clk_wiz_3/psen
+/clk_wiz_3/psincdec
+
+startgroup
+endgroup
+generate_target all [get_files  /home/brainiarc7/designs/vcu_trd/vcu_trd.srcs/sources_1/bd/vcu_trd/vcu_trd.bd]
+INFO: [BD 41-1662] The design 'vcu_trd.bd' is already validated. Therefore parameter propagation will not be re-run.
+CRITICAL WARNING: [BD 41-759] The input pins (listed below) are either not connected or do not have a source port, and they don't have a tie-off specified. These pins are tied-off to all 0's to avoid error in Implementation flow.
+Please check your design and connect them as needed: 
+/gig_ethernet_pcs_pma_0/reset
+/clk_wiz_1/psclk
+/clk_wiz_1/psen
+/clk_wiz_1/psincdec
+/clk_wiz_2/psclk
+/clk_wiz_2/psen
+/clk_wiz_2/psincdec
+/clk_wiz_3/psclk
+/clk_wiz_3/psen
+/clk_wiz_3/psincdec
+
+Wrote  : </home/brainiarc7/designs/vcu_trd/vcu_trd.srcs/sources_1/bd/vcu_trd/vcu_trd.bd> 
+Wrote  : </home/brainiarc7/designs/vcu_trd/vcu_trd.srcs/sources_1/bd/vcu_trd/ui/bd_2a5d844f.ui> 
+WARNING: [BD 41-235] Width mismatch when connecting pin: '/zynq_ultra_ps_e_0/saxigp2_awid'(6) to net 'vcu_enc_01_axi_AWID'(4) - Only lower order bits will be connected.
+WARNING: [BD 41-235] Width mismatch when connecting pin: '/vcu_enc0_reg_slice/m_axi_bid'(4) to net 'vcu_enc_01_axi_BID'(6) - Only lower order bits will be connected.
+WARNING: [BD 41-235] Width mismatch when connecting pin: '/zynq_ultra_ps_e_0/saxigp2_arid'(6) to net 'vcu_enc_01_axi_ARID'(4) - Only lower order bits will be connected.
+WARNING: [BD 41-235] Width mismatch when connecting pin: '/vcu_enc0_reg_slice/m_axi_rid'(4) to net 'vcu_enc_01_axi_RID'(6) - Only lower order bits will be connected.
+WARNING: [BD 41-235] Width mismatch when connecting pin: '/zynq_ultra_ps_e_0/saxigp3_awid'(6) to net 'vcu_enc_11_axi_AWID'(4) - Only lower order bits will be connected.
+WARNING: [BD 41-235] Width mismatch when connecting pin: '/vcu_enc1_reg_slice/m_axi_bid'(4) to net 'vcu_enc_11_axi_BID'(6) - Only lower order bits will be connected.
+WARNING: [BD 41-235] Width mismatch when connecting pin: '/zynq_ultra_ps_e_0/saxigp3_arid'(6) to net 'vcu_enc_11_axi_ARID'(4) - Only lower order bits will be connected.
+WARNING: [BD 41-235] Width mismatch when connecting pin: '/vcu_enc1_reg_slice/m_axi_rid'(4) to net 'vcu_enc_11_axi_RID'(6) - Only lower order bits will be connected.
+WARNING: [BD 41-235] Width mismatch when connecting pin: '/zynq_ultra_ps_e_0/saxigp4_awid'(6) to net 'vcu_dec_01_axi_AWID'(4) - Only lower order bits will be connected.
+WARNING: [BD 41-235] Width mismatch when connecting pin: '/vcu_dec0_reg_slice/m_axi_bid'(4) to net 'vcu_dec_01_axi_BID'(6) - Only lower order bits will be connected.
+WARNING: [BD 41-235] Width mismatch when connecting pin: '/zynq_ultra_ps_e_0/saxigp4_arid'(6) to net 'vcu_dec_01_axi_ARID'(4) - Only lower order bits will be connected.
+WARNING: [BD 41-235] Width mismatch when connecting pin: '/vcu_dec0_reg_slice/m_axi_rid'(4) to net 'vcu_dec_01_axi_RID'(6) - Only lower order bits will be connected.
+WARNING: [BD 41-235] Width mismatch when connecting pin: '/zynq_ultra_ps_e_0/saxigp5_awid'(6) to net 'vcu_dec_11_axi_AWID'(4) - Only lower order bits will be connected.
+WARNING: [BD 41-235] Width mismatch when connecting pin: '/vcu_dec1_reg_slice/m_axi_bid'(4) to net 'vcu_dec_11_axi_BID'(6) - Only lower order bits will be connected.
+WARNING: [BD 41-235] Width mismatch when connecting pin: '/zynq_ultra_ps_e_0/saxigp5_arid'(6) to net 'vcu_dec_11_axi_ARID'(4) - Only lower order bits will be connected.
+WARNING: [BD 41-235] Width mismatch when connecting pin: '/vcu_dec1_reg_slice/m_axi_rid'(4) to net 'vcu_dec_11_axi_RID'(6) - Only lower order bits will be connected.
+WARNING: [BD 41-235] Width mismatch when connecting pin: '/zynq_ultra_ps_e_0/saxigp0_awid'(6) to net 'vcu_mcu_axi_1_AWID'(3) - Only lower order bits will be connected.
+WARNING: [BD 41-235] Width mismatch when connecting pin: '/vcu_mcu_reg_slice/m_axi_bid'(3) to net 'vcu_mcu_axi_1_BID'(6) - Only lower order bits will be connected.
+WARNING: [BD 41-235] Width mismatch when connecting pin: '/zynq_ultra_ps_e_0/saxigp0_arid'(6) to net 'vcu_mcu_axi_1_ARID'(3) - Only lower order bits will be connected.
+WARNING: [BD 41-235] Width mismatch when connecting pin: '/vcu_mcu_reg_slice/m_axi_rid'(3) to net 'vcu_mcu_axi_1_RID'(6) - Only lower order bits will be connected.
+VHDL Output written to : /home/brainiarc7/designs/vcu_trd/vcu_trd.srcs/sources_1/bd/vcu_trd/synth/vcu_trd.v
+WARNING: [BD 41-235] Width mismatch when connecting pin: '/zynq_ultra_ps_e_0/saxigp2_awid'(6) to net 'vcu_enc_01_axi_AWID'(4) - Only lower order bits will be connected.
+WARNING: [BD 41-235] Width mismatch when connecting pin: '/vcu_enc0_reg_slice/m_axi_bid'(4) to net 'vcu_enc_01_axi_BID'(6) - Only lower order bits will be connected.
+WARNING: [BD 41-235] Width mismatch when connecting pin: '/zynq_ultra_ps_e_0/saxigp2_arid'(6) to net 'vcu_enc_01_axi_ARID'(4) - Only lower order bits will be connected.
+WARNING: [BD 41-235] Width mismatch when connecting pin: '/vcu_enc0_reg_slice/m_axi_rid'(4) to net 'vcu_enc_01_axi_RID'(6) - Only lower order bits will be connected.
+WARNING: [BD 41-235] Width mismatch when connecting pin: '/zynq_ultra_ps_e_0/saxigp3_awid'(6) to net 'vcu_enc_11_axi_AWID'(4) - Only lower order bits will be connected.
+WARNING: [BD 41-235] Width mismatch when connecting pin: '/vcu_enc1_reg_slice/m_axi_bid'(4) to net 'vcu_enc_11_axi_BID'(6) - Only lower order bits will be connected.
+WARNING: [BD 41-235] Width mismatch when connecting pin: '/zynq_ultra_ps_e_0/saxigp3_arid'(6) to net 'vcu_enc_11_axi_ARID'(4) - Only lower order bits will be connected.
+WARNING: [BD 41-235] Width mismatch when connecting pin: '/vcu_enc1_reg_slice/m_axi_rid'(4) to net 'vcu_enc_11_axi_RID'(6) - Only lower order bits will be connected.
+WARNING: [BD 41-235] Width mismatch when connecting pin: '/zynq_ultra_ps_e_0/saxigp4_awid'(6) to net 'vcu_dec_01_axi_AWID'(4) - Only lower order bits will be connected.
+WARNING: [BD 41-235] Width mismatch when connecting pin: '/vcu_dec0_reg_slice/m_axi_bid'(4) to net 'vcu_dec_01_axi_BID'(6) - Only lower order bits will be connected.
+WARNING: [BD 41-235] Width mismatch when connecting pin: '/zynq_ultra_ps_e_0/saxigp4_arid'(6) to net 'vcu_dec_01_axi_ARID'(4) - Only lower order bits will be connected.
+WARNING: [BD 41-235] Width mismatch when connecting pin: '/vcu_dec0_reg_slice/m_axi_rid'(4) to net 'vcu_dec_01_axi_RID'(6) - Only lower order bits will be connected.
+WARNING: [BD 41-235] Width mismatch when connecting pin: '/zynq_ultra_ps_e_0/saxigp5_awid'(6) to net 'vcu_dec_11_axi_AWID'(4) - Only lower order bits will be connected.
+WARNING: [BD 41-235] Width mismatch when connecting pin: '/vcu_dec1_reg_slice/m_axi_bid'(4) to net 'vcu_dec_11_axi_BID'(6) - Only lower order bits will be connected.
+WARNING: [BD 41-235] Width mismatch when connecting pin: '/zynq_ultra_ps_e_0/saxigp5_arid'(6) to net 'vcu_dec_11_axi_ARID'(4) - Only lower order bits will be connected.
+WARNING: [BD 41-235] Width mismatch when connecting pin: '/vcu_dec1_reg_slice/m_axi_rid'(4) to net 'vcu_dec_11_axi_RID'(6) - Only lower order bits will be connected.
+WARNING: [BD 41-235] Width mismatch when connecting pin: '/zynq_ultra_ps_e_0/saxigp0_awid'(6) to net 'vcu_mcu_axi_1_AWID'(3) - Only lower order bits will be connected.
+WARNING: [BD 41-235] Width mismatch when connecting pin: '/vcu_mcu_reg_slice/m_axi_bid'(3) to net 'vcu_mcu_axi_1_BID'(6) - Only lower order bits will be connected.
+WARNING: [BD 41-235] Width mismatch when connecting pin: '/zynq_ultra_ps_e_0/saxigp0_arid'(6) to net 'vcu_mcu_axi_1_ARID'(3) - Only lower order bits will be connected.
+WARNING: [BD 41-235] Width mismatch when connecting pin: '/vcu_mcu_reg_slice/m_axi_rid'(3) to net 'vcu_mcu_axi_1_RID'(6) - Only lower order bits will be connected.
+VHDL Output written to : /home/brainiarc7/designs/vcu_trd/vcu_trd.srcs/sources_1/bd/vcu_trd/sim/vcu_trd.v
+VHDL Output written to : /home/brainiarc7/designs/vcu_trd/vcu_trd.srcs/sources_1/bd/vcu_trd/hdl/vcu_trd_wrapper.v
+INFO: [xilinx.com:ip:zynq_ultra_ps_e:3.2-0] vcu_trd_zynq_ultra_ps_e_0_0: 
+Changes in your design (including the PCW configuration settings) are not automatically exported from Vivado to Xilinx's SDK, Petalinux or Yocto.
+This is by design to avoid disrupting existing embedded development efforts. To have any changes of your design taking effect in the embedded software flow please export your
+design by going through Vivado's main menu, click on File, then Export finally select Export Hardware, please ensure you click on the Include BitStream option.
+The auto-generated HDF file is all you need to import in Xilinx's SDK, Petalinux or Yocto for your changes to be reflected in the Embedded Software Flow.
+For more information, please consult PG201, section: Exporting PCW Settings to Embedded Software Flows
+INFO: [PSU-0] Address Range of DDR (0x7ff00000 to 0x7fffffff) is reserved by PMU for internal purpose.
+INFO: [BD 41-1029] Generation completed for the IP Integrator block zynq_ultra_ps_e_0 .
+FAMILY is zynquplus
+DEVICE is xczu7ev
+PACKAGE is fbvb900
+SPEEDGRADE is -1
+SILICON_REVISION is 
+TEMPERATURE_GRADE is I
+INFO: [BD 41-1029] Generation completed for the IP Integrator block vcu_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block rst_ps8_0_99M .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block gig_ethernet_pcs_pma_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block clk_wiz .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block clk_wiz_1 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block clk_wiz_2 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block clk_wiz_3 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block clk_wiz_4 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block proc_sys_reset_vcu_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block proc_sys_reset_vcu_1 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block vcu_enc0_reg_slice .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block vcu_enc1_reg_slice .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block vcu_dec0_reg_slice .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block vcu_dec1_reg_slice .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block vcu_mcu_reg_slice .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block vcu_clk_wiz0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block vcu_interrupt .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block clk_wiz_5 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block clk_wiz_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block ps8_0_axi_periph/xbar .
+WARNING: [IP_Flow 19-4994] Overwriting existing constraint file '/home/brainiarc7/designs/vcu_trd/vcu_trd.srcs/sources_1/bd/vcu_trd/ip/vcu_trd_auto_pc_0/vcu_trd_auto_pc_0_ooc.xdc'
+INFO: [BD 41-1029] Generation completed for the IP Integrator block ps8_0_axi_periph/s00_couplers/auto_pc .
+Exporting to file /home/brainiarc7/designs/vcu_trd/vcu_trd.srcs/sources_1/bd/vcu_trd/hw_handoff/vcu_trd.hwh
+Generated Block Design Tcl file /home/brainiarc7/designs/vcu_trd/vcu_trd.srcs/sources_1/bd/vcu_trd/hw_handoff/vcu_trd_bd.tcl
+Generated Hardware Definition File /home/brainiarc7/designs/vcu_trd/vcu_trd.srcs/sources_1/bd/vcu_trd/synth/vcu_trd.hwdef
+generate_target: Time (s): cpu = 00:00:56 ; elapsed = 00:00:53 . Memory (MB): peak = 8615.086 ; gain = 136.207 ; free physical = 13408 ; free virtual = 31959
+export_ip_user_files -of_objects [get_files /home/brainiarc7/designs/vcu_trd/vcu_trd.srcs/sources_1/bd/vcu_trd/vcu_trd.bd] -no_script -sync -force -quiet
+export_simulation -of_objects [get_files /home/brainiarc7/designs/vcu_trd/vcu_trd.srcs/sources_1/bd/vcu_trd/vcu_trd.bd] -directory /home/brainiarc7/designs/vcu_trd/vcu_trd.ip_user_files/sim_scripts -ip_user_files_dir /home/brainiarc7/designs/vcu_trd/vcu_trd.ip_user_files -ipstatic_source_dir /home/brainiarc7/designs/vcu_trd/vcu_trd.ip_user_files/ipstatic -lib_map_path [list {modelsim=/home/brainiarc7/designs/vcu_trd/vcu_trd.cache/compile_simlib/modelsim} {questa=/home/brainiarc7/designs/vcu_trd/vcu_trd.cache/compile_simlib/questa} {ies=/home/brainiarc7/designs/vcu_trd/vcu_trd.cache/compile_simlib/ies} {xcelium=/home/brainiarc7/designs/vcu_trd/vcu_trd.cache/compile_simlib/xcelium} {vcs=/home/brainiarc7/designs/vcu_trd/vcu_trd.cache/compile_simlib/vcs} {riviera=/home/brainiarc7/designs/vcu_trd/vcu_trd.cache/compile_simlib/riviera}] -use_ip_compiled_libs -force -quiet
+WARNING: [IP_Flow 19-3899] Cannot get the environment domain name variable for the component vendor name. Setting the vendor name to 'user.org'.
+config_webtalk -user on
+WARNING: [IP_Flow 19-3899] Cannot get the environment domain name variable for the component vendor name. Setting the vendor name to 'user.org'.
+update_ip_catalog
+WARNING: [IP_Flow 19-3899] Cannot get the environment domain name variable for the component vendor name. Setting the vendor name to 'user.org'.
+open_bd_design {/home/brainiarc7/designs/vcu_trd/vcu_trd.srcs/sources_1/bd/vcu_trd/vcu_trd.bd}
+connect_bd_net [get_bd_pins clk_wiz_1/clk_out1] [get_bd_pins clk_wiz_1/psclk]
+WARNING: [BD 41-1731] Type mismatch between connected pins: /clk_wiz_1/clk_out1(clk) and /clk_wiz_1/psclk(undef)
+undo
+INFO: [Common 17-17] undo 'connect_bd_net [get_bd_pins clk_wiz_1/clk_out1] [get_bd_pins clk_wiz_1/psclk]'
+connect_bd_net [get_bd_pins clk_wiz_1/clk_out1] [get_bd_pins clk_wiz_2/psincdec]
+WARNING: [BD 41-1731] Type mismatch between connected pins: /clk_wiz_1/clk_out1(clk) and /clk_wiz_2/psincdec(undef)
+undo
+INFO: [Common 17-17] undo 'connect_bd_net [get_bd_pins clk_wiz_1/clk_out1] [get_bd_pins clk_wiz_2/psincdec]'
+connect_bd_net [get_bd_pins clk_wiz_1/psdone] [get_bd_pins clk_wiz_2/psincdec]
+undo
+INFO: [Common 17-17] undo 'connect_bd_net [get_bd_pins clk_wiz_1/psdone] [get_bd_pins clk_wiz_2/psincdec]'
+connect_bd_net [get_bd_pins clk_wiz_1/psclk] [get_bd_pins clk_wiz_2/clk_out1]
+WARNING: [BD 41-1731] Type mismatch between connected pins: /clk_wiz_1/psclk(undef) and /clk_wiz_2/clk_out1(clk)
+undo
+INFO: [Common 17-17] undo 'connect_bd_net [get_bd_pins clk_wiz_1/psclk] [get_bd_pins clk_wiz_2/clk_out1]'
+save_bd_design
+Wrote  : </home/brainiarc7/designs/vcu_trd/vcu_trd.srcs/sources_1/bd/vcu_trd/vcu_trd.bd> 
+make_wrapper -files [get_files /home/brainiarc7/designs/vcu_trd/vcu_trd.srcs/sources_1/bd/vcu_trd/vcu_trd.bd] -top
+INFO: [xilinx.com:ip:vcu:1.1-17] /vcu_0:Pre-Propagate  .
+INFO: [xilinx.com:ip:vcu:1.1-17] /vcu_0: Post Propogate  .
+WARNING: [BD 41-237] Bus Interface property AWUSER_WIDTH does not match between /ps8_0_axi_periph/s00_couplers/auto_pc/S_AXI(0) and /zynq_ultra_ps_e_0/M_AXI_HPM0_LPD(16)
+WARNING: [BD 41-237] Bus Interface property ARUSER_WIDTH does not match between /ps8_0_axi_periph/s00_couplers/auto_pc/S_AXI(0) and /zynq_ultra_ps_e_0/M_AXI_HPM0_LPD(16)
+WARNING: [BD 41-237] Bus Interface property AWUSER_WIDTH does not match between /zynq_ultra_ps_e_0/S_AXI_HP0_FPD(1) and /vcu_enc0_reg_slice/M_AXI(0)
+WARNING: [BD 41-237] Bus Interface property ARUSER_WIDTH does not match between /zynq_ultra_ps_e_0/S_AXI_HP0_FPD(1) and /vcu_enc0_reg_slice/M_AXI(0)
+WARNING: [BD 41-237] Bus Interface property AWUSER_WIDTH does not match between /zynq_ultra_ps_e_0/S_AXI_HP1_FPD(1) and /vcu_enc1_reg_slice/M_AXI(0)
+WARNING: [BD 41-237] Bus Interface property ARUSER_WIDTH does not match between /zynq_ultra_ps_e_0/S_AXI_HP1_FPD(1) and /vcu_enc1_reg_slice/M_AXI(0)
+WARNING: [BD 41-237] Bus Interface property AWUSER_WIDTH does not match between /zynq_ultra_ps_e_0/S_AXI_HP2_FPD(1) and /vcu_dec0_reg_slice/M_AXI(0)
+WARNING: [BD 41-237] Bus Interface property ARUSER_WIDTH does not match between /zynq_ultra_ps_e_0/S_AXI_HP2_FPD(1) and /vcu_dec0_reg_slice/M_AXI(0)
+WARNING: [BD 41-237] Bus Interface property AWUSER_WIDTH does not match between /zynq_ultra_ps_e_0/S_AXI_HP3_FPD(1) and /vcu_dec1_reg_slice/M_AXI(0)
+WARNING: [BD 41-237] Bus Interface property ARUSER_WIDTH does not match between /zynq_ultra_ps_e_0/S_AXI_HP3_FPD(1) and /vcu_dec1_reg_slice/M_AXI(0)
+WARNING: [BD 41-237] Bus Interface property AWUSER_WIDTH does not match between /zynq_ultra_ps_e_0/S_AXI_HPC0_FPD(1) and /vcu_mcu_reg_slice/M_AXI(0)
+WARNING: [BD 41-237] Bus Interface property ARUSER_WIDTH does not match between /zynq_ultra_ps_e_0/S_AXI_HPC0_FPD(1) and /vcu_mcu_reg_slice/M_AXI(0)
+CRITICAL WARNING: [BD 41-759] The input pins (listed below) are either not connected or do not have a source port, and they don't have a tie-off specified. These pins are tied-off to all 0's to avoid error in Implementation flow.
+Please check your design and connect them as needed: 
+/gig_ethernet_pcs_pma_0/reset
+/clk_wiz_1/psclk
+/clk_wiz_1/psen
+/clk_wiz_1/psincdec
+/clk_wiz_2/psclk
+/clk_wiz_2/psen
+/clk_wiz_2/psincdec
+/clk_wiz_3/psclk
+/clk_wiz_3/psen
+/clk_wiz_3/psincdec
+
+Wrote  : </home/brainiarc7/designs/vcu_trd/vcu_trd.srcs/sources_1/bd/vcu_trd/vcu_trd.bd> 
+WARNING: [BD 41-235] Width mismatch when connecting pin: '/zynq_ultra_ps_e_0/saxigp2_awid'(6) to net 'vcu_enc_01_axi_AWID'(4) - Only lower order bits will be connected.
+WARNING: [BD 41-235] Width mismatch when connecting pin: '/vcu_enc0_reg_slice/m_axi_bid'(4) to net 'vcu_enc_01_axi_BID'(6) - Only lower order bits will be connected.
+WARNING: [BD 41-235] Width mismatch when connecting pin: '/zynq_ultra_ps_e_0/saxigp2_arid'(6) to net 'vcu_enc_01_axi_ARID'(4) - Only lower order bits will be connected.
+WARNING: [BD 41-235] Width mismatch when connecting pin: '/vcu_enc0_reg_slice/m_axi_rid'(4) to net 'vcu_enc_01_axi_RID'(6) - Only lower order bits will be connected.
+WARNING: [BD 41-235] Width mismatch when connecting pin: '/zynq_ultra_ps_e_0/saxigp3_awid'(6) to net 'vcu_enc_11_axi_AWID'(4) - Only lower order bits will be connected.
+WARNING: [BD 41-235] Width mismatch when connecting pin: '/vcu_enc1_reg_slice/m_axi_bid'(4) to net 'vcu_enc_11_axi_BID'(6) - Only lower order bits will be connected.
+WARNING: [BD 41-235] Width mismatch when connecting pin: '/zynq_ultra_ps_e_0/saxigp3_arid'(6) to net 'vcu_enc_11_axi_ARID'(4) - Only lower order bits will be connected.
+WARNING: [BD 41-235] Width mismatch when connecting pin: '/vcu_enc1_reg_slice/m_axi_rid'(4) to net 'vcu_enc_11_axi_RID'(6) - Only lower order bits will be connected.
+WARNING: [BD 41-235] Width mismatch when connecting pin: '/zynq_ultra_ps_e_0/saxigp4_awid'(6) to net 'vcu_dec_01_axi_AWID'(4) - Only lower order bits will be connected.
+WARNING: [BD 41-235] Width mismatch when connecting pin: '/vcu_dec0_reg_slice/m_axi_bid'(4) to net 'vcu_dec_01_axi_BID'(6) - Only lower order bits will be connected.
+WARNING: [BD 41-235] Width mismatch when connecting pin: '/zynq_ultra_ps_e_0/saxigp4_arid'(6) to net 'vcu_dec_01_axi_ARID'(4) - Only lower order bits will be connected.
+WARNING: [BD 41-235] Width mismatch when connecting pin: '/vcu_dec0_reg_slice/m_axi_rid'(4) to net 'vcu_dec_01_axi_RID'(6) - Only lower order bits will be connected.
+WARNING: [BD 41-235] Width mismatch when connecting pin: '/zynq_ultra_ps_e_0/saxigp5_awid'(6) to net 'vcu_dec_11_axi_AWID'(4) - Only lower order bits will be connected.
+WARNING: [BD 41-235] Width mismatch when connecting pin: '/vcu_dec1_reg_slice/m_axi_bid'(4) to net 'vcu_dec_11_axi_BID'(6) - Only lower order bits will be connected.
+WARNING: [BD 41-235] Width mismatch when connecting pin: '/zynq_ultra_ps_e_0/saxigp5_arid'(6) to net 'vcu_dec_11_axi_ARID'(4) - Only lower order bits will be connected.
+WARNING: [BD 41-235] Width mismatch when connecting pin: '/vcu_dec1_reg_slice/m_axi_rid'(4) to net 'vcu_dec_11_axi_RID'(6) - Only lower order bits will be connected.
+WARNING: [BD 41-235] Width mismatch when connecting pin: '/zynq_ultra_ps_e_0/saxigp0_awid'(6) to net 'vcu_mcu_axi_1_AWID'(3) - Only lower order bits will be connected.
+WARNING: [BD 41-235] Width mismatch when connecting pin: '/vcu_mcu_reg_slice/m_axi_bid'(3) to net 'vcu_mcu_axi_1_BID'(6) - Only lower order bits will be connected.
+WARNING: [BD 41-235] Width mismatch when connecting pin: '/zynq_ultra_ps_e_0/saxigp0_arid'(6) to net 'vcu_mcu_axi_1_ARID'(3) - Only lower order bits will be connected.
+WARNING: [BD 41-235] Width mismatch when connecting pin: '/vcu_mcu_reg_slice/m_axi_rid'(3) to net 'vcu_mcu_axi_1_RID'(6) - Only lower order bits will be connected.
+VHDL Output written to : /home/brainiarc7/designs/vcu_trd/vcu_trd.srcs/sources_1/bd/vcu_trd/synth/vcu_trd.v
+WARNING: [BD 41-235] Width mismatch when connecting pin: '/zynq_ultra_ps_e_0/saxigp2_awid'(6) to net 'vcu_enc_01_axi_AWID'(4) - Only lower order bits will be connected.
+WARNING: [BD 41-235] Width mismatch when connecting pin: '/vcu_enc0_reg_slice/m_axi_bid'(4) to net 'vcu_enc_01_axi_BID'(6) - Only lower order bits will be connected.
+WARNING: [BD 41-235] Width mismatch when connecting pin: '/zynq_ultra_ps_e_0/saxigp2_arid'(6) to net 'vcu_enc_01_axi_ARID'(4) - Only lower order bits will be connected.
+WARNING: [BD 41-235] Width mismatch when connecting pin: '/vcu_enc0_reg_slice/m_axi_rid'(4) to net 'vcu_enc_01_axi_RID'(6) - Only lower order bits will be connected.
+WARNING: [BD 41-235] Width mismatch when connecting pin: '/zynq_ultra_ps_e_0/saxigp3_awid'(6) to net 'vcu_enc_11_axi_AWID'(4) - Only lower order bits will be connected.
+WARNING: [BD 41-235] Width mismatch when connecting pin: '/vcu_enc1_reg_slice/m_axi_bid'(4) to net 'vcu_enc_11_axi_BID'(6) - Only lower order bits will be connected.
+WARNING: [BD 41-235] Width mismatch when connecting pin: '/zynq_ultra_ps_e_0/saxigp3_arid'(6) to net 'vcu_enc_11_axi_ARID'(4) - Only lower order bits will be connected.
+WARNING: [BD 41-235] Width mismatch when connecting pin: '/vcu_enc1_reg_slice/m_axi_rid'(4) to net 'vcu_enc_11_axi_RID'(6) - Only lower order bits will be connected.
+WARNING: [BD 41-235] Width mismatch when connecting pin: '/zynq_ultra_ps_e_0/saxigp4_awid'(6) to net 'vcu_dec_01_axi_AWID'(4) - Only lower order bits will be connected.
+WARNING: [BD 41-235] Width mismatch when connecting pin: '/vcu_dec0_reg_slice/m_axi_bid'(4) to net 'vcu_dec_01_axi_BID'(6) - Only lower order bits will be connected.
+WARNING: [BD 41-235] Width mismatch when connecting pin: '/zynq_ultra_ps_e_0/saxigp4_arid'(6) to net 'vcu_dec_01_axi_ARID'(4) - Only lower order bits will be connected.
+WARNING: [BD 41-235] Width mismatch when connecting pin: '/vcu_dec0_reg_slice/m_axi_rid'(4) to net 'vcu_dec_01_axi_RID'(6) - Only lower order bits will be connected.
+WARNING: [BD 41-235] Width mismatch when connecting pin: '/zynq_ultra_ps_e_0/saxigp5_awid'(6) to net 'vcu_dec_11_axi_AWID'(4) - Only lower order bits will be connected.
+WARNING: [BD 41-235] Width mismatch when connecting pin: '/vcu_dec1_reg_slice/m_axi_bid'(4) to net 'vcu_dec_11_axi_BID'(6) - Only lower order bits will be connected.
+WARNING: [BD 41-235] Width mismatch when connecting pin: '/zynq_ultra_ps_e_0/saxigp5_arid'(6) to net 'vcu_dec_11_axi_ARID'(4) - Only lower order bits will be connected.
+WARNING: [BD 41-235] Width mismatch when connecting pin: '/vcu_dec1_reg_slice/m_axi_rid'(4) to net 'vcu_dec_11_axi_RID'(6) - Only lower order bits will be connected.
+WARNING: [BD 41-235] Width mismatch when connecting pin: '/zynq_ultra_ps_e_0/saxigp0_awid'(6) to net 'vcu_mcu_axi_1_AWID'(3) - Only lower order bits will be connected.
+WARNING: [BD 41-235] Width mismatch when connecting pin: '/vcu_mcu_reg_slice/m_axi_bid'(3) to net 'vcu_mcu_axi_1_BID'(6) - Only lower order bits will be connected.
+WARNING: [BD 41-235] Width mismatch when connecting pin: '/zynq_ultra_ps_e_0/saxigp0_arid'(6) to net 'vcu_mcu_axi_1_ARID'(3) - Only lower order bits will be connected.
+WARNING: [BD 41-235] Width mismatch when connecting pin: '/vcu_mcu_reg_slice/m_axi_rid'(3) to net 'vcu_mcu_axi_1_RID'(6) - Only lower order bits will be connected.
+VHDL Output written to : /home/brainiarc7/designs/vcu_trd/vcu_trd.srcs/sources_1/bd/vcu_trd/sim/vcu_trd.v
+VHDL Output written to : /home/brainiarc7/designs/vcu_trd/vcu_trd.srcs/sources_1/bd/vcu_trd/hdl/vcu_trd_wrapper.v
+add_files -norecurse /home/brainiarc7/designs/vcu_trd/vcu_trd.srcs/sources_1/bd/vcu_trd/hdl/vcu_trd_wrapper.v
+launch_runs impl_1 -to_step write_bitstream -jobs 12
+INFO: [BD 41-1662] The design 'vcu_trd.bd' is already validated. Therefore parameter propagation will not be re-run.
+CRITICAL WARNING: [BD 41-759] The input pins (listed below) are either not connected or do not have a source port, and they don't have a tie-off specified. These pins are tied-off to all 0's to avoid error in Implementation flow.
+Please check your design and connect them as needed: 
+/gig_ethernet_pcs_pma_0/reset
+/clk_wiz_1/psclk
+/clk_wiz_1/psen
+/clk_wiz_1/psincdec
+/clk_wiz_2/psclk
+/clk_wiz_2/psen
+/clk_wiz_2/psincdec
+/clk_wiz_3/psclk
+/clk_wiz_3/psen
+/clk_wiz_3/psincdec
+
+WARNING: [BD 41-235] Width mismatch when connecting pin: '/zynq_ultra_ps_e_0/saxigp2_awid'(6) to net 'vcu_enc_01_axi_AWID'(4) - Only lower order bits will be connected.
+WARNING: [BD 41-235] Width mismatch when connecting pin: '/vcu_enc0_reg_slice/m_axi_bid'(4) to net 'vcu_enc_01_axi_BID'(6) - Only lower order bits will be connected.
+WARNING: [BD 41-235] Width mismatch when connecting pin: '/zynq_ultra_ps_e_0/saxigp2_arid'(6) to net 'vcu_enc_01_axi_ARID'(4) - Only lower order bits will be connected.
+WARNING: [BD 41-235] Width mismatch when connecting pin: '/vcu_enc0_reg_slice/m_axi_rid'(4) to net 'vcu_enc_01_axi_RID'(6) - Only lower order bits will be connected.
+WARNING: [BD 41-235] Width mismatch when connecting pin: '/zynq_ultra_ps_e_0/saxigp3_awid'(6) to net 'vcu_enc_11_axi_AWID'(4) - Only lower order bits will be connected.
+WARNING: [BD 41-235] Width mismatch when connecting pin: '/vcu_enc1_reg_slice/m_axi_bid'(4) to net 'vcu_enc_11_axi_BID'(6) - Only lower order bits will be connected.
+WARNING: [BD 41-235] Width mismatch when connecting pin: '/zynq_ultra_ps_e_0/saxigp3_arid'(6) to net 'vcu_enc_11_axi_ARID'(4) - Only lower order bits will be connected.
+WARNING: [BD 41-235] Width mismatch when connecting pin: '/vcu_enc1_reg_slice/m_axi_rid'(4) to net 'vcu_enc_11_axi_RID'(6) - Only lower order bits will be connected.
+WARNING: [BD 41-235] Width mismatch when connecting pin: '/zynq_ultra_ps_e_0/saxigp4_awid'(6) to net 'vcu_dec_01_axi_AWID'(4) - Only lower order bits will be connected.
+WARNING: [BD 41-235] Width mismatch when connecting pin: '/vcu_dec0_reg_slice/m_axi_bid'(4) to net 'vcu_dec_01_axi_BID'(6) - Only lower order bits will be connected.
+WARNING: [BD 41-235] Width mismatch when connecting pin: '/zynq_ultra_ps_e_0/saxigp4_arid'(6) to net 'vcu_dec_01_axi_ARID'(4) - Only lower order bits will be connected.
+WARNING: [BD 41-235] Width mismatch when connecting pin: '/vcu_dec0_reg_slice/m_axi_rid'(4) to net 'vcu_dec_01_axi_RID'(6) - Only lower order bits will be connected.
+WARNING: [BD 41-235] Width mismatch when connecting pin: '/zynq_ultra_ps_e_0/saxigp5_awid'(6) to net 'vcu_dec_11_axi_AWID'(4) - Only lower order bits will be connected.
+WARNING: [BD 41-235] Width mismatch when connecting pin: '/vcu_dec1_reg_slice/m_axi_bid'(4) to net 'vcu_dec_11_axi_BID'(6) - Only lower order bits will be connected.
+WARNING: [BD 41-235] Width mismatch when connecting pin: '/zynq_ultra_ps_e_0/saxigp5_arid'(6) to net 'vcu_dec_11_axi_ARID'(4) - Only lower order bits will be connected.
+WARNING: [BD 41-235] Width mismatch when connecting pin: '/vcu_dec1_reg_slice/m_axi_rid'(4) to net 'vcu_dec_11_axi_RID'(6) - Only lower order bits will be connected.
+WARNING: [BD 41-235] Width mismatch when connecting pin: '/zynq_ultra_ps_e_0/saxigp0_awid'(6) to net 'vcu_mcu_axi_1_AWID'(3) - Only lower order bits will be connected.
+WARNING: [BD 41-235] Width mismatch when connecting pin: '/vcu_mcu_reg_slice/m_axi_bid'(3) to net 'vcu_mcu_axi_1_BID'(6) - Only lower order bits will be connected.
+WARNING: [BD 41-235] Width mismatch when connecting pin: '/zynq_ultra_ps_e_0/saxigp0_arid'(6) to net 'vcu_mcu_axi_1_ARID'(3) - Only lower order bits will be connected.
+WARNING: [BD 41-235] Width mismatch when connecting pin: '/vcu_mcu_reg_slice/m_axi_rid'(3) to net 'vcu_mcu_axi_1_RID'(6) - Only lower order bits will be connected.
+VHDL Output written to : /home/brainiarc7/designs/vcu_trd/vcu_trd.srcs/sources_1/bd/vcu_trd/synth/vcu_trd.v
+WARNING: [BD 41-235] Width mismatch when connecting pin: '/zynq_ultra_ps_e_0/saxigp2_awid'(6) to net 'vcu_enc_01_axi_AWID'(4) - Only lower order bits will be connected.
+WARNING: [BD 41-235] Width mismatch when connecting pin: '/vcu_enc0_reg_slice/m_axi_bid'(4) to net 'vcu_enc_01_axi_BID'(6) - Only lower order bits will be connected.
+WARNING: [BD 41-235] Width mismatch when connecting pin: '/zynq_ultra_ps_e_0/saxigp2_arid'(6) to net 'vcu_enc_01_axi_ARID'(4) - Only lower order bits will be connected.
+WARNING: [BD 41-235] Width mismatch when connecting pin: '/vcu_enc0_reg_slice/m_axi_rid'(4) to net 'vcu_enc_01_axi_RID'(6) - Only lower order bits will be connected.
+WARNING: [BD 41-235] Width mismatch when connecting pin: '/zynq_ultra_ps_e_0/saxigp3_awid'(6) to net 'vcu_enc_11_axi_AWID'(4) - Only lower order bits will be connected.
+WARNING: [BD 41-235] Width mismatch when connecting pin: '/vcu_enc1_reg_slice/m_axi_bid'(4) to net 'vcu_enc_11_axi_BID'(6) - Only lower order bits will be connected.
+WARNING: [BD 41-235] Width mismatch when connecting pin: '/zynq_ultra_ps_e_0/saxigp3_arid'(6) to net 'vcu_enc_11_axi_ARID'(4) - Only lower order bits will be connected.
+WARNING: [BD 41-235] Width mismatch when connecting pin: '/vcu_enc1_reg_slice/m_axi_rid'(4) to net 'vcu_enc_11_axi_RID'(6) - Only lower order bits will be connected.
+WARNING: [BD 41-235] Width mismatch when connecting pin: '/zynq_ultra_ps_e_0/saxigp4_awid'(6) to net 'vcu_dec_01_axi_AWID'(4) - Only lower order bits will be connected.
+WARNING: [BD 41-235] Width mismatch when connecting pin: '/vcu_dec0_reg_slice/m_axi_bid'(4) to net 'vcu_dec_01_axi_BID'(6) - Only lower order bits will be connected.
+WARNING: [BD 41-235] Width mismatch when connecting pin: '/zynq_ultra_ps_e_0/saxigp4_arid'(6) to net 'vcu_dec_01_axi_ARID'(4) - Only lower order bits will be connected.
+WARNING: [BD 41-235] Width mismatch when connecting pin: '/vcu_dec0_reg_slice/m_axi_rid'(4) to net 'vcu_dec_01_axi_RID'(6) - Only lower order bits will be connected.
+WARNING: [BD 41-235] Width mismatch when connecting pin: '/zynq_ultra_ps_e_0/saxigp5_awid'(6) to net 'vcu_dec_11_axi_AWID'(4) - Only lower order bits will be connected.
+WARNING: [BD 41-235] Width mismatch when connecting pin: '/vcu_dec1_reg_slice/m_axi_bid'(4) to net 'vcu_dec_11_axi_BID'(6) - Only lower order bits will be connected.
+WARNING: [BD 41-235] Width mismatch when connecting pin: '/zynq_ultra_ps_e_0/saxigp5_arid'(6) to net 'vcu_dec_11_axi_ARID'(4) - Only lower order bits will be connected.
+WARNING: [BD 41-235] Width mismatch when connecting pin: '/vcu_dec1_reg_slice/m_axi_rid'(4) to net 'vcu_dec_11_axi_RID'(6) - Only lower order bits will be connected.
+WARNING: [BD 41-235] Width mismatch when connecting pin: '/zynq_ultra_ps_e_0/saxigp0_awid'(6) to net 'vcu_mcu_axi_1_AWID'(3) - Only lower order bits will be connected.
+WARNING: [BD 41-235] Width mismatch when connecting pin: '/vcu_mcu_reg_slice/m_axi_bid'(3) to net 'vcu_mcu_axi_1_BID'(6) - Only lower order bits will be connected.
+WARNING: [BD 41-235] Width mismatch when connecting pin: '/zynq_ultra_ps_e_0/saxigp0_arid'(6) to net 'vcu_mcu_axi_1_ARID'(3) - Only lower order bits will be connected.
+WARNING: [BD 41-235] Width mismatch when connecting pin: '/vcu_mcu_reg_slice/m_axi_rid'(3) to net 'vcu_mcu_axi_1_RID'(6) - Only lower order bits will be connected.
+VHDL Output written to : /home/brainiarc7/designs/vcu_trd/vcu_trd.srcs/sources_1/bd/vcu_trd/sim/vcu_trd.v
+VHDL Output written to : /home/brainiarc7/designs/vcu_trd/vcu_trd.srcs/sources_1/bd/vcu_trd/hdl/vcu_trd_wrapper.v
+INFO: [BD 41-1029] Generation completed for the IP Integrator block zynq_ultra_ps_e_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block vcu_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block rst_ps8_0_99M .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block gig_ethernet_pcs_pma_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block clk_wiz .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block clk_wiz_1 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block clk_wiz_2 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block clk_wiz_3 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block clk_wiz_4 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block proc_sys_reset_vcu_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block proc_sys_reset_vcu_1 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block vcu_enc0_reg_slice .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block vcu_enc1_reg_slice .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block vcu_dec0_reg_slice .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block vcu_dec1_reg_slice .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block vcu_mcu_reg_slice .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block vcu_clk_wiz0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block vcu_interrupt .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block clk_wiz_5 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block clk_wiz_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block ps8_0_axi_periph/xbar .
+WARNING: [IP_Flow 19-4994] Overwriting existing constraint file '/home/brainiarc7/designs/vcu_trd/vcu_trd.srcs/sources_1/bd/vcu_trd/ip/vcu_trd_auto_pc_0/vcu_trd_auto_pc_0_ooc.xdc'
+INFO: [BD 41-1029] Generation completed for the IP Integrator block ps8_0_axi_periph/s00_couplers/auto_pc .
+Exporting to file /home/brainiarc7/designs/vcu_trd/vcu_trd.srcs/sources_1/bd/vcu_trd/hw_handoff/vcu_trd.hwh
+Generated Block Design Tcl file /home/brainiarc7/designs/vcu_trd/vcu_trd.srcs/sources_1/bd/vcu_trd/hw_handoff/vcu_trd_bd.tcl
+Generated Hardware Definition File /home/brainiarc7/designs/vcu_trd/vcu_trd.srcs/sources_1/bd/vcu_trd/synth/vcu_trd.hwdef
+[Tue Nov 27 21:05:11 2018] Launched synth_1...
+Run output will be captured here: /home/brainiarc7/designs/vcu_trd/vcu_trd.runs/synth_1/runme.log
+[Tue Nov 27 21:05:11 2018] Launched impl_1...
+Run output will be captured here: /home/brainiarc7/designs/vcu_trd/vcu_trd.runs/impl_1/runme.log
+open_run impl_1
+INFO: [Netlist 29-17] Analyzing 1179 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2018.2
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Timing 38-478] Restoring timing data from binary archive.
+INFO: [Timing 38-479] Binary timing data restore complete.
+INFO: [Project 1-856] Restoring constraints from binary archive.
+INFO: [Project 1-853] Binary constraint restore complete.
+Reading XDEF placement.
+Reading placer database...
+Reading XDEF routing.
+Read XDEF File: Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 9209.418 ; gain = 34.074 ; free physical = 12615 ; free virtual = 31271
+Restored from archive | CPU: 2.040000 secs | Memory: 35.065895 MB |
+Finished XDEF File Restore: Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 9209.418 ; gain = 34.074 ; free physical = 12615 ; free virtual = 31271
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 1 instances were transformed.
+  IOBUF => IOBUF (IBUFCTRL, INBUF, OBUFT): 1 instances
+
+open_run: Time (s): cpu = 00:00:36 ; elapsed = 00:00:20 . Memory (MB): peak = 9958.348 ; gain = 1026.113 ; free physical = 12257 ; free virtual = 30915
+WARNING: [IP_Flow 19-3899] Cannot get the environment domain name variable for the component vendor name. Setting the vendor name to 'user.org'.
+set_property STEPS.WRITE_BITSTREAM.TCL.PRE /home/brainiarc7/designs/prepare.tcl [get_runs impl_1]
+WARNING: [IP_Flow 19-3899] Cannot get the environment domain name variable for the component vendor name. Setting the vendor name to 'user.org'.
+WARNING: [IP_Flow 19-3899] Cannot get the environment domain name variable for the component vendor name. Setting the vendor name to 'user.org'.
+reset_run impl_1 -prev_step 
+launch_runs impl_1 -to_step write_bitstream -jobs 12
+[Tue Nov 27 21:38:16 2018] Launched impl_1...
+Run output will be captured here: /home/brainiarc7/designs/vcu_trd/vcu_trd.runs/impl_1/runme.log
+file mkdir /home/brainiarc7/designs/vcu_trd/vcu_trd.sdk
+file copy -force /home/brainiarc7/designs/vcu_trd/vcu_trd.runs/impl_1/vcu_trd_wrapper.sysdef /home/brainiarc7/designs/hdf/vcu_trd_wrapper.hdf
+
+file copy -force /home/brainiarc7/designs/vcu_trd/vcu_trd.runs/impl_1/vcu_trd_wrapper.sysdef /home/brainiarc7/designs/vcu_trd/vcu_trd.sdk/vcu_trd_wrapper.hdf
+
+file copy -force /home/brainiarc7/designs/vcu_trd/vcu_trd.runs/impl_1/vcu_trd_wrapper.sysdef /home/brainiarc7/designs/vcu_trd/vcu_trd.sdk/vcu_trd_wrapper.hdf
+
+exit
+INFO: [Common 17-206] Exiting Vivado at Tue Nov 27 21:47:56 2018...

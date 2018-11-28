@@ -1,0 +1,1096 @@
+
+*** Running vivado
+    with args -log vcu_trd_wrapper.vdi -applog -m64 -product Vivado -messageDb vivado.pb -mode batch -source vcu_trd_wrapper.tcl -notrace
+
+
+****** Vivado v2018.2 (64-bit)
+  **** SW Build 2258646 on Thu Jun 14 20:02:38 MDT 2018
+  **** IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+    ** Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+source vcu_trd_wrapper.tcl -notrace
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/opt/Xilinx/Vivado/2018.2/data/ip'.
+add_files: Time (s): cpu = 00:00:06 ; elapsed = 00:00:09 . Memory (MB): peak = 1676.820 ; gain = 460.242 ; free physical = 17396 ; free virtual = 30452
+Command: link_design -top vcu_trd_wrapper -part xczu7ev-fbvb900-1-i
+Design is defaulting to srcset: sources_1
+Design is defaulting to constrset: constrs_1
+INFO: [Netlist 29-17] Analyzing 577 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2018.2
+INFO: [Device 21-403] Loading part xczu7ev-fbvb900-1-i
+INFO: [Project 1-570] Preparing netlist for logic optimization
+Parsing XDC File [/home/brainiarc7/designs/vcu_trd/vcu_trd.srcs/sources_1/bd/vcu_trd/ip/vcu_trd_proc_sys_reset_vcu_0_1/vcu_trd_proc_sys_reset_vcu_0_1_board.xdc] for cell 'vcu_trd_i/proc_sys_reset_vcu_0/U0'
+Finished Parsing XDC File [/home/brainiarc7/designs/vcu_trd/vcu_trd.srcs/sources_1/bd/vcu_trd/ip/vcu_trd_proc_sys_reset_vcu_0_1/vcu_trd_proc_sys_reset_vcu_0_1_board.xdc] for cell 'vcu_trd_i/proc_sys_reset_vcu_0/U0'
+Parsing XDC File [/home/brainiarc7/designs/vcu_trd/vcu_trd.srcs/sources_1/bd/vcu_trd/ip/vcu_trd_proc_sys_reset_vcu_0_1/vcu_trd_proc_sys_reset_vcu_0_1.xdc] for cell 'vcu_trd_i/proc_sys_reset_vcu_0/U0'
+Finished Parsing XDC File [/home/brainiarc7/designs/vcu_trd/vcu_trd.srcs/sources_1/bd/vcu_trd/ip/vcu_trd_proc_sys_reset_vcu_0_1/vcu_trd_proc_sys_reset_vcu_0_1.xdc] for cell 'vcu_trd_i/proc_sys_reset_vcu_0/U0'
+Parsing XDC File [/home/brainiarc7/designs/vcu_trd/vcu_trd.srcs/sources_1/bd/vcu_trd/ip/vcu_trd_proc_sys_reset_vcu_1_1/vcu_trd_proc_sys_reset_vcu_1_1_board.xdc] for cell 'vcu_trd_i/proc_sys_reset_vcu_1/U0'
+Finished Parsing XDC File [/home/brainiarc7/designs/vcu_trd/vcu_trd.srcs/sources_1/bd/vcu_trd/ip/vcu_trd_proc_sys_reset_vcu_1_1/vcu_trd_proc_sys_reset_vcu_1_1_board.xdc] for cell 'vcu_trd_i/proc_sys_reset_vcu_1/U0'
+Parsing XDC File [/home/brainiarc7/designs/vcu_trd/vcu_trd.srcs/sources_1/bd/vcu_trd/ip/vcu_trd_proc_sys_reset_vcu_1_1/vcu_trd_proc_sys_reset_vcu_1_1.xdc] for cell 'vcu_trd_i/proc_sys_reset_vcu_1/U0'
+Finished Parsing XDC File [/home/brainiarc7/designs/vcu_trd/vcu_trd.srcs/sources_1/bd/vcu_trd/ip/vcu_trd_proc_sys_reset_vcu_1_1/vcu_trd_proc_sys_reset_vcu_1_1.xdc] for cell 'vcu_trd_i/proc_sys_reset_vcu_1/U0'
+Parsing XDC File [/home/brainiarc7/designs/vcu_trd/vcu_trd.srcs/sources_1/bd/vcu_trd/ip/vcu_trd_vcu_clk_wiz0_1/vcu_trd_vcu_clk_wiz0_1_board.xdc] for cell 'vcu_trd_i/vcu_clk_wiz0/inst'
+Finished Parsing XDC File [/home/brainiarc7/designs/vcu_trd/vcu_trd.srcs/sources_1/bd/vcu_trd/ip/vcu_trd_vcu_clk_wiz0_1/vcu_trd_vcu_clk_wiz0_1_board.xdc] for cell 'vcu_trd_i/vcu_clk_wiz0/inst'
+Parsing XDC File [/home/brainiarc7/designs/vcu_trd/vcu_trd.srcs/sources_1/bd/vcu_trd/ip/vcu_trd_vcu_clk_wiz0_1/vcu_trd_vcu_clk_wiz0_1.xdc] for cell 'vcu_trd_i/vcu_clk_wiz0/inst'
+INFO: [Timing 38-35] Done setting XDC timing constraints. [/home/brainiarc7/designs/vcu_trd/vcu_trd.srcs/sources_1/bd/vcu_trd/ip/vcu_trd_vcu_clk_wiz0_1/vcu_trd_vcu_clk_wiz0_1.xdc:57]
+INFO: [Timing 38-2] Deriving generated clocks [/home/brainiarc7/designs/vcu_trd/vcu_trd.srcs/sources_1/bd/vcu_trd/ip/vcu_trd_vcu_clk_wiz0_1/vcu_trd_vcu_clk_wiz0_1.xdc:57]
+get_clocks: Time (s): cpu = 00:00:08 ; elapsed = 00:00:08 . Memory (MB): peak = 2664.879 ; gain = 150.031 ; free physical = 16255 ; free virtual = 29311
+Finished Parsing XDC File [/home/brainiarc7/designs/vcu_trd/vcu_trd.srcs/sources_1/bd/vcu_trd/ip/vcu_trd_vcu_clk_wiz0_1/vcu_trd_vcu_clk_wiz0_1.xdc] for cell 'vcu_trd_i/vcu_clk_wiz0/inst'
+Parsing XDC File [/home/brainiarc7/designs/vcu_trd/vcu_trd.srcs/sources_1/bd/vcu_trd/ip/vcu_trd_zynq_ultra_ps_e_0_1/vcu_trd_zynq_ultra_ps_e_0_1.xdc] for cell 'vcu_trd_i/zynq_ultra_ps_e_0/inst'
+Finished Parsing XDC File [/home/brainiarc7/designs/vcu_trd/vcu_trd.srcs/sources_1/bd/vcu_trd/ip/vcu_trd_zynq_ultra_ps_e_0_1/vcu_trd_zynq_ultra_ps_e_0_1.xdc] for cell 'vcu_trd_i/zynq_ultra_ps_e_0/inst'
+Parsing XDC File [/home/brainiarc7/designs/vcu_trd/vcu_trd.srcs/sources_1/bd/vcu_trd/ip/vcu_trd_gig_ethernet_pcs_pma_0_1/ip_0/synth/vcu_trd_gig_ethernet_pcs_pma_0_1_gt.xdc] for cell 'vcu_trd_i/gig_ethernet_pcs_pma_0/inst/pcs_pma_block_i/transceiver_inst/vcu_trd_gig_ethernet_pcs_pma_0_1_gt_i/inst'
+Finished Parsing XDC File [/home/brainiarc7/designs/vcu_trd/vcu_trd.srcs/sources_1/bd/vcu_trd/ip/vcu_trd_gig_ethernet_pcs_pma_0_1/ip_0/synth/vcu_trd_gig_ethernet_pcs_pma_0_1_gt.xdc] for cell 'vcu_trd_i/gig_ethernet_pcs_pma_0/inst/pcs_pma_block_i/transceiver_inst/vcu_trd_gig_ethernet_pcs_pma_0_1_gt_i/inst'
+Parsing XDC File [/home/brainiarc7/designs/vcu_trd/vcu_trd.srcs/sources_1/bd/vcu_trd/ip/vcu_trd_gig_ethernet_pcs_pma_0_1/vcu_trd_gig_ethernet_pcs_pma_0_1_board.xdc] for cell 'vcu_trd_i/gig_ethernet_pcs_pma_0/inst'
+Finished Parsing XDC File [/home/brainiarc7/designs/vcu_trd/vcu_trd.srcs/sources_1/bd/vcu_trd/ip/vcu_trd_gig_ethernet_pcs_pma_0_1/vcu_trd_gig_ethernet_pcs_pma_0_1_board.xdc] for cell 'vcu_trd_i/gig_ethernet_pcs_pma_0/inst'
+Parsing XDC File [/home/brainiarc7/designs/vcu_trd/vcu_trd.srcs/sources_1/bd/vcu_trd/ip/vcu_trd_gig_ethernet_pcs_pma_0_1/synth/vcu_trd_gig_ethernet_pcs_pma_0_1_clocks.xdc] for cell 'vcu_trd_i/gig_ethernet_pcs_pma_0/inst'
+Finished Parsing XDC File [/home/brainiarc7/designs/vcu_trd/vcu_trd.srcs/sources_1/bd/vcu_trd/ip/vcu_trd_gig_ethernet_pcs_pma_0_1/synth/vcu_trd_gig_ethernet_pcs_pma_0_1_clocks.xdc] for cell 'vcu_trd_i/gig_ethernet_pcs_pma_0/inst'
+Parsing XDC File [/home/brainiarc7/designs/vcu_trd/vcu_trd.srcs/sources_1/bd/vcu_trd/ip/vcu_trd_clk_wiz_1/vcu_trd_clk_wiz_1_board.xdc] for cell 'vcu_trd_i/clk_wiz/inst'
+Finished Parsing XDC File [/home/brainiarc7/designs/vcu_trd/vcu_trd.srcs/sources_1/bd/vcu_trd/ip/vcu_trd_clk_wiz_1/vcu_trd_clk_wiz_1_board.xdc] for cell 'vcu_trd_i/clk_wiz/inst'
+Parsing XDC File [/home/brainiarc7/designs/vcu_trd/vcu_trd.srcs/sources_1/bd/vcu_trd/ip/vcu_trd_clk_wiz_1/vcu_trd_clk_wiz_1.xdc] for cell 'vcu_trd_i/clk_wiz/inst'
+INFO: [Timing 38-2] Deriving generated clocks [/home/brainiarc7/designs/vcu_trd/vcu_trd.srcs/sources_1/bd/vcu_trd/ip/vcu_trd_clk_wiz_1/vcu_trd_clk_wiz_1.xdc:57]
+Finished Parsing XDC File [/home/brainiarc7/designs/vcu_trd/vcu_trd.srcs/sources_1/bd/vcu_trd/ip/vcu_trd_clk_wiz_1/vcu_trd_clk_wiz_1.xdc] for cell 'vcu_trd_i/clk_wiz/inst'
+Parsing XDC File [/home/brainiarc7/designs/vcu_trd/vcu_trd.srcs/sources_1/bd/vcu_trd/ip/vcu_trd_clk_wiz_1_1/vcu_trd_clk_wiz_1_1_board.xdc] for cell 'vcu_trd_i/clk_wiz_1/inst'
+Finished Parsing XDC File [/home/brainiarc7/designs/vcu_trd/vcu_trd.srcs/sources_1/bd/vcu_trd/ip/vcu_trd_clk_wiz_1_1/vcu_trd_clk_wiz_1_1_board.xdc] for cell 'vcu_trd_i/clk_wiz_1/inst'
+Parsing XDC File [/home/brainiarc7/designs/vcu_trd/vcu_trd.srcs/sources_1/bd/vcu_trd/ip/vcu_trd_clk_wiz_1_1/vcu_trd_clk_wiz_1_1.xdc] for cell 'vcu_trd_i/clk_wiz_1/inst'
+INFO: [Timing 38-2] Deriving generated clocks [/home/brainiarc7/designs/vcu_trd/vcu_trd.srcs/sources_1/bd/vcu_trd/ip/vcu_trd_clk_wiz_1_1/vcu_trd_clk_wiz_1_1.xdc:57]
+Finished Parsing XDC File [/home/brainiarc7/designs/vcu_trd/vcu_trd.srcs/sources_1/bd/vcu_trd/ip/vcu_trd_clk_wiz_1_1/vcu_trd_clk_wiz_1_1.xdc] for cell 'vcu_trd_i/clk_wiz_1/inst'
+Parsing XDC File [/home/brainiarc7/designs/vcu_trd/vcu_trd.srcs/sources_1/bd/vcu_trd/ip/vcu_trd_clk_wiz_2_1/vcu_trd_clk_wiz_2_1_board.xdc] for cell 'vcu_trd_i/clk_wiz_2/inst'
+Finished Parsing XDC File [/home/brainiarc7/designs/vcu_trd/vcu_trd.srcs/sources_1/bd/vcu_trd/ip/vcu_trd_clk_wiz_2_1/vcu_trd_clk_wiz_2_1_board.xdc] for cell 'vcu_trd_i/clk_wiz_2/inst'
+Parsing XDC File [/home/brainiarc7/designs/vcu_trd/vcu_trd.srcs/sources_1/bd/vcu_trd/ip/vcu_trd_clk_wiz_2_1/vcu_trd_clk_wiz_2_1.xdc] for cell 'vcu_trd_i/clk_wiz_2/inst'
+INFO: [Timing 38-2] Deriving generated clocks [/home/brainiarc7/designs/vcu_trd/vcu_trd.srcs/sources_1/bd/vcu_trd/ip/vcu_trd_clk_wiz_2_1/vcu_trd_clk_wiz_2_1.xdc:57]
+Finished Parsing XDC File [/home/brainiarc7/designs/vcu_trd/vcu_trd.srcs/sources_1/bd/vcu_trd/ip/vcu_trd_clk_wiz_2_1/vcu_trd_clk_wiz_2_1.xdc] for cell 'vcu_trd_i/clk_wiz_2/inst'
+Parsing XDC File [/home/brainiarc7/designs/vcu_trd/vcu_trd.srcs/sources_1/bd/vcu_trd/ip/vcu_trd_clk_wiz_3_1/vcu_trd_clk_wiz_3_1_board.xdc] for cell 'vcu_trd_i/clk_wiz_3/inst'
+Finished Parsing XDC File [/home/brainiarc7/designs/vcu_trd/vcu_trd.srcs/sources_1/bd/vcu_trd/ip/vcu_trd_clk_wiz_3_1/vcu_trd_clk_wiz_3_1_board.xdc] for cell 'vcu_trd_i/clk_wiz_3/inst'
+Parsing XDC File [/home/brainiarc7/designs/vcu_trd/vcu_trd.srcs/sources_1/bd/vcu_trd/ip/vcu_trd_clk_wiz_3_1/vcu_trd_clk_wiz_3_1.xdc] for cell 'vcu_trd_i/clk_wiz_3/inst'
+INFO: [Timing 38-2] Deriving generated clocks [/home/brainiarc7/designs/vcu_trd/vcu_trd.srcs/sources_1/bd/vcu_trd/ip/vcu_trd_clk_wiz_3_1/vcu_trd_clk_wiz_3_1.xdc:57]
+Finished Parsing XDC File [/home/brainiarc7/designs/vcu_trd/vcu_trd.srcs/sources_1/bd/vcu_trd/ip/vcu_trd_clk_wiz_3_1/vcu_trd_clk_wiz_3_1.xdc] for cell 'vcu_trd_i/clk_wiz_3/inst'
+Parsing XDC File [/home/brainiarc7/designs/vcu_trd/vcu_trd.srcs/sources_1/bd/vcu_trd/ip/vcu_trd_clk_wiz_4_1/vcu_trd_clk_wiz_4_1_board.xdc] for cell 'vcu_trd_i/clk_wiz_4/inst'
+Finished Parsing XDC File [/home/brainiarc7/designs/vcu_trd/vcu_trd.srcs/sources_1/bd/vcu_trd/ip/vcu_trd_clk_wiz_4_1/vcu_trd_clk_wiz_4_1_board.xdc] for cell 'vcu_trd_i/clk_wiz_4/inst'
+Parsing XDC File [/home/brainiarc7/designs/vcu_trd/vcu_trd.srcs/sources_1/bd/vcu_trd/ip/vcu_trd_clk_wiz_4_1/vcu_trd_clk_wiz_4_1.xdc] for cell 'vcu_trd_i/clk_wiz_4/inst'
+INFO: [Timing 38-2] Deriving generated clocks [/home/brainiarc7/designs/vcu_trd/vcu_trd.srcs/sources_1/bd/vcu_trd/ip/vcu_trd_clk_wiz_4_1/vcu_trd_clk_wiz_4_1.xdc:57]
+Finished Parsing XDC File [/home/brainiarc7/designs/vcu_trd/vcu_trd.srcs/sources_1/bd/vcu_trd/ip/vcu_trd_clk_wiz_4_1/vcu_trd_clk_wiz_4_1.xdc] for cell 'vcu_trd_i/clk_wiz_4/inst'
+Parsing XDC File [/home/brainiarc7/designs/vcu_trd/vcu_trd.srcs/sources_1/bd/vcu_trd/ip/vcu_trd_clk_wiz_0_1/vcu_trd_clk_wiz_0_1_board.xdc] for cell 'vcu_trd_i/clk_wiz_0/inst'
+Finished Parsing XDC File [/home/brainiarc7/designs/vcu_trd/vcu_trd.srcs/sources_1/bd/vcu_trd/ip/vcu_trd_clk_wiz_0_1/vcu_trd_clk_wiz_0_1_board.xdc] for cell 'vcu_trd_i/clk_wiz_0/inst'
+Parsing XDC File [/home/brainiarc7/designs/vcu_trd/vcu_trd.srcs/sources_1/bd/vcu_trd/ip/vcu_trd_clk_wiz_0_1/vcu_trd_clk_wiz_0_1.xdc] for cell 'vcu_trd_i/clk_wiz_0/inst'
+INFO: [Timing 38-2] Deriving generated clocks [/home/brainiarc7/designs/vcu_trd/vcu_trd.srcs/sources_1/bd/vcu_trd/ip/vcu_trd_clk_wiz_0_1/vcu_trd_clk_wiz_0_1.xdc:57]
+Finished Parsing XDC File [/home/brainiarc7/designs/vcu_trd/vcu_trd.srcs/sources_1/bd/vcu_trd/ip/vcu_trd_clk_wiz_0_1/vcu_trd_clk_wiz_0_1.xdc] for cell 'vcu_trd_i/clk_wiz_0/inst'
+Parsing XDC File [/home/brainiarc7/designs/vcu_trd/vcu_trd.srcs/constrs_1/imports/Xilinx/UltraZed-EV-CC-Master-XDC.xdc]
+WARNING: [Vivado 12-584] No ports matched 'PL_LED1'. [/home/brainiarc7/designs/vcu_trd/vcu_trd.srcs/constrs_1/imports/Xilinx/UltraZed-EV-CC-Master-XDC.xdc:3]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/brainiarc7/designs/vcu_trd/vcu_trd.srcs/constrs_1/imports/Xilinx/UltraZed-EV-CC-Master-XDC.xdc:3]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'PL_LED2'. [/home/brainiarc7/designs/vcu_trd/vcu_trd.srcs/constrs_1/imports/Xilinx/UltraZed-EV-CC-Master-XDC.xdc:4]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/brainiarc7/designs/vcu_trd/vcu_trd.srcs/constrs_1/imports/Xilinx/UltraZed-EV-CC-Master-XDC.xdc:4]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'PL_LED3'. [/home/brainiarc7/designs/vcu_trd/vcu_trd.srcs/constrs_1/imports/Xilinx/UltraZed-EV-CC-Master-XDC.xdc:5]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/brainiarc7/designs/vcu_trd/vcu_trd.srcs/constrs_1/imports/Xilinx/UltraZed-EV-CC-Master-XDC.xdc:5]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'PL_LED4'. [/home/brainiarc7/designs/vcu_trd/vcu_trd.srcs/constrs_1/imports/Xilinx/UltraZed-EV-CC-Master-XDC.xdc:6]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/brainiarc7/designs/vcu_trd/vcu_trd.srcs/constrs_1/imports/Xilinx/UltraZed-EV-CC-Master-XDC.xdc:6]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'PL_LED5'. [/home/brainiarc7/designs/vcu_trd/vcu_trd.srcs/constrs_1/imports/Xilinx/UltraZed-EV-CC-Master-XDC.xdc:7]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/brainiarc7/designs/vcu_trd/vcu_trd.srcs/constrs_1/imports/Xilinx/UltraZed-EV-CC-Master-XDC.xdc:7]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'PL_LED6'. [/home/brainiarc7/designs/vcu_trd/vcu_trd.srcs/constrs_1/imports/Xilinx/UltraZed-EV-CC-Master-XDC.xdc:8]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/brainiarc7/designs/vcu_trd/vcu_trd.srcs/constrs_1/imports/Xilinx/UltraZed-EV-CC-Master-XDC.xdc:8]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'PL_LED7'. [/home/brainiarc7/designs/vcu_trd/vcu_trd.srcs/constrs_1/imports/Xilinx/UltraZed-EV-CC-Master-XDC.xdc:9]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/brainiarc7/designs/vcu_trd/vcu_trd.srcs/constrs_1/imports/Xilinx/UltraZed-EV-CC-Master-XDC.xdc:9]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'PL_LED8'. [/home/brainiarc7/designs/vcu_trd/vcu_trd.srcs/constrs_1/imports/Xilinx/UltraZed-EV-CC-Master-XDC.xdc:10]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/brainiarc7/designs/vcu_trd/vcu_trd.srcs/constrs_1/imports/Xilinx/UltraZed-EV-CC-Master-XDC.xdc:10]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'PL_LED1'. [/home/brainiarc7/designs/vcu_trd/vcu_trd.srcs/constrs_1/imports/Xilinx/UltraZed-EV-CC-Master-XDC.xdc:12]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/brainiarc7/designs/vcu_trd/vcu_trd.srcs/constrs_1/imports/Xilinx/UltraZed-EV-CC-Master-XDC.xdc:12]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'PL_LED2'. [/home/brainiarc7/designs/vcu_trd/vcu_trd.srcs/constrs_1/imports/Xilinx/UltraZed-EV-CC-Master-XDC.xdc:13]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/brainiarc7/designs/vcu_trd/vcu_trd.srcs/constrs_1/imports/Xilinx/UltraZed-EV-CC-Master-XDC.xdc:13]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'PL_LED3'. [/home/brainiarc7/designs/vcu_trd/vcu_trd.srcs/constrs_1/imports/Xilinx/UltraZed-EV-CC-Master-XDC.xdc:14]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/brainiarc7/designs/vcu_trd/vcu_trd.srcs/constrs_1/imports/Xilinx/UltraZed-EV-CC-Master-XDC.xdc:14]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'PL_LED4'. [/home/brainiarc7/designs/vcu_trd/vcu_trd.srcs/constrs_1/imports/Xilinx/UltraZed-EV-CC-Master-XDC.xdc:15]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/brainiarc7/designs/vcu_trd/vcu_trd.srcs/constrs_1/imports/Xilinx/UltraZed-EV-CC-Master-XDC.xdc:15]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'PL_LED5'. [/home/brainiarc7/designs/vcu_trd/vcu_trd.srcs/constrs_1/imports/Xilinx/UltraZed-EV-CC-Master-XDC.xdc:16]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/brainiarc7/designs/vcu_trd/vcu_trd.srcs/constrs_1/imports/Xilinx/UltraZed-EV-CC-Master-XDC.xdc:16]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'PL_LED6'. [/home/brainiarc7/designs/vcu_trd/vcu_trd.srcs/constrs_1/imports/Xilinx/UltraZed-EV-CC-Master-XDC.xdc:17]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/brainiarc7/designs/vcu_trd/vcu_trd.srcs/constrs_1/imports/Xilinx/UltraZed-EV-CC-Master-XDC.xdc:17]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'PL_LED7'. [/home/brainiarc7/designs/vcu_trd/vcu_trd.srcs/constrs_1/imports/Xilinx/UltraZed-EV-CC-Master-XDC.xdc:18]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/brainiarc7/designs/vcu_trd/vcu_trd.srcs/constrs_1/imports/Xilinx/UltraZed-EV-CC-Master-XDC.xdc:18]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'PL_LED8'. [/home/brainiarc7/designs/vcu_trd/vcu_trd.srcs/constrs_1/imports/Xilinx/UltraZed-EV-CC-Master-XDC.xdc:19]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/brainiarc7/designs/vcu_trd/vcu_trd.srcs/constrs_1/imports/Xilinx/UltraZed-EV-CC-Master-XDC.xdc:19]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'PL_PB1'. [/home/brainiarc7/designs/vcu_trd/vcu_trd.srcs/constrs_1/imports/Xilinx/UltraZed-EV-CC-Master-XDC.xdc:24]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/brainiarc7/designs/vcu_trd/vcu_trd.srcs/constrs_1/imports/Xilinx/UltraZed-EV-CC-Master-XDC.xdc:24]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'PL_PB2'. [/home/brainiarc7/designs/vcu_trd/vcu_trd.srcs/constrs_1/imports/Xilinx/UltraZed-EV-CC-Master-XDC.xdc:25]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/brainiarc7/designs/vcu_trd/vcu_trd.srcs/constrs_1/imports/Xilinx/UltraZed-EV-CC-Master-XDC.xdc:25]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'PL_PB3'. [/home/brainiarc7/designs/vcu_trd/vcu_trd.srcs/constrs_1/imports/Xilinx/UltraZed-EV-CC-Master-XDC.xdc:26]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/brainiarc7/designs/vcu_trd/vcu_trd.srcs/constrs_1/imports/Xilinx/UltraZed-EV-CC-Master-XDC.xdc:26]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'PL_PB4'. [/home/brainiarc7/designs/vcu_trd/vcu_trd.srcs/constrs_1/imports/Xilinx/UltraZed-EV-CC-Master-XDC.xdc:27]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/brainiarc7/designs/vcu_trd/vcu_trd.srcs/constrs_1/imports/Xilinx/UltraZed-EV-CC-Master-XDC.xdc:27]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'PL_PB1'. [/home/brainiarc7/designs/vcu_trd/vcu_trd.srcs/constrs_1/imports/Xilinx/UltraZed-EV-CC-Master-XDC.xdc:29]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/brainiarc7/designs/vcu_trd/vcu_trd.srcs/constrs_1/imports/Xilinx/UltraZed-EV-CC-Master-XDC.xdc:29]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'PL_PB2'. [/home/brainiarc7/designs/vcu_trd/vcu_trd.srcs/constrs_1/imports/Xilinx/UltraZed-EV-CC-Master-XDC.xdc:30]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/brainiarc7/designs/vcu_trd/vcu_trd.srcs/constrs_1/imports/Xilinx/UltraZed-EV-CC-Master-XDC.xdc:30]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'PL_PB3'. [/home/brainiarc7/designs/vcu_trd/vcu_trd.srcs/constrs_1/imports/Xilinx/UltraZed-EV-CC-Master-XDC.xdc:31]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/brainiarc7/designs/vcu_trd/vcu_trd.srcs/constrs_1/imports/Xilinx/UltraZed-EV-CC-Master-XDC.xdc:31]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'PL_PB4'. [/home/brainiarc7/designs/vcu_trd/vcu_trd.srcs/constrs_1/imports/Xilinx/UltraZed-EV-CC-Master-XDC.xdc:32]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/brainiarc7/designs/vcu_trd/vcu_trd.srcs/constrs_1/imports/Xilinx/UltraZed-EV-CC-Master-XDC.xdc:32]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'SW1'. [/home/brainiarc7/designs/vcu_trd/vcu_trd.srcs/constrs_1/imports/Xilinx/UltraZed-EV-CC-Master-XDC.xdc:37]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/brainiarc7/designs/vcu_trd/vcu_trd.srcs/constrs_1/imports/Xilinx/UltraZed-EV-CC-Master-XDC.xdc:37]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'SW2'. [/home/brainiarc7/designs/vcu_trd/vcu_trd.srcs/constrs_1/imports/Xilinx/UltraZed-EV-CC-Master-XDC.xdc:38]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/brainiarc7/designs/vcu_trd/vcu_trd.srcs/constrs_1/imports/Xilinx/UltraZed-EV-CC-Master-XDC.xdc:38]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'SW3'. [/home/brainiarc7/designs/vcu_trd/vcu_trd.srcs/constrs_1/imports/Xilinx/UltraZed-EV-CC-Master-XDC.xdc:39]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/brainiarc7/designs/vcu_trd/vcu_trd.srcs/constrs_1/imports/Xilinx/UltraZed-EV-CC-Master-XDC.xdc:39]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'SW4'. [/home/brainiarc7/designs/vcu_trd/vcu_trd.srcs/constrs_1/imports/Xilinx/UltraZed-EV-CC-Master-XDC.xdc:40]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/brainiarc7/designs/vcu_trd/vcu_trd.srcs/constrs_1/imports/Xilinx/UltraZed-EV-CC-Master-XDC.xdc:40]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'SW5'. [/home/brainiarc7/designs/vcu_trd/vcu_trd.srcs/constrs_1/imports/Xilinx/UltraZed-EV-CC-Master-XDC.xdc:41]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/brainiarc7/designs/vcu_trd/vcu_trd.srcs/constrs_1/imports/Xilinx/UltraZed-EV-CC-Master-XDC.xdc:41]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'SW6'. [/home/brainiarc7/designs/vcu_trd/vcu_trd.srcs/constrs_1/imports/Xilinx/UltraZed-EV-CC-Master-XDC.xdc:42]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/brainiarc7/designs/vcu_trd/vcu_trd.srcs/constrs_1/imports/Xilinx/UltraZed-EV-CC-Master-XDC.xdc:42]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'SW7'. [/home/brainiarc7/designs/vcu_trd/vcu_trd.srcs/constrs_1/imports/Xilinx/UltraZed-EV-CC-Master-XDC.xdc:43]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/brainiarc7/designs/vcu_trd/vcu_trd.srcs/constrs_1/imports/Xilinx/UltraZed-EV-CC-Master-XDC.xdc:43]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'SW8'. [/home/brainiarc7/designs/vcu_trd/vcu_trd.srcs/constrs_1/imports/Xilinx/UltraZed-EV-CC-Master-XDC.xdc:44]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/brainiarc7/designs/vcu_trd/vcu_trd.srcs/constrs_1/imports/Xilinx/UltraZed-EV-CC-Master-XDC.xdc:44]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'SW1'. [/home/brainiarc7/designs/vcu_trd/vcu_trd.srcs/constrs_1/imports/Xilinx/UltraZed-EV-CC-Master-XDC.xdc:46]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/brainiarc7/designs/vcu_trd/vcu_trd.srcs/constrs_1/imports/Xilinx/UltraZed-EV-CC-Master-XDC.xdc:46]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'SW2'. [/home/brainiarc7/designs/vcu_trd/vcu_trd.srcs/constrs_1/imports/Xilinx/UltraZed-EV-CC-Master-XDC.xdc:47]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/brainiarc7/designs/vcu_trd/vcu_trd.srcs/constrs_1/imports/Xilinx/UltraZed-EV-CC-Master-XDC.xdc:47]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'SW3'. [/home/brainiarc7/designs/vcu_trd/vcu_trd.srcs/constrs_1/imports/Xilinx/UltraZed-EV-CC-Master-XDC.xdc:48]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/brainiarc7/designs/vcu_trd/vcu_trd.srcs/constrs_1/imports/Xilinx/UltraZed-EV-CC-Master-XDC.xdc:48]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'SW4'. [/home/brainiarc7/designs/vcu_trd/vcu_trd.srcs/constrs_1/imports/Xilinx/UltraZed-EV-CC-Master-XDC.xdc:49]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/brainiarc7/designs/vcu_trd/vcu_trd.srcs/constrs_1/imports/Xilinx/UltraZed-EV-CC-Master-XDC.xdc:49]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'SW5'. [/home/brainiarc7/designs/vcu_trd/vcu_trd.srcs/constrs_1/imports/Xilinx/UltraZed-EV-CC-Master-XDC.xdc:50]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/brainiarc7/designs/vcu_trd/vcu_trd.srcs/constrs_1/imports/Xilinx/UltraZed-EV-CC-Master-XDC.xdc:50]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'SW6'. [/home/brainiarc7/designs/vcu_trd/vcu_trd.srcs/constrs_1/imports/Xilinx/UltraZed-EV-CC-Master-XDC.xdc:51]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/brainiarc7/designs/vcu_trd/vcu_trd.srcs/constrs_1/imports/Xilinx/UltraZed-EV-CC-Master-XDC.xdc:51]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'SW7'. [/home/brainiarc7/designs/vcu_trd/vcu_trd.srcs/constrs_1/imports/Xilinx/UltraZed-EV-CC-Master-XDC.xdc:52]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/brainiarc7/designs/vcu_trd/vcu_trd.srcs/constrs_1/imports/Xilinx/UltraZed-EV-CC-Master-XDC.xdc:52]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'SW8'. [/home/brainiarc7/designs/vcu_trd/vcu_trd.srcs/constrs_1/imports/Xilinx/UltraZed-EV-CC-Master-XDC.xdc:53]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/brainiarc7/designs/vcu_trd/vcu_trd.srcs/constrs_1/imports/Xilinx/UltraZed-EV-CC-Master-XDC.xdc:53]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'PLPMOD1_D0'. [/home/brainiarc7/designs/vcu_trd/vcu_trd.srcs/constrs_1/imports/Xilinx/UltraZed-EV-CC-Master-XDC.xdc:58]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/brainiarc7/designs/vcu_trd/vcu_trd.srcs/constrs_1/imports/Xilinx/UltraZed-EV-CC-Master-XDC.xdc:58]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'PLPMOD1_D1'. [/home/brainiarc7/designs/vcu_trd/vcu_trd.srcs/constrs_1/imports/Xilinx/UltraZed-EV-CC-Master-XDC.xdc:59]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/brainiarc7/designs/vcu_trd/vcu_trd.srcs/constrs_1/imports/Xilinx/UltraZed-EV-CC-Master-XDC.xdc:59]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'PLPMOD1_D2'. [/home/brainiarc7/designs/vcu_trd/vcu_trd.srcs/constrs_1/imports/Xilinx/UltraZed-EV-CC-Master-XDC.xdc:60]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/brainiarc7/designs/vcu_trd/vcu_trd.srcs/constrs_1/imports/Xilinx/UltraZed-EV-CC-Master-XDC.xdc:60]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'PLPMOD1_D3'. [/home/brainiarc7/designs/vcu_trd/vcu_trd.srcs/constrs_1/imports/Xilinx/UltraZed-EV-CC-Master-XDC.xdc:61]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/brainiarc7/designs/vcu_trd/vcu_trd.srcs/constrs_1/imports/Xilinx/UltraZed-EV-CC-Master-XDC.xdc:61]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'PLPMOD1_D4'. [/home/brainiarc7/designs/vcu_trd/vcu_trd.srcs/constrs_1/imports/Xilinx/UltraZed-EV-CC-Master-XDC.xdc:62]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/brainiarc7/designs/vcu_trd/vcu_trd.srcs/constrs_1/imports/Xilinx/UltraZed-EV-CC-Master-XDC.xdc:62]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'PLPMOD1_D5'. [/home/brainiarc7/designs/vcu_trd/vcu_trd.srcs/constrs_1/imports/Xilinx/UltraZed-EV-CC-Master-XDC.xdc:63]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/brainiarc7/designs/vcu_trd/vcu_trd.srcs/constrs_1/imports/Xilinx/UltraZed-EV-CC-Master-XDC.xdc:63]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'PLPMOD1_D6'. [/home/brainiarc7/designs/vcu_trd/vcu_trd.srcs/constrs_1/imports/Xilinx/UltraZed-EV-CC-Master-XDC.xdc:64]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/brainiarc7/designs/vcu_trd/vcu_trd.srcs/constrs_1/imports/Xilinx/UltraZed-EV-CC-Master-XDC.xdc:64]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'PLPMOD1_D7'. [/home/brainiarc7/designs/vcu_trd/vcu_trd.srcs/constrs_1/imports/Xilinx/UltraZed-EV-CC-Master-XDC.xdc:65]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/brainiarc7/designs/vcu_trd/vcu_trd.srcs/constrs_1/imports/Xilinx/UltraZed-EV-CC-Master-XDC.xdc:65]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'PLPMOD2_D0'. [/home/brainiarc7/designs/vcu_trd/vcu_trd.srcs/constrs_1/imports/Xilinx/UltraZed-EV-CC-Master-XDC.xdc:67]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/brainiarc7/designs/vcu_trd/vcu_trd.srcs/constrs_1/imports/Xilinx/UltraZed-EV-CC-Master-XDC.xdc:67]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'PLPMOD2_D1'. [/home/brainiarc7/designs/vcu_trd/vcu_trd.srcs/constrs_1/imports/Xilinx/UltraZed-EV-CC-Master-XDC.xdc:68]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/brainiarc7/designs/vcu_trd/vcu_trd.srcs/constrs_1/imports/Xilinx/UltraZed-EV-CC-Master-XDC.xdc:68]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'PLPMOD2_D2'. [/home/brainiarc7/designs/vcu_trd/vcu_trd.srcs/constrs_1/imports/Xilinx/UltraZed-EV-CC-Master-XDC.xdc:69]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/brainiarc7/designs/vcu_trd/vcu_trd.srcs/constrs_1/imports/Xilinx/UltraZed-EV-CC-Master-XDC.xdc:69]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'PLPMOD2_D3'. [/home/brainiarc7/designs/vcu_trd/vcu_trd.srcs/constrs_1/imports/Xilinx/UltraZed-EV-CC-Master-XDC.xdc:70]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/brainiarc7/designs/vcu_trd/vcu_trd.srcs/constrs_1/imports/Xilinx/UltraZed-EV-CC-Master-XDC.xdc:70]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'PLPMOD2_D4'. [/home/brainiarc7/designs/vcu_trd/vcu_trd.srcs/constrs_1/imports/Xilinx/UltraZed-EV-CC-Master-XDC.xdc:71]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/brainiarc7/designs/vcu_trd/vcu_trd.srcs/constrs_1/imports/Xilinx/UltraZed-EV-CC-Master-XDC.xdc:71]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'PLPMOD2_D5'. [/home/brainiarc7/designs/vcu_trd/vcu_trd.srcs/constrs_1/imports/Xilinx/UltraZed-EV-CC-Master-XDC.xdc:72]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/brainiarc7/designs/vcu_trd/vcu_trd.srcs/constrs_1/imports/Xilinx/UltraZed-EV-CC-Master-XDC.xdc:72]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'PLPMOD2_D6'. [/home/brainiarc7/designs/vcu_trd/vcu_trd.srcs/constrs_1/imports/Xilinx/UltraZed-EV-CC-Master-XDC.xdc:73]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/brainiarc7/designs/vcu_trd/vcu_trd.srcs/constrs_1/imports/Xilinx/UltraZed-EV-CC-Master-XDC.xdc:73]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'PLPMOD2_D7'. [/home/brainiarc7/designs/vcu_trd/vcu_trd.srcs/constrs_1/imports/Xilinx/UltraZed-EV-CC-Master-XDC.xdc:74]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/brainiarc7/designs/vcu_trd/vcu_trd.srcs/constrs_1/imports/Xilinx/UltraZed-EV-CC-Master-XDC.xdc:74]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'PLPMOD1_D0'. [/home/brainiarc7/designs/vcu_trd/vcu_trd.srcs/constrs_1/imports/Xilinx/UltraZed-EV-CC-Master-XDC.xdc:76]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/brainiarc7/designs/vcu_trd/vcu_trd.srcs/constrs_1/imports/Xilinx/UltraZed-EV-CC-Master-XDC.xdc:76]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'PLPMOD1_D1'. [/home/brainiarc7/designs/vcu_trd/vcu_trd.srcs/constrs_1/imports/Xilinx/UltraZed-EV-CC-Master-XDC.xdc:77]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/brainiarc7/designs/vcu_trd/vcu_trd.srcs/constrs_1/imports/Xilinx/UltraZed-EV-CC-Master-XDC.xdc:77]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'PLPMOD1_D2'. [/home/brainiarc7/designs/vcu_trd/vcu_trd.srcs/constrs_1/imports/Xilinx/UltraZed-EV-CC-Master-XDC.xdc:78]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/brainiarc7/designs/vcu_trd/vcu_trd.srcs/constrs_1/imports/Xilinx/UltraZed-EV-CC-Master-XDC.xdc:78]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'PLPMOD1_D3'. [/home/brainiarc7/designs/vcu_trd/vcu_trd.srcs/constrs_1/imports/Xilinx/UltraZed-EV-CC-Master-XDC.xdc:79]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/brainiarc7/designs/vcu_trd/vcu_trd.srcs/constrs_1/imports/Xilinx/UltraZed-EV-CC-Master-XDC.xdc:79]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'PLPMOD1_D4'. [/home/brainiarc7/designs/vcu_trd/vcu_trd.srcs/constrs_1/imports/Xilinx/UltraZed-EV-CC-Master-XDC.xdc:80]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/brainiarc7/designs/vcu_trd/vcu_trd.srcs/constrs_1/imports/Xilinx/UltraZed-EV-CC-Master-XDC.xdc:80]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'PLPMOD1_D5'. [/home/brainiarc7/designs/vcu_trd/vcu_trd.srcs/constrs_1/imports/Xilinx/UltraZed-EV-CC-Master-XDC.xdc:81]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/brainiarc7/designs/vcu_trd/vcu_trd.srcs/constrs_1/imports/Xilinx/UltraZed-EV-CC-Master-XDC.xdc:81]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'PLPMOD1_D6'. [/home/brainiarc7/designs/vcu_trd/vcu_trd.srcs/constrs_1/imports/Xilinx/UltraZed-EV-CC-Master-XDC.xdc:82]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/brainiarc7/designs/vcu_trd/vcu_trd.srcs/constrs_1/imports/Xilinx/UltraZed-EV-CC-Master-XDC.xdc:82]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'PLPMOD1_D7'. [/home/brainiarc7/designs/vcu_trd/vcu_trd.srcs/constrs_1/imports/Xilinx/UltraZed-EV-CC-Master-XDC.xdc:83]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/brainiarc7/designs/vcu_trd/vcu_trd.srcs/constrs_1/imports/Xilinx/UltraZed-EV-CC-Master-XDC.xdc:83]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'PLPMOD2_D0'. [/home/brainiarc7/designs/vcu_trd/vcu_trd.srcs/constrs_1/imports/Xilinx/UltraZed-EV-CC-Master-XDC.xdc:85]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/brainiarc7/designs/vcu_trd/vcu_trd.srcs/constrs_1/imports/Xilinx/UltraZed-EV-CC-Master-XDC.xdc:85]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'PLPMOD2_D1'. [/home/brainiarc7/designs/vcu_trd/vcu_trd.srcs/constrs_1/imports/Xilinx/UltraZed-EV-CC-Master-XDC.xdc:86]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/brainiarc7/designs/vcu_trd/vcu_trd.srcs/constrs_1/imports/Xilinx/UltraZed-EV-CC-Master-XDC.xdc:86]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'PLPMOD2_D2'. [/home/brainiarc7/designs/vcu_trd/vcu_trd.srcs/constrs_1/imports/Xilinx/UltraZed-EV-CC-Master-XDC.xdc:87]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/brainiarc7/designs/vcu_trd/vcu_trd.srcs/constrs_1/imports/Xilinx/UltraZed-EV-CC-Master-XDC.xdc:87]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'PLPMOD2_D3'. [/home/brainiarc7/designs/vcu_trd/vcu_trd.srcs/constrs_1/imports/Xilinx/UltraZed-EV-CC-Master-XDC.xdc:88]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/brainiarc7/designs/vcu_trd/vcu_trd.srcs/constrs_1/imports/Xilinx/UltraZed-EV-CC-Master-XDC.xdc:88]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'PLPMOD2_D4'. [/home/brainiarc7/designs/vcu_trd/vcu_trd.srcs/constrs_1/imports/Xilinx/UltraZed-EV-CC-Master-XDC.xdc:89]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/brainiarc7/designs/vcu_trd/vcu_trd.srcs/constrs_1/imports/Xilinx/UltraZed-EV-CC-Master-XDC.xdc:89]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'PLPMOD2_D5'. [/home/brainiarc7/designs/vcu_trd/vcu_trd.srcs/constrs_1/imports/Xilinx/UltraZed-EV-CC-Master-XDC.xdc:90]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/brainiarc7/designs/vcu_trd/vcu_trd.srcs/constrs_1/imports/Xilinx/UltraZed-EV-CC-Master-XDC.xdc:90]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'PLPMOD2_D6'. [/home/brainiarc7/designs/vcu_trd/vcu_trd.srcs/constrs_1/imports/Xilinx/UltraZed-EV-CC-Master-XDC.xdc:91]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/brainiarc7/designs/vcu_trd/vcu_trd.srcs/constrs_1/imports/Xilinx/UltraZed-EV-CC-Master-XDC.xdc:91]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'PLPMOD2_D7'. [/home/brainiarc7/designs/vcu_trd/vcu_trd.srcs/constrs_1/imports/Xilinx/UltraZed-EV-CC-Master-XDC.xdc:92]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/brainiarc7/designs/vcu_trd/vcu_trd.srcs/constrs_1/imports/Xilinx/UltraZed-EV-CC-Master-XDC.xdc:92]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'U9_IN_D0N'. [/home/brainiarc7/designs/vcu_trd/vcu_trd.srcs/constrs_1/imports/Xilinx/UltraZed-EV-CC-Master-XDC.xdc:97]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/brainiarc7/designs/vcu_trd/vcu_trd.srcs/constrs_1/imports/Xilinx/UltraZed-EV-CC-Master-XDC.xdc:97]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'U9_IN_D0P'. [/home/brainiarc7/designs/vcu_trd/vcu_trd.srcs/constrs_1/imports/Xilinx/UltraZed-EV-CC-Master-XDC.xdc:98]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/brainiarc7/designs/vcu_trd/vcu_trd.srcs/constrs_1/imports/Xilinx/UltraZed-EV-CC-Master-XDC.xdc:98]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'U9_IN_D1N'. [/home/brainiarc7/designs/vcu_trd/vcu_trd.srcs/constrs_1/imports/Xilinx/UltraZed-EV-CC-Master-XDC.xdc:99]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/brainiarc7/designs/vcu_trd/vcu_trd.srcs/constrs_1/imports/Xilinx/UltraZed-EV-CC-Master-XDC.xdc:99]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'U9_IN_D1P'. [/home/brainiarc7/designs/vcu_trd/vcu_trd.srcs/constrs_1/imports/Xilinx/UltraZed-EV-CC-Master-XDC.xdc:100]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/brainiarc7/designs/vcu_trd/vcu_trd.srcs/constrs_1/imports/Xilinx/UltraZed-EV-CC-Master-XDC.xdc:100]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'U9_IN_D2N'. [/home/brainiarc7/designs/vcu_trd/vcu_trd.srcs/constrs_1/imports/Xilinx/UltraZed-EV-CC-Master-XDC.xdc:101]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/brainiarc7/designs/vcu_trd/vcu_trd.srcs/constrs_1/imports/Xilinx/UltraZed-EV-CC-Master-XDC.xdc:101]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'U9_IN_D2P'. [/home/brainiarc7/designs/vcu_trd/vcu_trd.srcs/constrs_1/imports/Xilinx/UltraZed-EV-CC-Master-XDC.xdc:102]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/brainiarc7/designs/vcu_trd/vcu_trd.srcs/constrs_1/imports/Xilinx/UltraZed-EV-CC-Master-XDC.xdc:102]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'U9_IN_CLKN'. [/home/brainiarc7/designs/vcu_trd/vcu_trd.srcs/constrs_1/imports/Xilinx/UltraZed-EV-CC-Master-XDC.xdc:104]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/brainiarc7/designs/vcu_trd/vcu_trd.srcs/constrs_1/imports/Xilinx/UltraZed-EV-CC-Master-XDC.xdc:104]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'U9_IN_CLKP'. [/home/brainiarc7/designs/vcu_trd/vcu_trd.srcs/constrs_1/imports/Xilinx/UltraZed-EV-CC-Master-XDC.xdc:105]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/brainiarc7/designs/vcu_trd/vcu_trd.srcs/constrs_1/imports/Xilinx/UltraZed-EV-CC-Master-XDC.xdc:105]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'U9_OE'. [/home/brainiarc7/designs/vcu_trd/vcu_trd.srcs/constrs_1/imports/Xilinx/UltraZed-EV-CC-Master-XDC.xdc:106]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/brainiarc7/designs/vcu_trd/vcu_trd.srcs/constrs_1/imports/Xilinx/UltraZed-EV-CC-Master-XDC.xdc:106]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'U9_SCL_SRC'. [/home/brainiarc7/designs/vcu_trd/vcu_trd.srcs/constrs_1/imports/Xilinx/UltraZed-EV-CC-Master-XDC.xdc:107]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/brainiarc7/designs/vcu_trd/vcu_trd.srcs/constrs_1/imports/Xilinx/UltraZed-EV-CC-Master-XDC.xdc:107]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'U9_SDA_SRC'. [/home/brainiarc7/designs/vcu_trd/vcu_trd.srcs/constrs_1/imports/Xilinx/UltraZed-EV-CC-Master-XDC.xdc:108]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/brainiarc7/designs/vcu_trd/vcu_trd.srcs/constrs_1/imports/Xilinx/UltraZed-EV-CC-Master-XDC.xdc:108]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'U9_SCL_CTL'. [/home/brainiarc7/designs/vcu_trd/vcu_trd.srcs/constrs_1/imports/Xilinx/UltraZed-EV-CC-Master-XDC.xdc:109]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/brainiarc7/designs/vcu_trd/vcu_trd.srcs/constrs_1/imports/Xilinx/UltraZed-EV-CC-Master-XDC.xdc:109]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'U9_SDA_CTL'. [/home/brainiarc7/designs/vcu_trd/vcu_trd.srcs/constrs_1/imports/Xilinx/UltraZed-EV-CC-Master-XDC.xdc:110]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/brainiarc7/designs/vcu_trd/vcu_trd.srcs/constrs_1/imports/Xilinx/UltraZed-EV-CC-Master-XDC.xdc:110]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'U8_CEC_A'. [/home/brainiarc7/designs/vcu_trd/vcu_trd.srcs/constrs_1/imports/Xilinx/UltraZed-EV-CC-Master-XDC.xdc:111]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/brainiarc7/designs/vcu_trd/vcu_trd.srcs/constrs_1/imports/Xilinx/UltraZed-EV-CC-Master-XDC.xdc:111]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'U8_HPD_A'. [/home/brainiarc7/designs/vcu_trd/vcu_trd.srcs/constrs_1/imports/Xilinx/UltraZed-EV-CC-Master-XDC.xdc:112]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/brainiarc7/designs/vcu_trd/vcu_trd.srcs/constrs_1/imports/Xilinx/UltraZed-EV-CC-Master-XDC.xdc:112]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'J12_D0N'. [/home/brainiarc7/designs/vcu_trd/vcu_trd.srcs/constrs_1/imports/Xilinx/UltraZed-EV-CC-Master-XDC.xdc:115]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/brainiarc7/designs/vcu_trd/vcu_trd.srcs/constrs_1/imports/Xilinx/UltraZed-EV-CC-Master-XDC.xdc:115]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'J12_D0P'. [/home/brainiarc7/designs/vcu_trd/vcu_trd.srcs/constrs_1/imports/Xilinx/UltraZed-EV-CC-Master-XDC.xdc:116]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/brainiarc7/designs/vcu_trd/vcu_trd.srcs/constrs_1/imports/Xilinx/UltraZed-EV-CC-Master-XDC.xdc:116]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'J12_D1N'. [/home/brainiarc7/designs/vcu_trd/vcu_trd.srcs/constrs_1/imports/Xilinx/UltraZed-EV-CC-Master-XDC.xdc:117]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/brainiarc7/designs/vcu_trd/vcu_trd.srcs/constrs_1/imports/Xilinx/UltraZed-EV-CC-Master-XDC.xdc:117]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'J12_D1P'. [/home/brainiarc7/designs/vcu_trd/vcu_trd.srcs/constrs_1/imports/Xilinx/UltraZed-EV-CC-Master-XDC.xdc:118]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/brainiarc7/designs/vcu_trd/vcu_trd.srcs/constrs_1/imports/Xilinx/UltraZed-EV-CC-Master-XDC.xdc:118]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'J12_D2N'. [/home/brainiarc7/designs/vcu_trd/vcu_trd.srcs/constrs_1/imports/Xilinx/UltraZed-EV-CC-Master-XDC.xdc:119]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/brainiarc7/designs/vcu_trd/vcu_trd.srcs/constrs_1/imports/Xilinx/UltraZed-EV-CC-Master-XDC.xdc:119]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'J12_D2P'. [/home/brainiarc7/designs/vcu_trd/vcu_trd.srcs/constrs_1/imports/Xilinx/UltraZed-EV-CC-Master-XDC.xdc:120]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/brainiarc7/designs/vcu_trd/vcu_trd.srcs/constrs_1/imports/Xilinx/UltraZed-EV-CC-Master-XDC.xdc:120]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'J12_CLKN'. [/home/brainiarc7/designs/vcu_trd/vcu_trd.srcs/constrs_1/imports/Xilinx/UltraZed-EV-CC-Master-XDC.xdc:121]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/brainiarc7/designs/vcu_trd/vcu_trd.srcs/constrs_1/imports/Xilinx/UltraZed-EV-CC-Master-XDC.xdc:121]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'J12_CLKP'. [/home/brainiarc7/designs/vcu_trd/vcu_trd.srcs/constrs_1/imports/Xilinx/UltraZed-EV-CC-Master-XDC.xdc:122]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/brainiarc7/designs/vcu_trd/vcu_trd.srcs/constrs_1/imports/Xilinx/UltraZed-EV-CC-Master-XDC.xdc:122]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'HDMI_RX_PWR_DET'. [/home/brainiarc7/designs/vcu_trd/vcu_trd.srcs/constrs_1/imports/Xilinx/UltraZed-EV-CC-Master-XDC.xdc:124]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/brainiarc7/designs/vcu_trd/vcu_trd.srcs/constrs_1/imports/Xilinx/UltraZed-EV-CC-Master-XDC.xdc:124]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'HDMI_RX_HPD'. [/home/brainiarc7/designs/vcu_trd/vcu_trd.srcs/constrs_1/imports/Xilinx/UltraZed-EV-CC-Master-XDC.xdc:125]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/brainiarc7/designs/vcu_trd/vcu_trd.srcs/constrs_1/imports/Xilinx/UltraZed-EV-CC-Master-XDC.xdc:125]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'U11_CEC_A'. [/home/brainiarc7/designs/vcu_trd/vcu_trd.srcs/constrs_1/imports/Xilinx/UltraZed-EV-CC-Master-XDC.xdc:126]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/brainiarc7/designs/vcu_trd/vcu_trd.srcs/constrs_1/imports/Xilinx/UltraZed-EV-CC-Master-XDC.xdc:126]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'U11_SCL_A'. [/home/brainiarc7/designs/vcu_trd/vcu_trd.srcs/constrs_1/imports/Xilinx/UltraZed-EV-CC-Master-XDC.xdc:127]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/brainiarc7/designs/vcu_trd/vcu_trd.srcs/constrs_1/imports/Xilinx/UltraZed-EV-CC-Master-XDC.xdc:127]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'U11_SDA_A'. [/home/brainiarc7/designs/vcu_trd/vcu_trd.srcs/constrs_1/imports/Xilinx/UltraZed-EV-CC-Master-XDC.xdc:128]
+INFO: [Common 17-14] Message 'Vivado 12-584' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings. [/home/brainiarc7/designs/vcu_trd/vcu_trd.srcs/constrs_1/imports/Xilinx/UltraZed-EV-CC-Master-XDC.xdc:128]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/brainiarc7/designs/vcu_trd/vcu_trd.srcs/constrs_1/imports/Xilinx/UltraZed-EV-CC-Master-XDC.xdc:128]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+INFO: [Common 17-14] Message 'Common 17-55' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings. [/home/brainiarc7/designs/vcu_trd/vcu_trd.srcs/constrs_1/imports/Xilinx/UltraZed-EV-CC-Master-XDC.xdc:128]
+Finished Parsing XDC File [/home/brainiarc7/designs/vcu_trd/vcu_trd.srcs/constrs_1/imports/Xilinx/UltraZed-EV-CC-Master-XDC.xdc]
+Parsing XDC File [/home/brainiarc7/designs/vcu_trd/vcu_trd.srcs/sources_1/bd/vcu_trd/ip/vcu_trd_vcu_0_1/constraints/vcu.xdc] for cell 'vcu_trd_i/vcu_0/inst'
+Finished Parsing XDC File [/home/brainiarc7/designs/vcu_trd/vcu_trd.srcs/sources_1/bd/vcu_trd/ip/vcu_trd_vcu_0_1/constraints/vcu.xdc] for cell 'vcu_trd_i/vcu_0/inst'
+Parsing XDC File [/home/brainiarc7/designs/vcu_trd/vcu_trd.srcs/sources_1/bd/vcu_trd/ip/vcu_trd_vcu_enc0_reg_slice_1/vcu_trd_vcu_enc0_reg_slice_1_clocks.xdc] for cell 'vcu_trd_i/vcu_enc0_reg_slice/inst'
+Finished Parsing XDC File [/home/brainiarc7/designs/vcu_trd/vcu_trd.srcs/sources_1/bd/vcu_trd/ip/vcu_trd_vcu_enc0_reg_slice_1/vcu_trd_vcu_enc0_reg_slice_1_clocks.xdc] for cell 'vcu_trd_i/vcu_enc0_reg_slice/inst'
+Parsing XDC File [/home/brainiarc7/designs/vcu_trd/vcu_trd.srcs/sources_1/bd/vcu_trd/ip/vcu_trd_vcu_enc1_reg_slice_1/vcu_trd_vcu_enc1_reg_slice_1_clocks.xdc] for cell 'vcu_trd_i/vcu_enc1_reg_slice/inst'
+Finished Parsing XDC File [/home/brainiarc7/designs/vcu_trd/vcu_trd.srcs/sources_1/bd/vcu_trd/ip/vcu_trd_vcu_enc1_reg_slice_1/vcu_trd_vcu_enc1_reg_slice_1_clocks.xdc] for cell 'vcu_trd_i/vcu_enc1_reg_slice/inst'
+Parsing XDC File [/home/brainiarc7/designs/vcu_trd/vcu_trd.srcs/sources_1/bd/vcu_trd/ip/vcu_trd_vcu_dec0_reg_slice_1/vcu_trd_vcu_dec0_reg_slice_1_clocks.xdc] for cell 'vcu_trd_i/vcu_dec0_reg_slice/inst'
+Finished Parsing XDC File [/home/brainiarc7/designs/vcu_trd/vcu_trd.srcs/sources_1/bd/vcu_trd/ip/vcu_trd_vcu_dec0_reg_slice_1/vcu_trd_vcu_dec0_reg_slice_1_clocks.xdc] for cell 'vcu_trd_i/vcu_dec0_reg_slice/inst'
+Parsing XDC File [/home/brainiarc7/designs/vcu_trd/vcu_trd.srcs/sources_1/bd/vcu_trd/ip/vcu_trd_vcu_dec1_reg_slice_1/vcu_trd_vcu_dec1_reg_slice_1_clocks.xdc] for cell 'vcu_trd_i/vcu_dec1_reg_slice/inst'
+Finished Parsing XDC File [/home/brainiarc7/designs/vcu_trd/vcu_trd.srcs/sources_1/bd/vcu_trd/ip/vcu_trd_vcu_dec1_reg_slice_1/vcu_trd_vcu_dec1_reg_slice_1_clocks.xdc] for cell 'vcu_trd_i/vcu_dec1_reg_slice/inst'
+Parsing XDC File [/home/brainiarc7/designs/vcu_trd/vcu_trd.srcs/sources_1/bd/vcu_trd/ip/vcu_trd_vcu_mcu_reg_slice_1/vcu_trd_vcu_mcu_reg_slice_1_clocks.xdc] for cell 'vcu_trd_i/vcu_mcu_reg_slice/inst'
+Finished Parsing XDC File [/home/brainiarc7/designs/vcu_trd/vcu_trd.srcs/sources_1/bd/vcu_trd/ip/vcu_trd_vcu_mcu_reg_slice_1/vcu_trd_vcu_mcu_reg_slice_1_clocks.xdc] for cell 'vcu_trd_i/vcu_mcu_reg_slice/inst'
+Parsing XDC File [/home/brainiarc7/designs/vcu_trd/vcu_trd.srcs/sources_1/bd/vcu_trd/ip/vcu_trd_gig_ethernet_pcs_pma_0_1/synth/vcu_trd_gig_ethernet_pcs_pma_0_1.xdc] for cell 'vcu_trd_i/gig_ethernet_pcs_pma_0/inst'
+WARNING: [Vivado 12-1008] No clocks found for command 'get_clocks -of [get_pins -hier -filter { name =~ */transceiver_inst/vcu_trd_gig_ethernet_pcs_pma_0_1_gt_i/inst/rxoutclk_out* }]'. [/home/brainiarc7/designs/vcu_trd/vcu_trd.srcs/sources_1/bd/vcu_trd/ip/vcu_trd_gig_ethernet_pcs_pma_0_1/synth/vcu_trd_gig_ethernet_pcs_pma_0_1.xdc:15]
+Resolution: Verify the create_clock command was called to create the clock object before it is referenced.
+INFO: [Vivado 12-626] No clocks found. Please use 'create_clock' or 'create_generated_clock' command to create clocks. [/home/brainiarc7/designs/vcu_trd/vcu_trd.srcs/sources_1/bd/vcu_trd/ip/vcu_trd_gig_ethernet_pcs_pma_0_1/synth/vcu_trd_gig_ethernet_pcs_pma_0_1.xdc:15]
+CRITICAL WARNING: [Vivado 12-4739] set_false_path:No valid object(s) found for '-from [get_clocks -of [get_pins -hier -filter { name =~ */transceiver_inst/vcu_trd_gig_ethernet_pcs_pma_0_1_gt_i/inst/rxoutclk_out* }]]'. [/home/brainiarc7/designs/vcu_trd/vcu_trd.srcs/sources_1/bd/vcu_trd/ip/vcu_trd_gig_ethernet_pcs_pma_0_1/synth/vcu_trd_gig_ethernet_pcs_pma_0_1.xdc:15]
+Resolution: Check if the specified object(s) exists in the current design. If it does, ensure that the correct design hierarchy was specified for the object. If you are working with clocks, make sure create_clock was used to create the clock object before it is referenced.
+Finished Parsing XDC File [/home/brainiarc7/designs/vcu_trd/vcu_trd.srcs/sources_1/bd/vcu_trd/ip/vcu_trd_gig_ethernet_pcs_pma_0_1/synth/vcu_trd_gig_ethernet_pcs_pma_0_1.xdc] for cell 'vcu_trd_i/gig_ethernet_pcs_pma_0/inst'
+Parsing XDC File [/home/brainiarc7/designs/vcu_trd/vcu_trd.srcs/sources_1/bd/vcu_trd/ip/vcu_trd_v_smpte_uhdsdi_rx_ss_0_0/bd_0/ip/ip_0/bd_22f3_v_smpte_uhdsdi_rx_0_clock.xdc] for cell 'vcu_trd_i/v_smpte_uhdsdi_rx_ss_0/inst/v_smpte_uhdsdi_rx/inst'
+Finished Parsing XDC File [/home/brainiarc7/designs/vcu_trd/vcu_trd.srcs/sources_1/bd/vcu_trd/ip/vcu_trd_v_smpte_uhdsdi_rx_ss_0_0/bd_0/ip/ip_0/bd_22f3_v_smpte_uhdsdi_rx_0_clock.xdc] for cell 'vcu_trd_i/v_smpte_uhdsdi_rx_ss_0/inst/v_smpte_uhdsdi_rx/inst'
+Parsing XDC File [/home/brainiarc7/designs/vcu_trd/vcu_trd.srcs/sources_1/bd/vcu_trd/ip/vcu_trd_v_smpte_uhdsdi_rx_ss_0_0/bd_0/ip/ip_2/bd_22f3_v_vid_in_axi4s_0_clocks.xdc] for cell 'vcu_trd_i/v_smpte_uhdsdi_rx_ss_0/inst/v_vid_in_axi4s/inst'
+Finished Parsing XDC File [/home/brainiarc7/designs/vcu_trd/vcu_trd.srcs/sources_1/bd/vcu_trd/ip/vcu_trd_v_smpte_uhdsdi_rx_ss_0_0/bd_0/ip/ip_2/bd_22f3_v_vid_in_axi4s_0_clocks.xdc] for cell 'vcu_trd_i/v_smpte_uhdsdi_rx_ss_0/inst/v_vid_in_axi4s/inst'
+Parsing XDC File [/home/brainiarc7/designs/vcu_trd/vcu_trd.srcs/sources_1/bd/vcu_trd/ip/vcu_trd_v_smpte_uhdsdi_tx_ss_0_0/bd_0/ip/ip_1/bd_82d8_v_smpte_uhdsdi_tx_0_clock.xdc] for cell 'vcu_trd_i/v_smpte_uhdsdi_tx_ss_0/inst/v_smpte_uhdsdi_tx/inst'
+Finished Parsing XDC File [/home/brainiarc7/designs/vcu_trd/vcu_trd.srcs/sources_1/bd/vcu_trd/ip/vcu_trd_v_smpte_uhdsdi_tx_ss_0_0/bd_0/ip/ip_1/bd_82d8_v_smpte_uhdsdi_tx_0_clock.xdc] for cell 'vcu_trd_i/v_smpte_uhdsdi_tx_ss_0/inst/v_smpte_uhdsdi_tx/inst'
+Parsing XDC File [/home/brainiarc7/designs/vcu_trd/vcu_trd.srcs/sources_1/bd/vcu_trd/ip/vcu_trd_v_smpte_uhdsdi_tx_ss_0_0/bd_0/ip/ip_3/bd_82d8_v_axi4s_vid_out_0_clocks.xdc] for cell 'vcu_trd_i/v_smpte_uhdsdi_tx_ss_0/inst/v_axi4s_vid_out/inst'
+Finished Parsing XDC File [/home/brainiarc7/designs/vcu_trd/vcu_trd.srcs/sources_1/bd/vcu_trd/ip/vcu_trd_v_smpte_uhdsdi_tx_ss_0_0/bd_0/ip/ip_3/bd_82d8_v_axi4s_vid_out_0_clocks.xdc] for cell 'vcu_trd_i/v_smpte_uhdsdi_tx_ss_0/inst/v_axi4s_vid_out/inst'
+Parsing XDC File [/home/brainiarc7/designs/vcu_trd/vcu_trd.srcs/sources_1/bd/vcu_trd/ip/vcu_trd_v_smpte_uhdsdi_tx_ss_0_0/bd_0/ip/ip_4/bd_82d8_v_tc_0_clocks.xdc] for cell 'vcu_trd_i/v_smpte_uhdsdi_tx_ss_0/inst/v_tc/U0'
+Finished Parsing XDC File [/home/brainiarc7/designs/vcu_trd/vcu_trd.srcs/sources_1/bd/vcu_trd/ip/vcu_trd_v_smpte_uhdsdi_tx_ss_0_0/bd_0/ip/ip_4/bd_82d8_v_tc_0_clocks.xdc] for cell 'vcu_trd_i/v_smpte_uhdsdi_tx_ss_0/inst/v_tc/U0'
+Sourcing Tcl File [/opt/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_gray.tcl] for cell 'vcu_trd_i/v_smpte_uhdsdi_rx_ss_0/inst/v_vid_in_axi4s/inst/COUPLER_INST/generate_async_fifo.FIFO_INST/XPM_FIFO_ASYNC_INST/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.rd_pntr_cdc_inst'
+INFO: [Vivado 12-3272] Current instance is the top level cell 'vcu_trd_i/v_smpte_uhdsdi_rx_ss_0/inst/v_vid_in_axi4s/inst/COUPLER_INST/generate_async_fifo.FIFO_INST/XPM_FIFO_ASYNC_INST/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.rd_pntr_cdc_inst' of design 'design_1' [/opt/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_gray.tcl:16]
+WARNING: [XPM_CDC_GRAY: TCL-1000] The source and destination clocks are the same. 
+     Instance: vcu_trd_i/v_smpte_uhdsdi_rx_ss_0/inst/v_vid_in_axi4s/inst/COUPLER_INST/generate_async_fifo.FIFO_INST/XPM_FIFO_ASYNC_INST/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.rd_pntr_cdc_inst 
+  This will add unnecessary latency to the design. Please check the design for the following: 
+ 1) Manually instantiated XPM_CDC modules: Xilinx recommends that you remove these modules. 
+ 2) Xilinx IP that contains XPM_CDC modules: Verify the connections to the IP to determine whether you can safely ignore this message.
+ [/opt/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_gray.tcl:16]
+Finished Sourcing Tcl File [/opt/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_gray.tcl] for cell 'vcu_trd_i/v_smpte_uhdsdi_rx_ss_0/inst/v_vid_in_axi4s/inst/COUPLER_INST/generate_async_fifo.FIFO_INST/XPM_FIFO_ASYNC_INST/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.rd_pntr_cdc_inst'
+Sourcing Tcl File [/opt/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_gray.tcl] for cell 'vcu_trd_i/v_smpte_uhdsdi_tx_ss_0/inst/v_axi4s_vid_out/inst/COUPLER_INST/generate_async_fifo.FIFO_INST/XPM_FIFO_ASYNC_INST/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.wr_pntr_cdc_inst'
+INFO: [Vivado 12-3272] Current instance is the top level cell 'vcu_trd_i/v_smpte_uhdsdi_tx_ss_0/inst/v_axi4s_vid_out/inst/COUPLER_INST/generate_async_fifo.FIFO_INST/XPM_FIFO_ASYNC_INST/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.wr_pntr_cdc_inst' of design 'design_1' [/opt/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_gray.tcl:16]
+WARNING: [XPM_CDC_GRAY: TCL-1000] The source and destination clocks are the same. 
+     Instance: vcu_trd_i/v_smpte_uhdsdi_tx_ss_0/inst/v_axi4s_vid_out/inst/COUPLER_INST/generate_async_fifo.FIFO_INST/XPM_FIFO_ASYNC_INST/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.wr_pntr_cdc_inst 
+  This will add unnecessary latency to the design. Please check the design for the following: 
+ 1) Manually instantiated XPM_CDC modules: Xilinx recommends that you remove these modules. 
+ 2) Xilinx IP that contains XPM_CDC modules: Verify the connections to the IP to determine whether you can safely ignore this message.
+ [/opt/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_gray.tcl:16]
+Finished Sourcing Tcl File [/opt/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_gray.tcl] for cell 'vcu_trd_i/v_smpte_uhdsdi_tx_ss_0/inst/v_axi4s_vid_out/inst/COUPLER_INST/generate_async_fifo.FIFO_INST/XPM_FIFO_ASYNC_INST/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.wr_pntr_cdc_inst'
+Sourcing Tcl File [/opt/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_gray.tcl] for cell 'vcu_trd_i/v_smpte_uhdsdi_tx_ss_0/inst/v_axi4s_vid_out/inst/COUPLER_INST/generate_async_fifo.FIFO_INST/XPM_FIFO_ASYNC_INST/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.rd_pntr_cdc_inst'
+INFO: [Vivado 12-3272] Current instance is the top level cell 'vcu_trd_i/v_smpte_uhdsdi_tx_ss_0/inst/v_axi4s_vid_out/inst/COUPLER_INST/generate_async_fifo.FIFO_INST/XPM_FIFO_ASYNC_INST/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.rd_pntr_cdc_inst' of design 'design_1' [/opt/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_gray.tcl:16]
+WARNING: [XPM_CDC_GRAY: TCL-1000] The source and destination clocks are the same. 
+     Instance: vcu_trd_i/v_smpte_uhdsdi_tx_ss_0/inst/v_axi4s_vid_out/inst/COUPLER_INST/generate_async_fifo.FIFO_INST/XPM_FIFO_ASYNC_INST/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.rd_pntr_cdc_inst 
+  This will add unnecessary latency to the design. Please check the design for the following: 
+ 1) Manually instantiated XPM_CDC modules: Xilinx recommends that you remove these modules. 
+ 2) Xilinx IP that contains XPM_CDC modules: Verify the connections to the IP to determine whether you can safely ignore this message.
+ [/opt/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_gray.tcl:16]
+Finished Sourcing Tcl File [/opt/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_gray.tcl] for cell 'vcu_trd_i/v_smpte_uhdsdi_tx_ss_0/inst/v_axi4s_vid_out/inst/COUPLER_INST/generate_async_fifo.FIFO_INST/XPM_FIFO_ASYNC_INST/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.rd_pntr_cdc_inst'
+Sourcing Tcl File [/opt/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_gray.tcl] for cell 'vcu_trd_i/v_smpte_uhdsdi_rx_ss_0/inst/v_vid_in_axi4s/inst/COUPLER_INST/generate_async_fifo.FIFO_INST/XPM_FIFO_ASYNC_INST/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.wr_pntr_cdc_inst'
+INFO: [Vivado 12-3272] Current instance is the top level cell 'vcu_trd_i/v_smpte_uhdsdi_rx_ss_0/inst/v_vid_in_axi4s/inst/COUPLER_INST/generate_async_fifo.FIFO_INST/XPM_FIFO_ASYNC_INST/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.wr_pntr_cdc_inst' of design 'design_1' [/opt/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_gray.tcl:16]
+WARNING: [XPM_CDC_GRAY: TCL-1000] The source and destination clocks are the same. 
+     Instance: vcu_trd_i/v_smpte_uhdsdi_rx_ss_0/inst/v_vid_in_axi4s/inst/COUPLER_INST/generate_async_fifo.FIFO_INST/XPM_FIFO_ASYNC_INST/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.wr_pntr_cdc_inst 
+  This will add unnecessary latency to the design. Please check the design for the following: 
+ 1) Manually instantiated XPM_CDC modules: Xilinx recommends that you remove these modules. 
+ 2) Xilinx IP that contains XPM_CDC modules: Verify the connections to the IP to determine whether you can safely ignore this message.
+ [/opt/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_gray.tcl:16]
+Finished Sourcing Tcl File [/opt/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_gray.tcl] for cell 'vcu_trd_i/v_smpte_uhdsdi_rx_ss_0/inst/v_vid_in_axi4s/inst/COUPLER_INST/generate_async_fifo.FIFO_INST/XPM_FIFO_ASYNC_INST/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.wr_pntr_cdc_inst'
+Sourcing Tcl File [/opt/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_gray.tcl] for cell 'vcu_trd_i/v_smpte_uhdsdi_rx_ss_0/inst/v_vid_in_axi4s/inst/COUPLER_INST/generate_async_fifo.FIFO_INST/XPM_FIFO_ASYNC_INST/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.wr_pntr_cdc_dc_inst'
+INFO: [Vivado 12-3272] Current instance is the top level cell 'vcu_trd_i/v_smpte_uhdsdi_rx_ss_0/inst/v_vid_in_axi4s/inst/COUPLER_INST/generate_async_fifo.FIFO_INST/XPM_FIFO_ASYNC_INST/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.wr_pntr_cdc_dc_inst' of design 'design_1' [/opt/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_gray.tcl:16]
+WARNING: [XPM_CDC_GRAY: TCL-1000] The source and destination clocks are the same. 
+     Instance: vcu_trd_i/v_smpte_uhdsdi_rx_ss_0/inst/v_vid_in_axi4s/inst/COUPLER_INST/generate_async_fifo.FIFO_INST/XPM_FIFO_ASYNC_INST/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.wr_pntr_cdc_dc_inst 
+  This will add unnecessary latency to the design. Please check the design for the following: 
+ 1) Manually instantiated XPM_CDC modules: Xilinx recommends that you remove these modules. 
+ 2) Xilinx IP that contains XPM_CDC modules: Verify the connections to the IP to determine whether you can safely ignore this message.
+ [/opt/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_gray.tcl:16]
+Finished Sourcing Tcl File [/opt/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_gray.tcl] for cell 'vcu_trd_i/v_smpte_uhdsdi_rx_ss_0/inst/v_vid_in_axi4s/inst/COUPLER_INST/generate_async_fifo.FIFO_INST/XPM_FIFO_ASYNC_INST/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.wr_pntr_cdc_dc_inst'
+Sourcing Tcl File [/opt/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_gray.tcl] for cell 'vcu_trd_i/v_smpte_uhdsdi_tx_ss_0/inst/v_axi4s_vid_out/inst/COUPLER_INST/generate_async_fifo.FIFO_INST/XPM_FIFO_ASYNC_INST/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.wr_pntr_cdc_dc_inst'
+INFO: [Vivado 12-3272] Current instance is the top level cell 'vcu_trd_i/v_smpte_uhdsdi_tx_ss_0/inst/v_axi4s_vid_out/inst/COUPLER_INST/generate_async_fifo.FIFO_INST/XPM_FIFO_ASYNC_INST/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.wr_pntr_cdc_dc_inst' of design 'design_1' [/opt/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_gray.tcl:16]
+WARNING: [XPM_CDC_GRAY: TCL-1000] The source and destination clocks are the same. 
+     Instance: vcu_trd_i/v_smpte_uhdsdi_tx_ss_0/inst/v_axi4s_vid_out/inst/COUPLER_INST/generate_async_fifo.FIFO_INST/XPM_FIFO_ASYNC_INST/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.wr_pntr_cdc_dc_inst 
+  This will add unnecessary latency to the design. Please check the design for the following: 
+ 1) Manually instantiated XPM_CDC modules: Xilinx recommends that you remove these modules. 
+ 2) Xilinx IP that contains XPM_CDC modules: Verify the connections to the IP to determine whether you can safely ignore this message.
+ [/opt/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_gray.tcl:16]
+Finished Sourcing Tcl File [/opt/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_gray.tcl] for cell 'vcu_trd_i/v_smpte_uhdsdi_tx_ss_0/inst/v_axi4s_vid_out/inst/COUPLER_INST/generate_async_fifo.FIFO_INST/XPM_FIFO_ASYNC_INST/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.wr_pntr_cdc_dc_inst'
+Sourcing Tcl File [/opt/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_gray.tcl] for cell 'vcu_trd_i/v_smpte_uhdsdi_rx_ss_0/inst/v_vid_in_axi4s/inst/COUPLER_INST/generate_async_fifo.FIFO_INST/XPM_FIFO_ASYNC_INST/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.rd_pntr_cdc_dc_inst'
+INFO: [Vivado 12-3272] Current instance is the top level cell 'vcu_trd_i/v_smpte_uhdsdi_rx_ss_0/inst/v_vid_in_axi4s/inst/COUPLER_INST/generate_async_fifo.FIFO_INST/XPM_FIFO_ASYNC_INST/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.rd_pntr_cdc_dc_inst' of design 'design_1' [/opt/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_gray.tcl:16]
+WARNING: [XPM_CDC_GRAY: TCL-1000] The source and destination clocks are the same. 
+     Instance: vcu_trd_i/v_smpte_uhdsdi_rx_ss_0/inst/v_vid_in_axi4s/inst/COUPLER_INST/generate_async_fifo.FIFO_INST/XPM_FIFO_ASYNC_INST/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.rd_pntr_cdc_dc_inst 
+  This will add unnecessary latency to the design. Please check the design for the following: 
+ 1) Manually instantiated XPM_CDC modules: Xilinx recommends that you remove these modules. 
+ 2) Xilinx IP that contains XPM_CDC modules: Verify the connections to the IP to determine whether you can safely ignore this message.
+ [/opt/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_gray.tcl:16]
+Finished Sourcing Tcl File [/opt/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_gray.tcl] for cell 'vcu_trd_i/v_smpte_uhdsdi_rx_ss_0/inst/v_vid_in_axi4s/inst/COUPLER_INST/generate_async_fifo.FIFO_INST/XPM_FIFO_ASYNC_INST/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.rd_pntr_cdc_dc_inst'
+Sourcing Tcl File [/opt/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_gray.tcl] for cell 'vcu_trd_i/v_smpte_uhdsdi_tx_ss_0/inst/v_axi4s_vid_out/inst/COUPLER_INST/generate_async_fifo.FIFO_INST/XPM_FIFO_ASYNC_INST/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.rd_pntr_cdc_dc_inst'
+INFO: [Vivado 12-3272] Current instance is the top level cell 'vcu_trd_i/v_smpte_uhdsdi_tx_ss_0/inst/v_axi4s_vid_out/inst/COUPLER_INST/generate_async_fifo.FIFO_INST/XPM_FIFO_ASYNC_INST/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.rd_pntr_cdc_dc_inst' of design 'design_1' [/opt/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_gray.tcl:16]
+WARNING: [XPM_CDC_GRAY: TCL-1000] The source and destination clocks are the same. 
+     Instance: vcu_trd_i/v_smpte_uhdsdi_tx_ss_0/inst/v_axi4s_vid_out/inst/COUPLER_INST/generate_async_fifo.FIFO_INST/XPM_FIFO_ASYNC_INST/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.rd_pntr_cdc_dc_inst 
+  This will add unnecessary latency to the design. Please check the design for the following: 
+ 1) Manually instantiated XPM_CDC modules: Xilinx recommends that you remove these modules. 
+ 2) Xilinx IP that contains XPM_CDC modules: Verify the connections to the IP to determine whether you can safely ignore this message.
+ [/opt/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_gray.tcl:16]
+Finished Sourcing Tcl File [/opt/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_gray.tcl] for cell 'vcu_trd_i/v_smpte_uhdsdi_tx_ss_0/inst/v_axi4s_vid_out/inst/COUPLER_INST/generate_async_fifo.FIFO_INST/XPM_FIFO_ASYNC_INST/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.rd_pntr_cdc_dc_inst'
+Sourcing Tcl File [/opt/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_single.tcl] for cell 'vcu_trd_i/v_smpte_uhdsdi_rx_ss_0/inst/v_vid_in_axi4s/inst/CDC_SINGLE_RESET_PULSE_INST/xpm_cdc_single_inst'
+Finished Sourcing Tcl File [/opt/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_single.tcl] for cell 'vcu_trd_i/v_smpte_uhdsdi_rx_ss_0/inst/v_vid_in_axi4s/inst/CDC_SINGLE_RESET_PULSE_INST/xpm_cdc_single_inst'
+Sourcing Tcl File [/opt/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_single.tcl] for cell 'vcu_trd_i/v_smpte_uhdsdi_tx_ss_0/inst/v_axi4s_vid_out/inst/CDC_SINGLE_LOCKED_INST/xpm_cdc_single_inst'
+Finished Sourcing Tcl File [/opt/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_single.tcl] for cell 'vcu_trd_i/v_smpte_uhdsdi_tx_ss_0/inst/v_axi4s_vid_out/inst/CDC_SINGLE_LOCKED_INST/xpm_cdc_single_inst'
+Sourcing Tcl File [/opt/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_single.tcl] for cell 'vcu_trd_i/v_smpte_uhdsdi_tx_ss_0/inst/v_axi4s_vid_out/inst/CDC_SINGLE_REMAP_UNDERFLOW_INST/xpm_cdc_single_inst'
+Finished Sourcing Tcl File [/opt/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_single.tcl] for cell 'vcu_trd_i/v_smpte_uhdsdi_tx_ss_0/inst/v_axi4s_vid_out/inst/CDC_SINGLE_REMAP_UNDERFLOW_INST/xpm_cdc_single_inst'
+Sourcing Tcl File [/opt/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_single.tcl] for cell 'vcu_trd_i/v_smpte_uhdsdi_rx_ss_0/inst/v_vid_in_axi4s/inst/CDC_SINGLE_REMAP_OVERFLOW_INST/xpm_cdc_single_inst'
+Finished Sourcing Tcl File [/opt/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_single.tcl] for cell 'vcu_trd_i/v_smpte_uhdsdi_rx_ss_0/inst/v_vid_in_axi4s/inst/CDC_SINGLE_REMAP_OVERFLOW_INST/xpm_cdc_single_inst'
+Sourcing Tcl File [/opt/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_sync_rst.tcl] for cell 'vcu_trd_i/v_smpte_uhdsdi_rx_ss_0/inst/v_vid_in_axi4s/inst/COUPLER_INST/generate_async_fifo.FIFO_INST/XPM_FIFO_ASYNC_INST/gnuram_async_fifo.xpm_fifo_base_inst/xpm_fifo_rst_inst/gen_rst_ic.rrst_wr_inst'
+Finished Sourcing Tcl File [/opt/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_sync_rst.tcl] for cell 'vcu_trd_i/v_smpte_uhdsdi_rx_ss_0/inst/v_vid_in_axi4s/inst/COUPLER_INST/generate_async_fifo.FIFO_INST/XPM_FIFO_ASYNC_INST/gnuram_async_fifo.xpm_fifo_base_inst/xpm_fifo_rst_inst/gen_rst_ic.rrst_wr_inst'
+Sourcing Tcl File [/opt/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_sync_rst.tcl] for cell 'vcu_trd_i/v_smpte_uhdsdi_tx_ss_0/inst/v_axi4s_vid_out/inst/COUPLER_INST/generate_async_fifo.FIFO_INST/XPM_FIFO_ASYNC_INST/gnuram_async_fifo.xpm_fifo_base_inst/xpm_fifo_rst_inst/gen_rst_ic.wrst_rd_inst'
+Finished Sourcing Tcl File [/opt/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_sync_rst.tcl] for cell 'vcu_trd_i/v_smpte_uhdsdi_tx_ss_0/inst/v_axi4s_vid_out/inst/COUPLER_INST/generate_async_fifo.FIFO_INST/XPM_FIFO_ASYNC_INST/gnuram_async_fifo.xpm_fifo_base_inst/xpm_fifo_rst_inst/gen_rst_ic.wrst_rd_inst'
+Sourcing Tcl File [/opt/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_sync_rst.tcl] for cell 'vcu_trd_i/v_smpte_uhdsdi_tx_ss_0/inst/v_axi4s_vid_out/inst/COUPLER_INST/generate_async_fifo.FIFO_INST/XPM_FIFO_ASYNC_INST/gnuram_async_fifo.xpm_fifo_base_inst/xpm_fifo_rst_inst/gen_rst_ic.rrst_wr_inst'
+Finished Sourcing Tcl File [/opt/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_sync_rst.tcl] for cell 'vcu_trd_i/v_smpte_uhdsdi_tx_ss_0/inst/v_axi4s_vid_out/inst/COUPLER_INST/generate_async_fifo.FIFO_INST/XPM_FIFO_ASYNC_INST/gnuram_async_fifo.xpm_fifo_base_inst/xpm_fifo_rst_inst/gen_rst_ic.rrst_wr_inst'
+Sourcing Tcl File [/opt/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_sync_rst.tcl] for cell 'vcu_trd_i/v_smpte_uhdsdi_rx_ss_0/inst/v_vid_in_axi4s/inst/COUPLER_INST/generate_async_fifo.FIFO_INST/XPM_FIFO_ASYNC_INST/gnuram_async_fifo.xpm_fifo_base_inst/xpm_fifo_rst_inst/gen_rst_ic.wrst_rd_inst'
+Finished Sourcing Tcl File [/opt/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_sync_rst.tcl] for cell 'vcu_trd_i/v_smpte_uhdsdi_rx_ss_0/inst/v_vid_in_axi4s/inst/COUPLER_INST/generate_async_fifo.FIFO_INST/XPM_FIFO_ASYNC_INST/gnuram_async_fifo.xpm_fifo_base_inst/xpm_fifo_rst_inst/gen_rst_ic.wrst_rd_inst'
+Sourcing Tcl File [/opt/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_fifo/tcl/xpm_fifo_rst.tcl] for cell 'vcu_trd_i/v_smpte_uhdsdi_tx_ss_0/inst/v_axi4s_vid_out/inst/COUPLER_INST/generate_async_fifo.FIFO_INST/XPM_FIFO_ASYNC_INST/gnuram_async_fifo.xpm_fifo_base_inst'
+Finished Sourcing Tcl File [/opt/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_fifo/tcl/xpm_fifo_rst.tcl] for cell 'vcu_trd_i/v_smpte_uhdsdi_tx_ss_0/inst/v_axi4s_vid_out/inst/COUPLER_INST/generate_async_fifo.FIFO_INST/XPM_FIFO_ASYNC_INST/gnuram_async_fifo.xpm_fifo_base_inst'
+Sourcing Tcl File [/opt/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_fifo/tcl/xpm_fifo_rst.tcl] for cell 'vcu_trd_i/v_smpte_uhdsdi_rx_ss_0/inst/v_vid_in_axi4s/inst/COUPLER_INST/generate_async_fifo.FIFO_INST/XPM_FIFO_ASYNC_INST/gnuram_async_fifo.xpm_fifo_base_inst'
+Finished Sourcing Tcl File [/opt/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_fifo/tcl/xpm_fifo_rst.tcl] for cell 'vcu_trd_i/v_smpte_uhdsdi_rx_ss_0/inst/v_vid_in_axi4s/inst/COUPLER_INST/generate_async_fifo.FIFO_INST/XPM_FIFO_ASYNC_INST/gnuram_async_fifo.xpm_fifo_base_inst'
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 12 instances were transformed.
+  IBUF => IBUF (IBUFCTRL, INBUF): 6 instances
+  IOBUF => IOBUF (IBUFCTRL, INBUF, OBUFT): 1 instances
+  RAM64M8 => RAM64M8 (RAMD64E, RAMD64E, RAMD64E, RAMD64E, RAMD64E, RAMD64E, RAMD64E, RAMD64E): 5 instances
+
+29 Infos, 109 Warnings, 101 Critical Warnings and 0 Errors encountered.
+link_design completed successfully
+link_design: Time (s): cpu = 00:00:34 ; elapsed = 00:00:38 . Memory (MB): peak = 2937.668 ; gain = 1260.848 ; free physical = 16284 ; free virtual = 29341
+Command: opt_design
+Attempting to get a license for feature 'Implementation' and/or device 'xczu7ev'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xczu7ev'
+Running DRC as a precondition to command opt_design
+
+Starting DRC Task
+INFO: [DRC 23-27] Running DRC with 8 threads
+INFO: [Project 1-461] DRC finished with 0 Errors
+INFO: [Project 1-462] Please refer to the DRC report (report_drc) for more information.
+
+Time (s): cpu = 00:00:03 ; elapsed = 00:00:02 . Memory (MB): peak = 2937.668 ; gain = 0.000 ; free physical = 16246 ; free virtual = 29298
+
+Starting Cache Timing Information Task
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+Ending Cache Timing Information Task | Checksum: 1489283aa
+
+Time (s): cpu = 00:00:05 ; elapsed = 00:00:01 . Memory (MB): peak = 2937.668 ; gain = 0.000 ; free physical = 16198 ; free virtual = 29250
+
+Starting Logic Optimization Task
+
+Phase 1 Retarget
+INFO: [Opt 31-138] Pushed 35 inverter(s) to 3307 load pin(s).
+INFO: [Opt 31-49] Retargeted 0 cell(s).
+Phase 1 Retarget | Checksum: 125f703eb
+
+Time (s): cpu = 00:00:04 ; elapsed = 00:00:02 . Memory (MB): peak = 2937.668 ; gain = 0.000 ; free physical = 16221 ; free virtual = 29274
+INFO: [Opt 31-389] Phase Retarget created 0 cells and removed 0 cells
+
+Phase 2 Constant propagation
+INFO: [Opt 31-138] Pushed 10 inverter(s) to 111 load pin(s).
+Phase 2 Constant propagation | Checksum: 14d7389b6
+
+Time (s): cpu = 00:00:06 ; elapsed = 00:00:04 . Memory (MB): peak = 2937.668 ; gain = 0.000 ; free physical = 16222 ; free virtual = 29274
+INFO: [Opt 31-389] Phase Constant propagation created 1212 cells and removed 8790 cells
+
+Phase 3 Sweep
+Phase 3 Sweep | Checksum: 17bf2a0b6
+
+Time (s): cpu = 00:00:11 ; elapsed = 00:00:09 . Memory (MB): peak = 2937.668 ; gain = 0.000 ; free physical = 16236 ; free virtual = 29288
+INFO: [Opt 31-389] Phase Sweep created 0 cells and removed 11785 cells
+
+Phase 4 BUFG optimization
+Phase 4 BUFG optimization | Checksum: 17bf2a0b6
+
+Time (s): cpu = 00:00:12 ; elapsed = 00:00:10 . Memory (MB): peak = 2937.668 ; gain = 0.000 ; free physical = 16236 ; free virtual = 29288
+INFO: [Opt 31-662] Phase BUFG optimization created 0 cells of which 0 are BUFGs and removed 0 cells.
+
+Phase 5 Shift Register Optimization
+Phase 5 Shift Register Optimization | Checksum: 14cfb3665
+
+Time (s): cpu = 00:00:17 ; elapsed = 00:00:16 . Memory (MB): peak = 2937.668 ; gain = 0.000 ; free physical = 16220 ; free virtual = 29272
+INFO: [Opt 31-389] Phase Shift Register Optimization created 1 cells and removed 0 cells
+
+Phase 6 Post Processing Netlist
+Phase 6 Post Processing Netlist | Checksum: 14cfb3665
+
+Time (s): cpu = 00:00:18 ; elapsed = 00:00:16 . Memory (MB): peak = 2937.668 ; gain = 0.000 ; free physical = 16220 ; free virtual = 29272
+INFO: [Opt 31-389] Phase Post Processing Netlist created 0 cells and removed 0 cells
+
+Starting Connectivity Check Task
+
+Time (s): cpu = 00:00:00.04 ; elapsed = 00:00:00.03 . Memory (MB): peak = 2937.668 ; gain = 0.000 ; free physical = 16217 ; free virtual = 29270
+Ending Logic Optimization Task | Checksum: 1551685b4
+
+Time (s): cpu = 00:00:18 ; elapsed = 00:00:16 . Memory (MB): peak = 2937.668 ; gain = 0.000 ; free physical = 16217 ; free virtual = 29270
+
+Starting Power Optimization Task
+INFO: [Pwropt 34-132] Skipping clock gating for clocks with a period < 2.00 ns.
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+INFO: [Pwropt 34-9] Applying IDT optimizations ...
+INFO: [Pwropt 34-10] Applying ODC optimizations ...
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=3.442 | TNS=0.000 |
+Running Vector-less Activity Propagation...
+
+Finished Running Vector-less Activity Propagation
+
+
+Starting PowerOpt Patch Enables Task
+INFO: [Pwropt 34-162] WRITE_MODE attribute of 0 BRAM(s) out of a total of 68 has been updated to save power. Run report_power_opt to get a complete listing of the BRAMs updated.
+INFO: [Pwropt 34-201] Structural ODC has moved 0 WE to EN ports
+Number of BRAM Ports augmented: 58 newly gated: 0 Total Ports: 136
+Ending PowerOpt Patch Enables Task | Checksum: 1d8e86dea
+
+Time (s): cpu = 00:00:00.35 ; elapsed = 00:00:00.36 . Memory (MB): peak = 4708.277 ; gain = 0.000 ; free physical = 15115 ; free virtual = 28167
+Ending Power Optimization Task | Checksum: 1d8e86dea
+
+Time (s): cpu = 00:01:03 ; elapsed = 00:01:07 . Memory (MB): peak = 4708.277 ; gain = 1770.609 ; free physical = 15140 ; free virtual = 28192
+
+Starting Final Cleanup Task
+
+Starting Logic Optimization Task
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+Ending Logic Optimization Task | Checksum: fd5a2c3e
+
+Time (s): cpu = 00:00:05 ; elapsed = 00:00:02 . Memory (MB): peak = 4708.277 ; gain = 0.000 ; free physical = 15143 ; free virtual = 28196
+Ending Final Cleanup Task | Checksum: fd5a2c3e
+
+Time (s): cpu = 00:00:05 ; elapsed = 00:00:02 . Memory (MB): peak = 4708.277 ; gain = 0.000 ; free physical = 15143 ; free virtual = 28196
+INFO: [Common 17-83] Releasing license: Implementation
+52 Infos, 109 Warnings, 101 Critical Warnings and 0 Errors encountered.
+opt_design completed successfully
+opt_design: Time (s): cpu = 00:01:34 ; elapsed = 00:01:28 . Memory (MB): peak = 4708.277 ; gain = 1770.609 ; free physical = 15145 ; free virtual = 28198
+INFO: [Timing 38-480] Writing timing data to binary archive.
+Writing placer database...
+Writing XDEF routing.
+Writing XDEF routing logical nets.
+Writing XDEF routing special nets.
+Write XDEF Complete: Time (s): cpu = 00:00:00.09 ; elapsed = 00:00:00.02 . Memory (MB): peak = 4708.277 ; gain = 0.000 ; free physical = 15141 ; free virtual = 28198
+INFO: [Common 17-1381] The checkpoint '/home/brainiarc7/designs/vcu_trd/vcu_trd.runs/impl_1/vcu_trd_wrapper_opt.dcp' has been generated.
+write_checkpoint: Time (s): cpu = 00:00:06 ; elapsed = 00:00:05 . Memory (MB): peak = 4708.277 ; gain = 0.000 ; free physical = 15125 ; free virtual = 28183
+INFO: [runtcl-4] Executing : report_drc -file vcu_trd_wrapper_drc_opted.rpt -pb vcu_trd_wrapper_drc_opted.pb -rpx vcu_trd_wrapper_drc_opted.rpx
+Command: report_drc -file vcu_trd_wrapper_drc_opted.rpt -pb vcu_trd_wrapper_drc_opted.pb -rpx vcu_trd_wrapper_drc_opted.rpx
+INFO: [DRC 23-27] Running DRC with 8 threads
+INFO: [Coretcl 2-168] The results of DRC are in file /home/brainiarc7/designs/vcu_trd/vcu_trd.runs/impl_1/vcu_trd_wrapper_drc_opted.rpt.
+report_drc completed successfully
+report_drc: Time (s): cpu = 00:00:11 ; elapsed = 00:00:06 . Memory (MB): peak = 4708.277 ; gain = 0.000 ; free physical = 14977 ; free virtual = 28035
+Command: place_design
+Attempting to get a license for feature 'Implementation' and/or device 'xczu7ev'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xczu7ev'
+INFO: [DRC 23-27] Running DRC with 8 threads
+INFO: [Vivado_Tcl 4-198] DRC finished with 0 Errors
+INFO: [Vivado_Tcl 4-199] Please refer to the DRC report (report_drc) for more information.
+Running DRC as a precondition to command place_design
+INFO: [DRC 23-27] Running DRC with 8 threads
+INFO: [Vivado_Tcl 4-198] DRC finished with 0 Errors
+INFO: [Vivado_Tcl 4-199] Please refer to the DRC report (report_drc) for more information.
+
+Starting Placer Task
+INFO: [Place 30-611] Multithreading enabled for place_design using a maximum of 8 CPUs
+
+Phase 1 Placer Initialization
+
+Phase 1.1 Placer Initialization Netlist Sorting
+Netlist sorting complete. Time (s): cpu = 00:00:00.03 ; elapsed = 00:00:00.03 . Memory (MB): peak = 4708.277 ; gain = 0.000 ; free physical = 14991 ; free virtual = 28049
+Phase 1.1 Placer Initialization Netlist Sorting | Checksum: 8acf4be5
+
+Time (s): cpu = 00:00:00.04 ; elapsed = 00:00:00.06 . Memory (MB): peak = 4708.277 ; gain = 0.000 ; free physical = 14991 ; free virtual = 28049
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00.02 ; elapsed = 00:00:00.03 . Memory (MB): peak = 4708.277 ; gain = 0.000 ; free physical = 14995 ; free virtual = 28053
+
+Phase 1.2 IO Placement/ Clock Placement/ Build Placer Device
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+Phase 1.2 IO Placement/ Clock Placement/ Build Placer Device | Checksum: 13cad9299
+
+Time (s): cpu = 00:00:12 ; elapsed = 00:00:06 . Memory (MB): peak = 4708.277 ; gain = 0.000 ; free physical = 14959 ; free virtual = 28017
+
+Phase 1.3 Build Placer Netlist Model
+Phase 1.3 Build Placer Netlist Model | Checksum: 19f4edbee
+
+Time (s): cpu = 00:00:20 ; elapsed = 00:00:09 . Memory (MB): peak = 4708.277 ; gain = 0.000 ; free physical = 14903 ; free virtual = 27962
+
+Phase 1.4 Constrain Clocks/Macros
+Phase 1.4 Constrain Clocks/Macros | Checksum: 19f4edbee
+
+Time (s): cpu = 00:00:20 ; elapsed = 00:00:10 . Memory (MB): peak = 4708.277 ; gain = 0.000 ; free physical = 14903 ; free virtual = 27962
+Phase 1 Placer Initialization | Checksum: 19f4edbee
+
+Time (s): cpu = 00:00:21 ; elapsed = 00:00:10 . Memory (MB): peak = 4708.277 ; gain = 0.000 ; free physical = 14904 ; free virtual = 27962
+
+Phase 2 Global Placement
+
+Phase 2.1 Floorplanning
+Phase 2.1 Floorplanning | Checksum: 21015250c
+
+Time (s): cpu = 00:00:25 ; elapsed = 00:00:12 . Memory (MB): peak = 4712.293 ; gain = 4.016 ; free physical = 14876 ; free virtual = 27934
+
+Phase 2.2 Physical Synthesis In Placer
+INFO: [Physopt 32-65] No nets found for high-fanout optimization.
+INFO: [Physopt 32-232] Optimized 0 net. Created 0 new instance.
+INFO: [Physopt 32-775] End 1 Pass. Optimized 0 net or cell. Created 0 new cell, deleted 0 existing cell and moved 0 existing cell
+Netlist sorting complete. Time (s): cpu = 00:00:00.03 ; elapsed = 00:00:00.03 . Memory (MB): peak = 4720.297 ; gain = 0.000 ; free physical = 14811 ; free virtual = 27870
+
+Summary of Physical Synthesis Optimizations
+============================================
+
+
+-----------------------------------------------------------------------------------------------------------------------------
+|  Optimization       |  Added Cells  |  Removed Cells  |  Optimized Cells/Nets  |  Dont Touch  |  Iterations  |  Elapsed   |
+-----------------------------------------------------------------------------------------------------------------------------
+|  Very High Fanout   |            0  |              0  |                     0  |           0  |           1  |  00:00:00  |
+|  Total              |            0  |              0  |                     0  |           0  |           1  |  00:00:00  |
+-----------------------------------------------------------------------------------------------------------------------------
+
+
+Phase 2.2 Physical Synthesis In Placer | Checksum: 1691c1043
+
+Time (s): cpu = 00:01:09 ; elapsed = 00:00:30 . Memory (MB): peak = 4720.297 ; gain = 12.020 ; free physical = 14796 ; free virtual = 27855
+Phase 2 Global Placement | Checksum: 1ddf94839
+
+Time (s): cpu = 00:01:16 ; elapsed = 00:00:32 . Memory (MB): peak = 4720.297 ; gain = 12.020 ; free physical = 14796 ; free virtual = 27855
+
+Phase 3 Detail Placement
+
+Phase 3.1 Commit Multi Column Macros
+Phase 3.1 Commit Multi Column Macros | Checksum: 1ddf94839
+
+Time (s): cpu = 00:01:16 ; elapsed = 00:00:32 . Memory (MB): peak = 4720.297 ; gain = 12.020 ; free physical = 14797 ; free virtual = 27855
+
+Phase 3.2 Commit Most Macros & LUTRAMs
+Phase 3.2 Commit Most Macros & LUTRAMs | Checksum: 120e1bdf2
+
+Time (s): cpu = 00:01:18 ; elapsed = 00:00:34 . Memory (MB): peak = 4720.297 ; gain = 12.020 ; free physical = 14789 ; free virtual = 27847
+
+Phase 3.3 Area Swap Optimization
+Phase 3.3 Area Swap Optimization | Checksum: 167e3f61d
+
+Time (s): cpu = 00:01:19 ; elapsed = 00:00:34 . Memory (MB): peak = 4720.297 ; gain = 12.020 ; free physical = 14790 ; free virtual = 27848
+
+Phase 3.4 Pipeline Register Optimization
+Phase 3.4 Pipeline Register Optimization | Checksum: 160f869b3
+
+Time (s): cpu = 00:01:19 ; elapsed = 00:00:34 . Memory (MB): peak = 4720.297 ; gain = 12.020 ; free physical = 14790 ; free virtual = 27848
+
+Phase 3.5 Small Shape Clustering
+Phase 3.5 Small Shape Clustering | Checksum: 16610f85e
+
+Time (s): cpu = 00:01:22 ; elapsed = 00:00:36 . Memory (MB): peak = 4720.297 ; gain = 12.020 ; free physical = 14788 ; free virtual = 27846
+
+Phase 3.6 DP Optimization
+Phase 3.6 DP Optimization | Checksum: 192ecb18f
+
+Time (s): cpu = 00:01:39 ; elapsed = 00:00:42 . Memory (MB): peak = 4720.297 ; gain = 12.020 ; free physical = 14785 ; free virtual = 27843
+
+Phase 3.7 Flow Legalize Slice Clusters
+Phase 3.7 Flow Legalize Slice Clusters | Checksum: 14148322a
+
+Time (s): cpu = 00:01:41 ; elapsed = 00:00:43 . Memory (MB): peak = 4720.297 ; gain = 12.020 ; free physical = 14784 ; free virtual = 27842
+
+Phase 3.8 Slice Area Swap
+Phase 3.8 Slice Area Swap | Checksum: 18b6a0f4e
+
+Time (s): cpu = 00:01:42 ; elapsed = 00:00:43 . Memory (MB): peak = 4720.297 ; gain = 12.020 ; free physical = 14760 ; free virtual = 27819
+
+Phase 3.9 Commit Slice Clusters
+Phase 3.9 Commit Slice Clusters | Checksum: 21bcedac4
+
+Time (s): cpu = 00:01:46 ; elapsed = 00:00:45 . Memory (MB): peak = 4720.297 ; gain = 12.020 ; free physical = 14771 ; free virtual = 27830
+
+Phase 3.10 Re-assign LUT pins
+Phase 3.10 Re-assign LUT pins | Checksum: 1513da44f
+
+Time (s): cpu = 00:01:47 ; elapsed = 00:00:46 . Memory (MB): peak = 4720.297 ; gain = 12.020 ; free physical = 14769 ; free virtual = 27827
+
+Phase 3.11 Pipeline Register Optimization
+Phase 3.11 Pipeline Register Optimization | Checksum: bc569f26
+
+Time (s): cpu = 00:01:48 ; elapsed = 00:00:46 . Memory (MB): peak = 4720.297 ; gain = 12.020 ; free physical = 14773 ; free virtual = 27832
+Phase 3 Detail Placement | Checksum: bc569f26
+
+Time (s): cpu = 00:01:48 ; elapsed = 00:00:46 . Memory (MB): peak = 4720.297 ; gain = 12.020 ; free physical = 14773 ; free virtual = 27832
+
+Phase 4 Post Placement Optimization and Clean-Up
+
+Phase 4.1 Post Commit Optimization
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+
+Phase 4.1.1 Post Placement Optimization
+Post Placement Optimization Initialization | Checksum: cd46b4a9
+
+Phase 4.1.1.1 BUFG Insertion
+INFO: [Place 46-35] Processed net vcu_trd_i/vcu_0/inst/softip_regs/vcu_reset_encClk_f3, inserted BUFG to drive 1646 loads.
+INFO: [Place 46-35] Processed net vcu_trd_i/vcu_clk_wiz0/inst/AXI_LITE_IPIF_I/I_SLAVE_ATTACHMENT/current_state_reg[1], inserted BUFG to drive 1087 loads.
+INFO: [Place 46-35] Processed net vcu_trd_i/v_smpte_uhdsdi_tx_ss_0/inst/v_tc/U0/U_VIDEO_CTRL/GEN_HAS_IRQ.irq_i_1_n_0, inserted BUFG to drive 1063 loads.
+INFO: [Place 46-31] BUFG insertion identified 3 candidate nets, 3 success, 0 skipped for placement/routing, 0 skipped for timing, 0 skipped for netlist change reason.
+Phase 4.1.1.1 BUFG Insertion | Checksum: 1f433a532
+
+Time (s): cpu = 00:01:59 ; elapsed = 00:00:50 . Memory (MB): peak = 4720.297 ; gain = 12.020 ; free physical = 14794 ; free virtual = 27853
+INFO: [Place 30-746] Post Placement Timing Summary WNS=1.324. For the most accurate timing information please run report_timing.
+Phase 4.1.1 Post Placement Optimization | Checksum: 12dab8b0a
+
+Time (s): cpu = 00:01:59 ; elapsed = 00:00:50 . Memory (MB): peak = 4720.297 ; gain = 12.020 ; free physical = 14795 ; free virtual = 27853
+Phase 4.1 Post Commit Optimization | Checksum: 12dab8b0a
+
+Time (s): cpu = 00:01:59 ; elapsed = 00:00:50 . Memory (MB): peak = 4720.297 ; gain = 12.020 ; free physical = 14795 ; free virtual = 27853
+
+Phase 4.2 Post Placement Cleanup
+Phase 4.2 Post Placement Cleanup | Checksum: 12dab8b0a
+
+Time (s): cpu = 00:02:00 ; elapsed = 00:00:50 . Memory (MB): peak = 4720.297 ; gain = 12.020 ; free physical = 14806 ; free virtual = 27864
+
+Phase 4.3 Placer Reporting
+Phase 4.3 Placer Reporting | Checksum: 15984deb3
+
+Time (s): cpu = 00:02:05 ; elapsed = 00:00:55 . Memory (MB): peak = 4720.297 ; gain = 12.020 ; free physical = 14977 ; free virtual = 28035
+
+Phase 4.4 Final Placement Cleanup
+Phase 4.4 Final Placement Cleanup | Checksum: f0f56b49
+
+Time (s): cpu = 00:02:05 ; elapsed = 00:00:55 . Memory (MB): peak = 4720.297 ; gain = 12.020 ; free physical = 14977 ; free virtual = 28035
+Phase 4 Post Placement Optimization and Clean-Up | Checksum: f0f56b49
+
+Time (s): cpu = 00:02:05 ; elapsed = 00:00:56 . Memory (MB): peak = 4720.297 ; gain = 12.020 ; free physical = 14977 ; free virtual = 28035
+Ending Placer Task | Checksum: b87ba8df
+
+Time (s): cpu = 00:02:05 ; elapsed = 00:00:56 . Memory (MB): peak = 4720.297 ; gain = 12.020 ; free physical = 15065 ; free virtual = 28123
+INFO: [Common 17-83] Releasing license: Implementation
+78 Infos, 109 Warnings, 101 Critical Warnings and 0 Errors encountered.
+place_design completed successfully
+place_design: Time (s): cpu = 00:02:15 ; elapsed = 00:01:01 . Memory (MB): peak = 4720.297 ; gain = 12.020 ; free physical = 15065 ; free virtual = 28123
+INFO: [Timing 38-480] Writing timing data to binary archive.
+Writing placer database...
+Writing XDEF routing.
+Writing XDEF routing logical nets.
+Writing XDEF routing special nets.
+Write XDEF Complete: Time (s): cpu = 00:00:03 ; elapsed = 00:00:00.87 . Memory (MB): peak = 4720.297 ; gain = 0.000 ; free physical = 15020 ; free virtual = 28117
+INFO: [Common 17-1381] The checkpoint '/home/brainiarc7/designs/vcu_trd/vcu_trd.runs/impl_1/vcu_trd_wrapper_placed.dcp' has been generated.
+write_checkpoint: Time (s): cpu = 00:00:07 ; elapsed = 00:00:06 . Memory (MB): peak = 4720.297 ; gain = 0.000 ; free physical = 15057 ; free virtual = 28125
+INFO: [runtcl-4] Executing : report_io -file vcu_trd_wrapper_io_placed.rpt
+report_io: Time (s): cpu = 00:00:00.14 ; elapsed = 00:00:00.21 . Memory (MB): peak = 4720.297 ; gain = 0.000 ; free physical = 15033 ; free virtual = 28103
+INFO: [runtcl-4] Executing : report_utilization -file vcu_trd_wrapper_utilization_placed.rpt -pb vcu_trd_wrapper_utilization_placed.pb
+report_utilization: Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 4720.297 ; gain = 0.000 ; free physical = 15059 ; free virtual = 28128
+INFO: [runtcl-4] Executing : report_control_sets -verbose -file vcu_trd_wrapper_control_sets_placed.rpt
+report_control_sets: Time (s): cpu = 00:00:00.13 ; elapsed = 00:00:00.19 . Memory (MB): peak = 4720.297 ; gain = 0.000 ; free physical = 15057 ; free virtual = 28127
+Command: route_design
+Attempting to get a license for feature 'Implementation' and/or device 'xczu7ev'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xczu7ev'
+INFO: [DRC 23-27] Running DRC with 8 threads
+INFO: [Vivado_Tcl 4-198] DRC finished with 0 Errors
+INFO: [Vivado_Tcl 4-199] Please refer to the DRC report (report_drc) for more information.
+Running DRC as a precondition to command route_design
+INFO: [DRC 23-27] Running DRC with 8 threads
+INFO: [Vivado_Tcl 4-198] DRC finished with 0 Errors
+INFO: [Vivado_Tcl 4-199] Please refer to the DRC report (report_drc) for more information.
+
+
+Starting Routing Task
+INFO: [Route 35-254] Multithreading enabled for route_design using a maximum of 8 CPUs
+Checksum: PlaceDB: 70c5da79 ConstDB: 0 ShapeSum: 1bdc7abd RouteDB: 2bd953a9
+
+Phase 1 Build RT Design
+Phase 1 Build RT Design | Checksum: ecf24ff5
+
+Time (s): cpu = 00:00:52 ; elapsed = 00:00:42 . Memory (MB): peak = 4720.297 ; gain = 0.000 ; free physical = 14766 ; free virtual = 27836
+Post Restoration Checksum: NetGraph: 199c197f NumContArr: 28bb1a05 Constraints: a909e98d Timing: 0
+
+Phase 2 Router Initialization
+
+Phase 2.1 Create Timer
+Phase 2.1 Create Timer | Checksum: eb611d11
+
+Time (s): cpu = 00:00:53 ; elapsed = 00:00:43 . Memory (MB): peak = 4720.297 ; gain = 0.000 ; free physical = 14760 ; free virtual = 27830
+
+Phase 2.2 Fix Topology Constraints
+Phase 2.2 Fix Topology Constraints | Checksum: eb611d11
+
+Time (s): cpu = 00:00:53 ; elapsed = 00:00:43 . Memory (MB): peak = 4720.297 ; gain = 0.000 ; free physical = 14707 ; free virtual = 27777
+
+Phase 2.3 Pre Route Cleanup
+Phase 2.3 Pre Route Cleanup | Checksum: eb611d11
+
+Time (s): cpu = 00:00:53 ; elapsed = 00:00:43 . Memory (MB): peak = 4720.297 ; gain = 0.000 ; free physical = 14707 ; free virtual = 27777
+
+Phase 2.4 Global Clock Net Routing
+ Number of Nodes with overlaps = 0
+Phase 2.4 Global Clock Net Routing | Checksum: 1108746a8
+
+Time (s): cpu = 00:00:58 ; elapsed = 00:00:49 . Memory (MB): peak = 4720.297 ; gain = 0.000 ; free physical = 14618 ; free virtual = 27688
+
+Phase 2.5 Update Timing
+Phase 2.5 Update Timing | Checksum: 242435056
+
+Time (s): cpu = 00:01:10 ; elapsed = 00:00:52 . Memory (MB): peak = 4720.297 ; gain = 0.000 ; free physical = 14640 ; free virtual = 27710
+INFO: [Route 35-416] Intermediate Timing Summary | WNS=1.363  | TNS=0.000  | WHS=-0.196 | THS=-4.177 |
+
+Phase 2 Router Initialization | Checksum: 2b80ddef7
+
+Time (s): cpu = 00:01:17 ; elapsed = 00:00:55 . Memory (MB): peak = 4720.297 ; gain = 0.000 ; free physical = 14687 ; free virtual = 27757
+
+Phase 3 Initial Routing
+Phase 3 Initial Routing | Checksum: 12769d91c
+
+Time (s): cpu = 00:01:33 ; elapsed = 00:00:58 . Memory (MB): peak = 4720.297 ; gain = 0.000 ; free physical = 14702 ; free virtual = 27772
+
+INFO: [Route 35-449] Initial Estimated Congestion
+ ________________________________________________________________________
+|           | Global Congestion | Long Congestion   | Short Congestion  |
+|           |___________________|___________________|___________________|
+| Direction | Size   | % Tiles  | Size   | % Tiles  | Size   | % Tiles  |
+|___________|________|__________|________|__________|________|__________|
+|      NORTH|     4x4|      0.91|   16x16|      3.15|     2x2|      0.04|
+|___________|________|__________|________|__________|________|__________|
+|      SOUTH|   16x16|      1.89|   16x16|      3.28|     4x4|      0.08|
+|___________|________|__________|________|__________|________|__________|
+|       EAST|     4x4|      0.03|     4x4|      0.12|     2x2|      0.02|
+|___________|________|__________|________|__________|________|__________|
+|       WEST|     4x4|      0.04|     8x8|      0.13|     2x2|      0.01|
+|___________|________|__________|________|__________|________|__________|
+Congestion Report
+GLOBAL Congestion bounded by tiles (Lower Left Tile -> Upper Right Tile):
+SOUTH
+	INT_X28Y40->INT_X31Y123 (CLEM_X28Y40->DSP_X31Y120)
+	NULL_X149Y212->INT_X27Y207 (NULL_X149Y212->CLEL_R_X27Y207)
+	NULL_X149Y167->INT_X27Y163 (NULL_X149Y167->CLEL_R_X27Y163)
+	NULL_X149Y163->INT_X27Y159 (NULL_X149Y163->CLEL_R_X27Y159)
+	NULL_X149Y159->INT_X27Y155 (NULL_X149Y159->CLEL_R_X27Y155)
+LONG Congestion bounded by tiles (Lower Left Tile -> Upper Right Tile):
+NORTH
+	INT_X28Y36->INT_X31Y171 (CLEM_X28Y36->DSP_X31Y170)
+	NULL_X149Y237->INT_X27Y231 (NULL_X149Y237->CLEL_R_X27Y231)
+	NULL_X149Y225->INT_X27Y219 (NULL_X149Y225->CLEL_R_X27Y219)
+	NULL_X149Y221->INT_X27Y215 (NULL_X149Y221->CLEL_R_X27Y215)
+	NULL_X149Y212->INT_X27Y207 (NULL_X149Y212->CLEL_R_X27Y207)
+SOUTH
+	INT_X28Y8->INT_X31Y159 (CLEM_X28Y8->DSP_X31Y155)
+	NULL_X149Y237->INT_X27Y231 (NULL_X149Y237->CLEL_R_X27Y231)
+	NULL_X149Y233->INT_X27Y227 (NULL_X149Y233->CLEL_R_X27Y227)
+	NULL_X149Y229->INT_X27Y223 (NULL_X149Y229->CLEL_R_X27Y223)
+	NULL_X149Y225->INT_X27Y219 (NULL_X149Y225->CLEL_R_X27Y219)
+
+Phase 4 Rip-up And Reroute
+
+Phase 4.1 Global Iteration 0
+ Number of Nodes with overlaps = 6448
+ Number of Nodes with overlaps = 762
+ Number of Nodes with overlaps = 26
+ Number of Nodes with overlaps = 0
+INFO: [Route 35-416] Intermediate Timing Summary | WNS=0.061  | TNS=0.000  | WHS=0.024  | THS=0.000  |
+
+Phase 4.1 Global Iteration 0 | Checksum: 2bc466eb0
+
+Time (s): cpu = 00:08:07 ; elapsed = 00:01:52 . Memory (MB): peak = 4720.297 ; gain = 0.000 ; free physical = 14667 ; free virtual = 27737
+
+Phase 4.2 Additional Iteration for Hold
+Phase 4.2 Additional Iteration for Hold | Checksum: 2d5b26a68
+
+Time (s): cpu = 00:08:07 ; elapsed = 00:01:52 . Memory (MB): peak = 4720.297 ; gain = 0.000 ; free physical = 14667 ; free virtual = 27737
+Phase 4 Rip-up And Reroute | Checksum: 2d5b26a68
+
+Time (s): cpu = 00:08:07 ; elapsed = 00:01:52 . Memory (MB): peak = 4720.297 ; gain = 0.000 ; free physical = 14667 ; free virtual = 27737
+
+Phase 5 Delay and Skew Optimization
+
+Phase 5.1 Delay CleanUp
+Phase 5.1 Delay CleanUp | Checksum: 30593bc7a
+
+Time (s): cpu = 00:08:08 ; elapsed = 00:01:53 . Memory (MB): peak = 4720.297 ; gain = 0.000 ; free physical = 14671 ; free virtual = 27741
+
+Phase 5.2 Clock Skew Optimization
+Phase 5.2 Clock Skew Optimization | Checksum: 30593bc7a
+
+Time (s): cpu = 00:08:08 ; elapsed = 00:01:53 . Memory (MB): peak = 4720.297 ; gain = 0.000 ; free physical = 14671 ; free virtual = 27741
+Phase 5 Delay and Skew Optimization | Checksum: 30593bc7a
+
+Time (s): cpu = 00:08:08 ; elapsed = 00:01:53 . Memory (MB): peak = 4720.297 ; gain = 0.000 ; free physical = 14671 ; free virtual = 27741
+
+Phase 6 Post Hold Fix
+
+Phase 6.1 Hold Fix Iter
+
+Phase 6.1.1 Update Timing
+Phase 6.1.1 Update Timing | Checksum: 257465dc6
+
+Time (s): cpu = 00:08:14 ; elapsed = 00:01:54 . Memory (MB): peak = 4720.297 ; gain = 0.000 ; free physical = 14671 ; free virtual = 27741
+INFO: [Route 35-416] Intermediate Timing Summary | WNS=0.061  | TNS=0.000  | WHS=0.024  | THS=0.000  |
+
+Phase 6.1 Hold Fix Iter | Checksum: 257465dc6
+
+Time (s): cpu = 00:08:14 ; elapsed = 00:01:54 . Memory (MB): peak = 4720.297 ; gain = 0.000 ; free physical = 14671 ; free virtual = 27741
+Phase 6 Post Hold Fix | Checksum: 257465dc6
+
+Time (s): cpu = 00:08:14 ; elapsed = 00:01:54 . Memory (MB): peak = 4720.297 ; gain = 0.000 ; free physical = 14671 ; free virtual = 27741
+
+Phase 7 Route finalize
+
+Router Utilization Summary
+  Global Vertical Routing Utilization    = 6.3951 %
+  Global Horizontal Routing Utilization  = 2.21639 %
+  Routable Net Status*
+  *Does not include unroutable nets such as driverless and loadless.
+  Run report_route_status for detailed report.
+  Number of Failed Nets               = 0
+  Number of Unrouted Nets             = 0
+  Number of Partially Routed Nets     = 0
+  Number of Node Overlaps             = 0
+
+Phase 7 Route finalize | Checksum: 2147071c0
+
+Time (s): cpu = 00:08:17 ; elapsed = 00:01:55 . Memory (MB): peak = 4720.297 ; gain = 0.000 ; free physical = 14741 ; free virtual = 27811
+
+Phase 8 Verifying routed nets
+
+ Verification completed successfully
+Phase 8 Verifying routed nets | Checksum: 2147071c0
+
+Time (s): cpu = 00:08:17 ; elapsed = 00:01:55 . Memory (MB): peak = 4720.297 ; gain = 0.000 ; free physical = 14740 ; free virtual = 27810
+
+Phase 9 Depositing Routes
+Phase 9 Depositing Routes | Checksum: 2147071c0
+
+Time (s): cpu = 00:08:18 ; elapsed = 00:01:56 . Memory (MB): peak = 4720.297 ; gain = 0.000 ; free physical = 14740 ; free virtual = 27810
+
+Phase 10 Post Router Timing
+INFO: [Route 35-57] Estimated Timing Summary | WNS=0.061  | TNS=0.000  | WHS=0.024  | THS=0.000  |
+
+INFO: [Route 35-327] The final timing numbers are based on the router estimated timing analysis. For a complete and accurate timing signoff, please run report_timing_summary.
+Phase 10 Post Router Timing | Checksum: 2147071c0
+
+Time (s): cpu = 00:08:18 ; elapsed = 00:01:57 . Memory (MB): peak = 4720.297 ; gain = 0.000 ; free physical = 14745 ; free virtual = 27815
+INFO: [Route 35-16] Router Completed Successfully
+
+Time (s): cpu = 00:08:18 ; elapsed = 00:01:57 . Memory (MB): peak = 4720.297 ; gain = 0.000 ; free physical = 14833 ; free virtual = 27903
+
+Routing Is Done.
+INFO: [Common 17-83] Releasing license: Implementation
+99 Infos, 109 Warnings, 101 Critical Warnings and 0 Errors encountered.
+route_design completed successfully
+route_design: Time (s): cpu = 00:08:29 ; elapsed = 00:02:03 . Memory (MB): peak = 4720.297 ; gain = 0.000 ; free physical = 14833 ; free virtual = 27903
+INFO: [Timing 38-480] Writing timing data to binary archive.
+Writing placer database...
+Writing XDEF routing.
+Writing XDEF routing logical nets.
+Writing XDEF routing special nets.
+Write XDEF Complete: Time (s): cpu = 00:00:03 ; elapsed = 00:00:01 . Memory (MB): peak = 4720.297 ; gain = 0.000 ; free physical = 14772 ; free virtual = 27895
+INFO: [Common 17-1381] The checkpoint '/home/brainiarc7/designs/vcu_trd/vcu_trd.runs/impl_1/vcu_trd_wrapper_routed.dcp' has been generated.
+write_checkpoint: Time (s): cpu = 00:00:07 ; elapsed = 00:00:06 . Memory (MB): peak = 4720.297 ; gain = 0.000 ; free physical = 14823 ; free virtual = 27906
+INFO: [runtcl-4] Executing : report_drc -file vcu_trd_wrapper_drc_routed.rpt -pb vcu_trd_wrapper_drc_routed.pb -rpx vcu_trd_wrapper_drc_routed.rpx
+Command: report_drc -file vcu_trd_wrapper_drc_routed.rpt -pb vcu_trd_wrapper_drc_routed.pb -rpx vcu_trd_wrapper_drc_routed.rpx
+INFO: [DRC 23-27] Running DRC with 8 threads
+INFO: [Coretcl 2-168] The results of DRC are in file /home/brainiarc7/designs/vcu_trd/vcu_trd.runs/impl_1/vcu_trd_wrapper_drc_routed.rpt.
+report_drc completed successfully
+report_drc: Time (s): cpu = 00:00:13 ; elapsed = 00:00:06 . Memory (MB): peak = 5094.961 ; gain = 374.664 ; free physical = 14799 ; free virtual = 27883
+INFO: [runtcl-4] Executing : report_methodology -file vcu_trd_wrapper_methodology_drc_routed.rpt -pb vcu_trd_wrapper_methodology_drc_routed.pb -rpx vcu_trd_wrapper_methodology_drc_routed.rpx
+Command: report_methodology -file vcu_trd_wrapper_methodology_drc_routed.rpt -pb vcu_trd_wrapper_methodology_drc_routed.pb -rpx vcu_trd_wrapper_methodology_drc_routed.rpx
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+INFO: [DRC 23-133] Running Methodology with 8 threads
+INFO: [Coretcl 2-1520] The results of Report Methodology are in file /home/brainiarc7/designs/vcu_trd/vcu_trd.runs/impl_1/vcu_trd_wrapper_methodology_drc_routed.rpt.
+report_methodology completed successfully
+report_methodology: Time (s): cpu = 00:00:24 ; elapsed = 00:00:06 . Memory (MB): peak = 5094.961 ; gain = 0.000 ; free physical = 14668 ; free virtual = 27752
+INFO: [runtcl-4] Executing : report_power -file vcu_trd_wrapper_power_routed.rpt -pb vcu_trd_wrapper_power_summary_routed.pb -rpx vcu_trd_wrapper_power_routed.rpx
+Command: report_power -file vcu_trd_wrapper_power_routed.rpt -pb vcu_trd_wrapper_power_summary_routed.pb -rpx vcu_trd_wrapper_power_routed.rpx
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+Running Vector-less Activity Propagation...
+
+Finished Running Vector-less Activity Propagation
+WARNING: [Power 33-332] Found switching activity that implies high-fanout reset nets being asserted for excessive periods of time which may result in inaccurate power analysis.
+Resolution: To review and fix problems, please run Power Constraints Advisor in the GUI from Tools > Power Constraints Advisor or run report_power with the -advisory option to generate a text report.
+111 Infos, 110 Warnings, 101 Critical Warnings and 0 Errors encountered.
+report_power completed successfully
+report_power: Time (s): cpu = 00:00:25 ; elapsed = 00:00:17 . Memory (MB): peak = 5094.961 ; gain = 0.000 ; free physical = 14612 ; free virtual = 27708
+INFO: [runtcl-4] Executing : report_route_status -file vcu_trd_wrapper_route_status.rpt -pb vcu_trd_wrapper_route_status.pb
+INFO: [runtcl-4] Executing : report_timing_summary -max_paths 10 -file vcu_trd_wrapper_timing_summary_routed.rpt -pb vcu_trd_wrapper_timing_summary_routed.pb -rpx vcu_trd_wrapper_timing_summary_routed.rpx -warn_on_violation 
+INFO: [Timing 38-91] UpdateTimingParams: Speed grade: -1, Temperature grade: I, Delay Type: min_max, Timing Stage: Requireds.
+INFO: [Timing 38-191] Multithreading enabled for timing update using a maximum of 8 CPUs
+INFO: [runtcl-4] Executing : report_incremental_reuse -file vcu_trd_wrapper_incremental_reuse_routed.rpt
+INFO: [Vivado_Tcl 4-545] No incremental reuse to report, no incremental placement and routing data was found.
+INFO: [runtcl-4] Executing : report_clock_utilization -file vcu_trd_wrapper_clock_utilization_routed.rpt
+report_clock_utilization: Time (s): cpu = 00:00:29 ; elapsed = 00:00:30 . Memory (MB): peak = 5094.961 ; gain = 0.000 ; free physical = 14592 ; free virtual = 27690
+INFO: [runtcl-4] Executing : report_bus_skew -warn_on_violation -file vcu_trd_wrapper_bus_skew_routed.rpt -pb vcu_trd_wrapper_bus_skew_routed.pb -rpx vcu_trd_wrapper_bus_skew_routed.rpx
+INFO: [Timing 38-91] UpdateTimingParams: Speed grade: -1, Temperature grade: I, Delay Type: min_max, Timing Stage: Requireds.
+INFO: [Timing 38-191] Multithreading enabled for timing update using a maximum of 8 CPUs
+source /home/brainiarc7/designs/prepare.tcl
+INFO: [Memdata 28-167] Found XPM memory block vcu_trd_i/vcu_0/inst/mem_combo_uram_10bps/xpm_memory_base_inst with a P_MEMORY_PRIMITIVE property set to ultra. A value of block is required. You will not be able to use the updatemem program to update the bitstream with new data for the vcu_trd_i/vcu_0/inst/mem_combo_uram_10bps/xpm_memory_base_inst block.
+INFO: [Memdata 28-208] The XPM instance: <vcu_trd_i/vcu_0/inst/mem_combo_bram_10bps/xpm_memory_base_inst> is part of IP: <vcu_trd_i/vcu_0>. This XPM instance will be excluded from the .mmi because updatemem is prohibited from making changes to an XPM that is part of an IP.
+INFO: [Memdata 28-208] The XPM instance: <vcu_trd_i/v_smpte_uhdsdi_tx_ss_0/inst/v_axi4s_vid_out/inst/COUPLER_INST/generate_async_fifo.FIFO_INST/XPM_FIFO_ASYNC_INST/gnuram_async_fifo.xpm_fifo_base_inst/gen_sdpram.xpm_memory_base_inst> is part of IP: <vcu_trd_i/v_smpte_uhdsdi_tx_ss_0/inst/v_axi4s_vid_out>. This XPM instance will be excluded from the .mmi because updatemem is prohibited from making changes to an XPM that is part of an IP.
+Command: write_bitstream -force vcu_trd_wrapper.bit
+Attempting to get a license for feature 'Implementation' and/or device 'xczu7ev'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xczu7ev'
+Running DRC as a precondition to command write_bitstream
+INFO: [DRC 23-27] Running DRC with 8 threads
+WARNING: [DRC BUFC-1] Input Buffer Connections: Input buffer mdio_rtl_0_mdio_iobuf/IBUFCTRL_INST has no loads. It is recommended to have an input buffer drive an internal load.
+WARNING: [DRC NSTD-1] Unspecified I/O Standard: 3 out of 9 logical ports use I/O standard (IOSTANDARD) value 'DEFAULT', instead of a user assigned specific value. This may cause I/O contention or incompatibility with the board power or connectivity affecting performance, signal integrity or in extreme cases cause damage to the device or the components to which it is connected. To correct this violation, specify all I/O standards. This design will fail to generate a bitstream unless all logical ports have a user specified I/O standard value defined. To allow bitstream creation with unspecified I/O standard values (not recommended), use this command: set_property SEVERITY {Warning} [get_drc_checks NSTD-1].  NOTE: When using the Vivado Runs infrastructure (e.g. launch_runs Tcl command), add this command to a .tcl file and add that file as a pre-hook for write_bitstream step for the implementation run. Problem ports: reset_rtl_0, mdio_rtl_0_mdc, and mdio_rtl_0_mdio_io.
+WARNING: [DRC PDRC-153] Gated clock check: Net vcu_trd_i/v_smpte_uhdsdi_tx_ss_0/inst/v_tc/U0/U_VIDEO_CTRL/GEN_HAS_IRQ.irq_i_1_n_0_bufg_place is a gated clock net sourced by a combinational pin vcu_trd_i/v_smpte_uhdsdi_tx_ss_0/inst/v_tc/U0/U_VIDEO_CTRL/GEN_HAS_IRQ.irq_i_1/O, cell vcu_trd_i/v_smpte_uhdsdi_tx_ss_0/inst/v_tc/U0/U_VIDEO_CTRL/GEN_HAS_IRQ.irq_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+WARNING: [DRC PDRC-153] Gated clock check: Net vcu_trd_i/vcu_clk_wiz0/inst/AXI_LITE_IPIF_I/I_SLAVE_ATTACHMENT/current_state_reg[1]_bufg_place is a gated clock net sourced by a combinational pin vcu_trd_i/vcu_clk_wiz0/inst/AXI_LITE_IPIF_I/I_SLAVE_ATTACHMENT/current_state[3]_i_1/O, cell vcu_trd_i/vcu_clk_wiz0/inst/AXI_LITE_IPIF_I/I_SLAVE_ATTACHMENT/current_state[3]_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+WARNING: [DRC RTSTAT-10] No routable loads: 2 net(s) have no routable loads. The problem bus(es) and/or net(s) are vcu_trd_i/v_smpte_uhdsdi_rx_ss_0/inst/v_smpte_uhdsdi_rx/inst/vid_in_axi4s_axis_rstn, and vcu_trd_i/v_smpte_uhdsdi_rx_ss_0/inst/v_smpte_uhdsdi_rx/inst/vid_in_axi4s_mod_en_axi_r.
+WARNING: [DRC UCIO-1] Unconstrained Logical Port: 5 out of 9 logical ports have no user assigned specific location constraint (LOC). This may cause I/O contention or incompatibility with the board power or connectivity affecting performance, signal integrity or in extreme cases cause damage to the device or the components to which it is connected. To correct this violation, specify all pin locations. This design will fail to generate a bitstream unless all logical ports have a user specified site LOC constraint defined.  To allow bitstream creation with unspecified pin locations (not recommended), use this command: set_property SEVERITY {Warning} [get_drc_checks UCIO-1].  NOTE: When using the Vivado Runs infrastructure (e.g. launch_runs Tcl command), add this command to a .tcl file and add that file as a pre-hook for write_bitstream step for the implementation run.  Problem ports: reset_rtl_0, diff_clock_rtl_0_clk_n, diff_clock_rtl_0_clk_p, mdio_rtl_0_mdc, and mdio_rtl_0_mdio_io.
+INFO: [Vivado 12-3199] DRC finished with 0 Errors, 6 Warnings
+INFO: [Vivado 12-3200] Please refer to the DRC report (report_drc) for more information.
+INFO: [Designutils 20-2272] Running write_bitstream with 8 threads.
+Loading data files...
+Loading site data...
+Loading route data...
+Processing options...
+Creating bitmap...
+Creating bitstream...
+Writing bitstream ./vcu_trd_wrapper.bit...
+INFO: [Vivado 12-1842] Bitgen Completed Successfully.
+INFO: [Project 1-118] WebTalk data collection is enabled (User setting is ON. Install Setting is ON.).
+INFO: [Common 17-186] '/home/brainiarc7/designs/vcu_trd/vcu_trd.runs/impl_1/usage_statistics_webtalk.xml' has been successfully sent to Xilinx on Wed Nov 28 15:48:13 2018. For additional details about this file, please refer to the WebTalk help file at /opt/Xilinx/Vivado/2018.2/doc/webtalk_introduction.html.
+INFO: [Common 17-83] Releasing license: Implementation
+133 Infos, 116 Warnings, 101 Critical Warnings and 0 Errors encountered.
+write_bitstream completed successfully
+write_bitstream: Time (s): cpu = 00:00:32 ; elapsed = 00:00:29 . Memory (MB): peak = 5133.945 ; gain = 38.984 ; free physical = 14655 ; free virtual = 27772
+INFO: [Common 17-206] Exiting Vivado at Wed Nov 28 15:48:13 2018...

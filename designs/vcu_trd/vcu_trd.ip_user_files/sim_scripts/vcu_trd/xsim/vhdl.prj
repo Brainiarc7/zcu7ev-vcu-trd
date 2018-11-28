@@ -1,0 +1,6 @@
+vhdl xil_defaultlib  \
+"../../../../vcu_trd.srcs/sources_1/bd/vcu_trd/ip/vcu_trd_proc_sys_reset_vcu_0_1/sim/vcu_trd_proc_sys_reset_vcu_0_1.vhd" \
+"../../../../vcu_trd.srcs/sources_1/bd/vcu_trd/ip/vcu_trd_proc_sys_reset_vcu_1_1/sim/vcu_trd_proc_sys_reset_vcu_1_1.vhd" \
+"../../../../vcu_trd.srcs/sources_1/bd/vcu_trd/ip/vcu_trd_v_smpte_uhdsdi_tx_ss_0_0/bd_0/ip/ip_4/sim/bd_82d8_v_tc_0.vhd" \
+
+nosort
